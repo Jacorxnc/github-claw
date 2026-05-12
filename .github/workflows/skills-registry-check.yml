@@ -13,6 +13,9 @@ on:
       - ".github/workflows/skills-registry-check.yml"
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   validate-skills-registry:
     runs-on: ubuntu-latest
