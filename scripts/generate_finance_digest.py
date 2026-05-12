@@ -6,6 +6,7 @@ import html
 import json
 import pathlib
 import re
+import time
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -15,24 +16,27 @@ REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUTPUT_PATH = REPO_ROOT / "reports" / "us-finance-digest.md"
 MAX_ITEMS_PER_SOURCE = 8
 TIMEOUT_SECONDS = 20
-USER_AGENT = "github-claw-finance-digest/1.0"
+USER_AGENT = "Mozilla/5.0 (compatible; github-claw-finance-digest/1.0)"
+RETRY_ATTEMPTS = 3
+RETRY_BACKOFF_BASE = 2  # seconds
 
+# CNBC updated their RSS to search.cnbc.com format (old /device/rss/ URLs deprecated 2023)
 SOURCES = [
     {
         "name": "CNBC Markets",
-        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114",
     },
     {
         "name": "CNBC Economy",
-        "url": "https://www.cnbc.com/id/20910258/device/rss/rss.html",
+        "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258",
     },
     {
-        "name": "MarketWatch Top Stories",
-        "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+        "name": "Reuters Business",
+        "url": "https://feeds.reuters.com/reuters/businessNews",
     },
     {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/news/rssindex",
+        "name": "Reuters Markets",
+        "url": "https://feeds.reuters.com/reuters/marketsNews",
     },
 ]
 
@@ -76,9 +80,17 @@ class Entry:
 
 
 def fetch_feed(url: str) -> str:
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(request, timeout=TIMEOUT_SECONDS) as response:
-        return response.read().decode("utf-8", errors="replace")
+    last_exc: Exception | None = None
+    for attempt in range(max(RETRY_ATTEMPTS, 1)):
+        if attempt > 0:
+            time.sleep(RETRY_BACKOFF_BASE ** attempt)
+        try:
+            request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+            with urllib.request.urlopen(request, timeout=TIMEOUT_SECONDS) as response:
+                return response.read().decode("utf-8", errors="replace")
+        except (urllib.error.URLError, TimeoutError, OSError) as exc:
+            last_exc = exc
+    raise last_exc  # type: ignore[misc]
 
 
 def parse_entries(source_name: str, xml_text: str) -> list[Entry]:
@@ -178,7 +190,7 @@ def main() -> None:
             xml_text = fetch_feed(url)
             entries = parse_entries(name, xml_text)
             all_entries.extend(entries)
-        except (urllib.error.URLError, TimeoutError, ET.ParseError, ValueError) as exc:
+        except (urllib.error.URLError, TimeoutError, OSError, ET.ParseError, ValueError) as exc:
             errors.append({"source": name, "error": str(exc)})
 
     grouped: dict[str, list[Entry]] = {}
