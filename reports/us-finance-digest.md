@@ -1,6 +1,6 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-12 20:56:45
+- 更新时间（UTC）：2026-05-12 22:05:45
 - 数据源数量：4
 - 说明：自动抓取财经网站公开 RSS/Atom 标题并按主题粗分类。
 
@@ -23,9 +23,9 @@
 ## 其他重要财经动态
 - [Marty Makary resigns as FDA commissioner following industry and White House backlash](https://www.cnbc.com/2026/05/12/trump-fda-commissioner-marty-makary-out.html)（来源：CNBC Markets）
 - [This metal just set a new record, boosted by AI data center demand. Citi says it’s time to 'chase the move higher'](https://www.cnbc.com/2026/05/12/this-metal-just-set-a-new-record-boosted-by-ai-data-center-demand.html)（来源：CNBC Markets）
+- [OpenAI trial recap: Altman testifies he never promised Musk to keep company a nonprofit](https://www.cnbc.com/2026/05/12/openai-trial-updates-sam-altman-set-to-testify-in-musk-suit.html)（来源：CNBC Markets）
 - [Auto-state lawmakers seek to keep certain Chinese vehicles out of U.S. as Trump heads to Beijing](https://www.cnbc.com/2026/05/12/trump-congress-china-evs-byd.html)（来源：CNBC Markets）
 - [Trump doesn't need Congress to restart Iran strikes: Hegseth](https://www.cnbc.com/2026/05/12/trump-congress-iran-war-hegseth.html)（来源：CNBC Markets）
-- [Google races to put Gemini at the center of Android before Apple’s AI reboot](https://www.cnbc.com/2026/05/12/google-races-put-gemini-at-center-of-android-before-apples-ai-reboot.html)（来源：CNBC Markets）
 - [From Singapore to Brussels, world leaders eye Trump-Xi summit from afar](https://www.cnbc.com/2026/05/11/trump-xi-summit-beijing-global-leaders-iran-war-taiwan-strait-of-hormuz-.html)（来源：CNBC Economy）
 
 ## 抓取状态
