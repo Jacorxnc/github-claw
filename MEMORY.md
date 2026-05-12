@@ -23,3 +23,8 @@
 - `ski11s` 命名为显式仓库约定，按需求保留。
 - 技能目录按 `.agents/ski11s/<skill-id>/` 组织，最低要求 `skill.yaml` + `README.md`。
 - 通过 GitHub Actions 工作流 `skills-registry-check.yml` 校验技能目录与元数据约束。
+
+## D. 最近更新
+- 新增半小时定时财经摘要任务：`.github/workflows/finance-digest.yml`。
+- 摘要生成脚本：`scripts/generate_finance_digest.py`。
+- 输出文件：`reports/us-finance-digest.md`（由工作流自动更新）。
