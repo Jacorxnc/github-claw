@@ -1,6 +1,6 @@
 # Skills Registry
 
-项目级技能目录固定为：`.agents/ski11s/`。
+项目级技能目录固定为：`.agents/ski11s/`（`ski11s` 为仓库约定命名）。
 
 ## 目录规范
 - 每个技能必须是独立子目录：`.agents/ski11s/<skill-id>/`

@@ -38,6 +38,7 @@
 
 ## 7) 技能系统（发现 / 安装 / 使用）
 - 项目级技能统一保存在：`.agents/ski11s/`
+- 目录名 `ski11s` 为本仓库显式约定（按需求保留），不是拼写修正项。
 - 每个技能使用独立目录：`.agents/ski11s/<skill-id>/`
 - 每个技能目录至少包含：
   - `skill.yaml`（技能元数据，必须包含 `name`、`description`、`version`）
