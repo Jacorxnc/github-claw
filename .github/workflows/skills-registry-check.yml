@@ -55,14 +55,14 @@ jobs:
             fi
 
             for key in name description version; do
-              if ! grep -Eq "^[[:space:]]*$key:[[:space:]]*.+$" "$dir/skill.yaml"; then
+              if ! grep -Eq "^[[:space:]]*$key:[[:space:]]*[^[:space:]].*$" "$dir/skill.yaml"; then
                 echo "ERROR: $dir/skill.yaml missing required key: $key"
                 exit 1
               fi
             done
 
             if [[ -f "$dir/install.sh" ]] && [[ ! -x "$dir/install.sh" ]]; then
-              echo "ERROR: $dir/install.sh exists but is not executable."
+              echo "ERROR: $dir/install.sh exists but is not executable. Commit executable mode (e.g. git update-index --chmod=+x $dir/install.sh)."
               exit 1
             fi
           done
