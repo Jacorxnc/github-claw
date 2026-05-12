@@ -1,12 +1,12 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-12 22:05:45
+- 更新时间（UTC）：2026-05-12 23:33:15
 - 数据源数量：4
 - 说明：自动抓取财经网站公开 RSS/Atom 标题并按主题粗分类。
 
 ## 美股市场
 - [The stock market isn't ignoring Iran. It's rising for these three very real reasons](https://www.cnbc.com/2026/05/12/the-stock-market-isnt-ignoring-iran-its-rising-for-these-three-very-real-reasons.html)（来源：CNBC Markets）
-- [S&P 500 slips from record Tuesday as chips rally takes a breather and inflation comes in hot: Live updates](https://www.cnbc.com/2026/05/11/stock-market-today-live-updates.html)（来源：CNBC Markets）
+- [Stock futures are little changed as Wall Street awaits another April inflation report: Live updates](https://www.cnbc.com/2026/05/12/stock-market-today-live-updates.html)（来源：CNBC Markets）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
 
 ## 美国经济
