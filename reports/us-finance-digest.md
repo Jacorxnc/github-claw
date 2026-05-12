@@ -1,15 +1,18 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-12 15:40:13
+- 更新时间（UTC）：2026-05-12 17:51:51
 - 数据源数量：4
 - 说明：自动抓取财经网站公开 RSS/Atom 标题并按主题粗分类。
 
 ## 美股市场
-- [Here's the inflation breakdown for April 2026 — in one chart](https://www.cnbc.com/2026/05/12/inflation-breakdown-for-april-2026-cpi-chart.html)（来源：CNBC Markets）
-- [Bulls and bears both believe this could be 1999 all over again. Embrace it or dump your tech stocks?](https://www.cnbc.com/2026/05/12/bulls-and-bears-both-believe-this-could-be-1999-all-over-again-embrace-it-or-dump-your-tech-stocks.html)（来源：CNBC Markets）
+- [The stock market isn't ignoring Iran. It's rising for these three very real reasons](https://www.cnbc.com/2026/05/12/the-stock-market-isnt-ignoring-iran-its-rising-for-these-three-very-real-reasons.html)（来源：CNBC Markets）
+- [S&P 500 retreats from record after high inflation reading, drop in tech stocks: Live updates](https://www.cnbc.com/2026/05/11/stock-market-today-live-updates.html)（来源：CNBC Markets）
+- [Stocks making the biggest moves midday: Wendy's, Vestis, Cleanspark, Under Armour & more](https://www.cnbc.com/2026/05/12/stocks-making-the-biggest-moves-midday-wen-vsts-clsk-uaa.html)（来源：CNBC Markets）
+- [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
 
 ## 美国经济
 - [It's not just Iran and oil raising inflation. Prices also are reaccelerating in these other areas](https://www.cnbc.com/2026/05/12/iran-oil-energy-inflation-shelter-food-trump.html)（来源：CNBC Markets）
+- [Senate confirms Kevin Warsh as Fed governor, clears way for chair vote](https://www.cnbc.com/2026/05/12/senate-confirms-kevin-warsh-as-fed-governor-clears-way-for-chair-vote.html)（来源：CNBC Markets）
 - [It's not just Iran and oil raising inflation. Prices also are reaccelerating in these other areas](https://www.cnbc.com/2026/05/12/iran-oil-energy-inflation-shelter-food-trump.html)（来源：CNBC Economy）
 - [Consumer prices rose 3.8% annually in April, the highest since May 2023](https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html)（来源：CNBC Economy）
 - [Retailers are on a hiring spree. But consumers are sending warning signs](https://www.cnbc.com/2026/05/10/retailer-hiring-consumer-warning-jobs-report.html)（来源：CNBC Economy）
@@ -17,16 +20,13 @@
 - [Consumer sentiment falls to fresh record low in May as surging gas prices hit outlook](https://www.cnbc.com/2026/05/08/consumer-sentiment-falls-to-fresh-record-low-in-may-as-surging-gas-prices-hit-outlook.html)（来源：CNBC Economy）
 
 ## 全球政治经济
+- [Five reasons why oil prices haven’t surged higher despite the Iran war](https://www.cnbc.com/2026/05/12/five-reasons-why-oil-prices-havent-surged-higher-despite-the-iran-war.html)（来源：CNBC Markets）
 - [Iran says it will 'never bow' as Trump rejects peace counteroffer, prolonging Middle East conflict](https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html)（来源：CNBC Economy）
 
 ## 其他重要财经动态
-- [OpenAI trial updates: Board chair Taylor continues testimony, Altman set to take stand](https://www.cnbc.com/2026/05/12/openai-trial-updates-sam-altman-set-to-testify-in-musk-suit.html)（来源：CNBC Markets）
-- [EBay rejects GameStop's $56 billion takeover bid, calling it 'neither credible nor attractive'](https://www.cnbc.com/2026/05/12/ebay-rejects-gamestops-takeover-ryan-cohen.html)（来源：CNBC Markets）
-- [Small investors are piling into this ETF at a record pace. What the frenzy is all about](https://www.cnbc.com/2026/05/12/small-investors-are-piling-into-this-etf-what-the-frenzy-is-all-about.html)（来源：CNBC Markets）
-- [Novo Nordisk says high-dose Wegovy helped some patients lose nearly 28% of their weight](https://www.cnbc.com/2026/05/12/healthy-returns-novo-nordisk-releases-new-high-dose-wegovy-data.html)（来源：CNBC Markets）
-- [AI super rally has retail investors acting the most aggressive since trading frenzy during Covid](https://www.cnbc.com/2026/05/12/ai-super-rally-has-retail-investors-acting-the-most-aggressive-since-trading-frenzy-during-covid.html)（来源：CNBC Markets）
+- [OpenAI trial updates: Altman says Musk's exit was a 'morale boost' for some employees](https://www.cnbc.com/2026/05/12/openai-trial-updates-sam-altman-set-to-testify-in-musk-suit.html)（来源：CNBC Markets）
+- [United Airlines flight attendants ratify new contract with 31% raises this summer](https://www.cnbc.com/2026/05/12/united-airlines-flight-attendants-contract.html)（来源：CNBC Markets）
 - [From Singapore to Brussels, world leaders eye Trump-Xi summit from afar](https://www.cnbc.com/2026/05/11/trump-xi-summit-beijing-global-leaders-iran-war-taiwan-strait-of-hormuz-.html)（来源：CNBC Economy）
-- [U.S. payrolls jump more than expected, but the report had several red flags for the economy](https://www.cnbc.com/2026/05/08/jobs-report-april-2026.html)（来源：CNBC Economy）
 
 ## 抓取状态
 - 有 2 个数据源抓取失败：
