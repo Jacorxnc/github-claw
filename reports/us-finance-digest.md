@@ -1,18 +1,17 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-12 17:51:51
+- 更新时间（UTC）：2026-05-12 19:25:59
 - 数据源数量：4
 - 说明：自动抓取财经网站公开 RSS/Atom 标题并按主题粗分类。
 
 ## 美股市场
 - [The stock market isn't ignoring Iran. It's rising for these three very real reasons](https://www.cnbc.com/2026/05/12/the-stock-market-isnt-ignoring-iran-its-rising-for-these-three-very-real-reasons.html)（来源：CNBC Markets）
-- [S&P 500 retreats from record after high inflation reading, drop in tech stocks: Live updates](https://www.cnbc.com/2026/05/11/stock-market-today-live-updates.html)（来源：CNBC Markets）
-- [Stocks making the biggest moves midday: Wendy's, Vestis, Cleanspark, Under Armour & more](https://www.cnbc.com/2026/05/12/stocks-making-the-biggest-moves-midday-wen-vsts-clsk-uaa.html)（来源：CNBC Markets）
+- [S&P 500 retreats from record as tech rally cools off, inflation flares up: Live updates](https://www.cnbc.com/2026/05/11/stock-market-today-live-updates.html)（来源：CNBC Markets）
+- [Korean stocks are coming off their best week since 2008. Where the charts signal they're heading next](https://www.cnbc.com/2026/05/12/korean-stocks-are-coming-off-their-best-week-since-2008-where-the-charts-signal-theyre-heading-next.html)（来源：CNBC Markets）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
 
 ## 美国经济
 - [It's not just Iran and oil raising inflation. Prices also are reaccelerating in these other areas](https://www.cnbc.com/2026/05/12/iran-oil-energy-inflation-shelter-food-trump.html)（来源：CNBC Markets）
-- [Senate confirms Kevin Warsh as Fed governor, clears way for chair vote](https://www.cnbc.com/2026/05/12/senate-confirms-kevin-warsh-as-fed-governor-clears-way-for-chair-vote.html)（来源：CNBC Markets）
 - [It's not just Iran and oil raising inflation. Prices also are reaccelerating in these other areas](https://www.cnbc.com/2026/05/12/iran-oil-energy-inflation-shelter-food-trump.html)（来源：CNBC Economy）
 - [Consumer prices rose 3.8% annually in April, the highest since May 2023](https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html)（来源：CNBC Economy）
 - [Retailers are on a hiring spree. But consumers are sending warning signs](https://www.cnbc.com/2026/05/10/retailer-hiring-consumer-warning-jobs-report.html)（来源：CNBC Economy）
@@ -20,12 +19,13 @@
 - [Consumer sentiment falls to fresh record low in May as surging gas prices hit outlook](https://www.cnbc.com/2026/05/08/consumer-sentiment-falls-to-fresh-record-low-in-may-as-surging-gas-prices-hit-outlook.html)（来源：CNBC Economy）
 
 ## 全球政治经济
-- [Five reasons why oil prices haven’t surged higher despite the Iran war](https://www.cnbc.com/2026/05/12/five-reasons-why-oil-prices-havent-surged-higher-despite-the-iran-war.html)（来源：CNBC Markets）
+- [Companies start getting tariff refunds after Supreme Court decision](https://www.cnbc.com/2026/05/12/trump-tariff-refunds.html)（来源：CNBC Markets）
 - [Iran says it will 'never bow' as Trump rejects peace counteroffer, prolonging Middle East conflict](https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html)（来源：CNBC Economy）
 
 ## 其他重要财经动态
-- [OpenAI trial updates: Altman says Musk's exit was a 'morale boost' for some employees](https://www.cnbc.com/2026/05/12/openai-trial-updates-sam-altman-set-to-testify-in-musk-suit.html)（来源：CNBC Markets）
-- [United Airlines flight attendants ratify new contract with 31% raises this summer](https://www.cnbc.com/2026/05/12/united-airlines-flight-attendants-contract.html)（来源：CNBC Markets）
+- [Trump says Makary is out as FDA commissioner, following industry and White House backlash](https://www.cnbc.com/2026/05/12/trump-fda-commissioner-marty-makary-out.html)（来源：CNBC Markets）
+- [Trump doesn't need Congress to restart Iran strikes: Hegseth](https://www.cnbc.com/2026/05/12/trump-congress-iran-war-hegseth.html)（来源：CNBC Markets）
+- [Waymo recalls 3,800 robotaxis after glitch allowed some vehicles to 'drive into standing water'](https://www.cnbc.com/2026/05/12/waymo-recalls-3800-robotaxis-after-able-drive-into-standing-water.html)（来源：CNBC Markets）
 - [From Singapore to Brussels, world leaders eye Trump-Xi summit from afar](https://www.cnbc.com/2026/05/11/trump-xi-summit-beijing-global-leaders-iran-war-taiwan-strait-of-hormuz-.html)（来源：CNBC Economy）
 
 ## 抓取状态
