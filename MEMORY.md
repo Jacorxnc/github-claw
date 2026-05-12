@@ -19,3 +19,6 @@
 ## C. 当前约定
 - 角色与工作方式主定义：`/AGENTS.md`
 - 重要信息不得仅存在于聊天记录，必须同步到仓库文件。
+- 项目级技能统一放置在：`/.agents/ski11s/`。
+- 技能目录按 `/.agents/ski11s/<skill-id>/` 组织，最低要求 `skill.yaml` + `README.md`。
+- 通过 GitHub Actions 工作流 `skills-registry-check.yml` 校验技能目录与元数据约束。
