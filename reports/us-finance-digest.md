@@ -1,6 +1,6 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-13 22:55:09
+- 更新时间（UTC）：2026-05-13 23:46:33
 - 数据源数量：4
 - 说明：自动抓取财经网站公开 RSS/Atom 标题并按主题粗分类。
 
@@ -13,7 +13,6 @@
 - [Cisco's stock pops 17% on surging AI orders, as company says it's cutting almost 4,000 jobs](https://www.cnbc.com/2026/05/13/cisco-csco-q3-earnings-report-2026.html)（来源：CNBC Markets）
 - [Kevin Warsh wins Senate confirmation as the next Federal Reserve chair](https://www.cnbc.com/2026/05/13/kevin-warsh-wins-senate-confirmation-as-the-next-federal-reserve-chair.html)（来源：CNBC Markets）
 - [Analysis: Trump finally gets his man at the Fed. Will Kevin Warsh disappoint him?](https://www.cnbc.com/2026/05/13/warsh-trump-congress-senate-analysis.html)（来源：CNBC Markets）
-- [Wholesale inflation jumps 6% in April on annual basis, biggest increase since 2022](https://www.cnbc.com/2026/05/13/ppi-inflation-report-april-2026-.html)（来源：CNBC Markets）
 - [Wholesale inflation jumps 6% in April on annual basis, biggest increase since 2022](https://www.cnbc.com/2026/05/13/ppi-inflation-report-april-2026-.html)（来源：CNBC Economy）
 - [It's not just Iran and oil raising inflation. Prices also are reaccelerating in these other areas](https://www.cnbc.com/2026/05/12/iran-oil-energy-inflation-shelter-food-trump.html)（来源：CNBC Economy）
 - [Consumer prices rose 3.8% annually in April, the highest since May 2023](https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html)（来源：CNBC Economy）
@@ -24,6 +23,7 @@
 - [Iran says it will 'never bow' as Trump rejects peace counteroffer, prolonging Middle East conflict](https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html)（来源：CNBC Economy）
 
 ## 其他重要财经动态
+- [Japan's global defense business may be on the cusp of a big breakout](https://www.cnbc.com/2026/05/14/japan-defense-arms-exports-weapons-south-korea.html)（来源：CNBC Markets）
 - [Trump arrives in Beijing with CEOs ahead of Xi meetings](https://www.cnbc.com/2026/05/13/trump-china-xi-beijing-meeting-ceos.html)（来源：CNBC Markets）
 - [Microsoft feared being too dependent on OpenAI, Musk-Altman trial testimony reveals](https://www.cnbc.com/2026/05/13/microsoft-feared-openai-reliance-musk-altman-trial-testimony-reveals.html)（来源：CNBC Markets）
 - [From Singapore to Brussels, world leaders eye Trump-Xi summit from afar](https://www.cnbc.com/2026/05/11/trump-xi-summit-beijing-global-leaders-iran-war-taiwan-strait-of-hormuz-.html)（来源：CNBC Economy）
