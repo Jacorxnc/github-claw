@@ -73,7 +73,7 @@ TOPIC_KEYWORDS = {
         "middle east",
         "geopolit",
     ],
-    "科技与AI动态": [
+    "科技与人工智能动态": [
         "ai",
         "artificial intelligence",
         "llm",
@@ -104,7 +104,7 @@ TOPIC_KEYWORDS = {
     ],
 }
 
-TOPIC_ORDER = ["美股市场", "美国经济", "全球政治经济", "科技与AI动态", "其他重要财经动态"]
+TOPIC_ORDER = ["美股市场", "美国经济", "全球政治经济", "科技与人工智能动态", "其他重要财经动态"]
 
 TOKEN_RE = re.compile(r"[A-Za-z][A-Za-z0-9+\-]{1,}|[\u4e00-\u9fff]{2,}")
 
@@ -277,7 +277,7 @@ def interpret_topic(topic: str, keyword_text: str) -> str:
         "美股市场": "交易与公司消息集中在{keywords}，显示市场在风险偏好与板块轮动上仍受这些变量牵引。",
         "美国经济": "宏观数据与政策相关报道聚焦{keywords}，表明通胀与货币政策预期仍是核心定价因素。",
         "全球政治经济": "地缘与大宗商品事件围绕{keywords}，提示外部不确定性可能继续影响全球资产情绪。",
-        "科技与AI动态": "科技与AI相关消息聚焦{keywords}，显示新技术落地与产业竞争仍在加速。",
+        "科技与人工智能动态": "科技与人工智能相关消息聚焦{keywords}，显示新技术落地与产业竞争仍在加速。",
     }
     template = templates.get(topic, "多条报道涉及{keywords}，显示该领域仍有新的催化与风险点值得关注。")
     return template.format(keywords=keyword_text)
