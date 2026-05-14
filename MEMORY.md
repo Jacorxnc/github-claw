@@ -28,3 +28,5 @@
 - 新增半小时定时财经摘要任务：`.github/workflows/finance-digest.yml`。
 - 摘要生成脚本：`scripts/generate_finance_digest.py`。
 - 输出文件：`reports/us-finance-digest.md`（由工作流自动更新）。
+- 接入 follow-news 数据源与技能目录：`.agents/ski11s/follow-news/`、`data/follow-news-rss.json`。
+- 摘要改为包含汇总/解读，并移除报错信息写入。
