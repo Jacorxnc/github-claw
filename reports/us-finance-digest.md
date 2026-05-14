@@ -1,13 +1,13 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-14 21:58:44
+- 更新时间（UTC）：2026-05-14 22:54:43
 - 数据源数量：4
 - 说明：自动抓取财经网站公开 RSS/Atom 标题并按主题粗分类。
 
 ## 美股市场
 - [Cerebras pops 68% in Nasdaq debut, pushing the AI chipmaker's market cap to $95 billion](https://www.cnbc.com/2026/05/14/cerebras-cbrs-stock-trade-nasdaq-ipo.html)（来源：CNBC Markets）
+- [Stock futures are little changed after Dow retakes 50,000: Live updates](https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html)（来源：CNBC Markets）
 - [Dow jumps 370 points to recapture 50,000; S&P 500 posts first close above 7,500: Live updates](https://www.cnbc.com/2026/05/13/stock-market-today-live-updates.html)（来源：CNBC Markets）
-- [These stocks reporting earnings next week have momentum on their side](https://www.cnbc.com/2026/05/14/these-stocks-reporting-earnings-next-week-have-momentum-on-their-side.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
 
@@ -24,8 +24,8 @@
 
 ## 其他重要财经动态
 - [Supreme Court allows mail-order of abortion pill mifepristone pending appeal](https://www.cnbc.com/2026/05/14/supreme-court-abortion-mifepristone-mail-order-appeal.html)（来源：CNBC Markets）
+- [Gemini surges after Winklevoss Capital Fund invests $100 million in the crypto exchange](https://www.cnbc.com/2026/05/14/gemini-surges-after-winklevoss-capital-invests-100-million-in-the-crypto-exchange.html)（来源：CNBC Markets）
 - [Ford surges nearly 20% in two days. It might be an AI 'meme' stock after energy pivot](https://www.cnbc.com/2026/05/14/ford-surges-20percent-in-two-days-it-might-be-an-ai-meme-stock-after-energy-pivot.html)（来源：CNBC Markets）
-- [Dems demand Lutnick resign over Epstein interview: 'You lied'](https://www.cnbc.com/2026/05/14/howard-lutnick-jeffrey-epstein-commerce-trump.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 
 ## 抓取状态
