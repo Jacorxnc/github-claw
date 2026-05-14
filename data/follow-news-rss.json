@@ -1,0 +1,556 @@
+{
+  "source": "follow-news",
+  "updated": "2025-06-02",
+  "version": "2.5.0",
+  "sources": [
+    {
+      "id": "simonwillison-rss",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "garymarcus-rss",
+      "name": "Gary Marcus",
+      "url": "https://garymarcus.substack.com/feed",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "huggingface-rss",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ]
+    },
+    {
+      "id": "openai-rss",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "sebas-rss",
+      "name": "Sebastian Raschka",
+      "url": "https://magazine.sebastianraschka.com/feed",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "lilian-rss",
+      "name": "Lil'Log (Lilian Weng)",
+      "url": "https://lilianweng.github.io/index.xml",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "gwern-rss",
+      "name": "Gwern",
+      "url": "https://gwern.substack.com/feed",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "dwarkesh-rss",
+      "name": "Dwarkesh Patel",
+      "url": "https://www.dwarkeshpatel.com/feed",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ]
+    },
+    {
+      "id": "minimaxir-rss",
+      "name": "minimaxir (Max Woolf)",
+      "url": "https://minimaxir.com/index.xml",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "googleai-rss",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "hn-rss",
+      "name": "Hacker News Frontpage",
+      "url": "https://hnrss.org/frontpage",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "ars-rss",
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "techcrunch-rss",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "verge-rss",
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "krebs-rss",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "daringfireball-rss",
+      "name": "Daring Fireball",
+      "url": "https://daringfireball.net/feeds/main",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "pg-rss",
+      "name": "Paul Graham",
+      "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "troyhunt-rss",
+      "name": "Troy Hunt",
+      "url": "https://www.troyhunt.com/rss/",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "antirez-rss",
+      "name": "antirez",
+      "url": "http://antirez.com/rss",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "mitchellh-rss",
+      "name": "Mitchell Hashimoto",
+      "url": "https://mitchellh.com/feed.xml",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "geohot-rss",
+      "name": "Geohot",
+      "url": "https://geohot.github.io/blog/feed.xml",
+      "topics": [
+        "frontier-tech",
+        "llm"
+      ]
+    },
+    {
+      "id": "ml-reddit-rss",
+      "name": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/.rss",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "synced-rss",
+      "name": "机器之心 Synced",
+      "url": "https://www.jiqizhixin.com/rss",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "qbitai-rss",
+      "name": "量子位 QbitAI",
+      "url": "https://www.qbitai.com/feed",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ]
+    },
+    {
+      "id": "infoq-rss",
+      "name": "InfoQ 中文",
+      "url": "https://www.infoq.cn/feed",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "mit-tech-review-rss",
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "venturebeat-ai-rss",
+      "name": "VentureBeat AI",
+      "url": "https://venturebeat.com/category/ai/feed/",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ]
+    },
+    {
+      "id": "404media-rss",
+      "name": "404 Media",
+      "url": "https://www.404media.co/rss",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "aisnakeoil-rss",
+      "name": "AI Snake Oil",
+      "url": "https://aisnakeoil.substack.com/feed",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "bytebytego-rss",
+      "name": "ByteByteGo",
+      "url": "https://blog.bytebytego.com/feed",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "nvidia-ai-rss",
+      "name": "NVIDIA AI Blog",
+      "url": "https://blogs.nvidia.com/feed/",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "deepmind-rss",
+      "name": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "producthunt-rss",
+      "name": "Product Hunt",
+      "url": "https://www.producthunt.com/feed",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "ifanr-rss",
+      "name": "爱范儿",
+      "url": "https://www.ifanr.com/feed",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "sspai-rss",
+      "name": "少数派",
+      "url": "https://sspai.com/feed",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "wired-rss",
+      "name": "Wired",
+      "url": "https://www.wired.com/feed/rss",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "ieee-spectrum-rss",
+      "name": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/feeds/feed.rss",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "bensbites-rss",
+      "name": "Ben's Bites",
+      "url": "https://www.bensbites.com/feed",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ]
+    },
+    {
+      "id": "the-decoder-rss",
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/feed/",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ]
+    },
+    {
+      "id": "overreacted-rss",
+      "name": "Overreacted (Dan Abramov)",
+      "url": "https://overreacted.io/rss.xml",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "eli-bendersky-rss",
+      "name": "Eli Bendersky",
+      "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "matklad-rss",
+      "name": "matklad (Alex Kladov)",
+      "url": "https://matklad.github.io/feed.xml",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "lucumr-rss",
+      "name": "Armin Ronacher",
+      "url": "https://lucumr.pocoo.org/feed.atom",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "oldnewthing-rss",
+      "name": "The Old New Thing (Raymond Chen)",
+      "url": "https://devblogs.microsoft.com/oldnewthing/feed",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "rachelbythebay-rss",
+      "name": "Rachel by the Bay",
+      "url": "https://rachelbythebay.com/w/atom.xml",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "xeiaso-rss",
+      "name": "Xe Iaso",
+      "url": "https://xeiaso.net/blog.rss",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "pluralistic-rss",
+      "name": "Pluralistic (Cory Doctorow)",
+      "url": "https://pluralistic.net/feed/",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "lcamtuf-rss",
+      "name": "lcamtuf (Michal Zalewski)",
+      "url": "https://lcamtuf.substack.com/feed",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "hillelwayne-rss",
+      "name": "Hillel Wayne",
+      "url": "https://buttondown.com/hillelwayne/rss",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "dynomight-rss",
+      "name": "Dynomight",
+      "url": "https://dynomight.net/feed.xml",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "geoffreylitt-rss",
+      "name": "Geoffrey Litt",
+      "url": "https://www.geoffreylitt.com/feed.xml",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "fabiensanglard-rss",
+      "name": "Fabien Sanglard",
+      "url": "https://fabiensanglard.net/rss.xml",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "youtube-karpathy",
+      "name": "YouTube: Andrej Karpathy",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXUPKJO5MZQN11PqgIvyuvQ",
+      "topics": [
+        "llm"
+      ]
+    },
+    {
+      "id": "youtube-ai-explained",
+      "name": "YouTube: AI Explained",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBjkbmzVplPgVF-GheNYWCg",
+      "topics": [
+        "llm"
+      ]
+    },
+    {
+      "id": "youtube-two-minute-papers",
+      "name": "YouTube: Two Minute Papers",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "youtube-yannic-kilcher",
+      "name": "YouTube: Yannic Kilcher",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew",
+      "topics": [
+        "llm"
+      ]
+    },
+    {
+      "id": "youtube-3blue1brown",
+      "name": "YouTube: 3Blue1Brown",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "youtube-fireship",
+      "name": "YouTube: Fireship",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "youtube-matt-wolfe",
+      "name": "YouTube: Matt Wolfe",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCl3U-xOlFVLlsheAug-QoWA",
+      "topics": [
+        "ai-agent"
+      ]
+    },
+    {
+      "id": "youtube-dabo-rai",
+      "name": "YouTube: Dabo Rai",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCx11muyXurAlpAzrjhERSCw",
+      "topics": [
+        "ai-agent"
+      ]
+    },
+    {
+      "id": "youtube-ai-jason",
+      "name": "YouTube: AI Jason",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrXSVX9a1mj8l0CMLwKgMVw",
+      "topics": [
+        "ai-agent"
+      ]
+    },
+    {
+      "id": "youtube-prompt-engineering",
+      "name": "YouTube: Prompt Engineering",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCDq7SjbgRKty5TgGafW8Clg",
+      "topics": [
+        "ai-agent",
+        "llm"
+      ]
+    },
+    {
+      "id": "youtube-computerphile",
+      "name": "YouTube: Computerphile",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA",
+      "topics": [
+        "frontier-tech"
+      ]
+    },
+    {
+      "id": "youtube-ai-epiphany",
+      "name": "YouTube: AI Epiphany",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChepm4zf3QIYZgL5w7jl3MA",
+      "topics": [
+        "llm"
+      ]
+    },
+    {
+      "id": "youtube-huggingface",
+      "name": "YouTube: Hugging Face",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHlNU7kIZhRgSbhHvFoy72w",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ]
+    }
+  ]
+}
