@@ -106,7 +106,7 @@ TOPIC_KEYWORDS = {
 
 TOPIC_ORDER = ["美股市场", "美国经济", "全球政治经济", "科技与AI动态", "其他重要财经动态"]
 
-TOKEN_RE = re.compile(r"[A-Za-z][A-Za-z0-9+\\-]{1,}|[\\u4e00-\\u9fff]{2,}")
+TOKEN_RE = re.compile(r"[A-Za-z][A-Za-z0-9+\-]{1,}|[\u4e00-\u9fff]{2,}")
 
 STOPWORDS = {
     "a",
