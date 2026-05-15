@@ -1,12 +1,12 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-15 21:47:24
+- 更新时间（UTC）：2026-05-15 22:44:15
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(249条)、科技与人工智能动态(171条)、美股市场(17条)，高频关键词包括AI、How、Agent、LLMs。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(250条)、科技与人工智能动态(169条)、美股市场(17条)，高频关键词包括AI、How、Agent、LLMs。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
@@ -48,19 +48,20 @@
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共6条，重点围绕China、competition、Russia、AI。
-- 解读：地缘与大宗商品事件围绕China、competition、Russia、AI，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共7条，重点围绕China、Russia、competition、AI。
+- 解读：地缘与大宗商品事件围绕China、Russia、competition、AI，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
 - [Jensen Huang – TPU competition, why we should sell chips to China, & Nvidia’s supply chain moat](https://www.dwarkesh.com/p/jensen-huang)（来源：Dwarkesh Patel）
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
+- [Russia pressures university students to become wartime drone pilots](https://arstechnica.com/gadgets/2026/05/russia-pressures-university-students-to-become-wartime-drone-pilots/)（来源：Ars Technica）
 - [Three's a party: US, China, and now Russia are on the prowl in GEO](https://arstechnica.com/space/2026/05/threes-a-party-us-china-and-now-russia-are-on-the-prowl-in-geo/)（来源：Ars Technica）
 - [US orders travelers on Air Force One to throw away gifts, pins, and burner phones after China trip](https://techcrunch.com/2026/05/15/us-orders-travelers-on-air-force-one-to-throw-away-gifts-pins-and-burner-phones-after-china-trip/)（来源：TechCrunch）
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
 - [Anthropic frames AI competition with China as a now-or-never moment for Washington](https://the-decoder.com/anthropic-frames-ai-competition-with-china-as-a-now-or-never-moment-for-washington/)（来源：The Decoder）
 
 ## 科技与人工智能动态
-- 汇总：本期共171条，重点围绕AI、Agent、LLMs、Agents。
+- 汇总：本期共169条，重点围绕AI、Agent、LLMs、Agents。
 - 解读：科技与人工智能相关消息聚焦AI、Agent、LLMs、Agents，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
@@ -86,7 +87,7 @@
 - [Reiner Pope – The math behind how LLMs are trained and served](https://www.dwarkesh.com/p/reiner-pope)（来源：Dwarkesh Patel）
 
 ## 其他重要财经动态
-- 汇总：本期共249条，重点围绕How、Building、code、Why。
+- 汇总：本期共250条，重点围绕How、Building、code、Why。
 - 解读：多条报道涉及How、Building、code、Why，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
