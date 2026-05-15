@@ -230,7 +230,7 @@ def fetch_url_text(
     max_bytes: int | None = None,
     retry_attempts: int = RETRY_ATTEMPTS,
 ) -> tuple[str, str]:
-    last_exc: Exception = RuntimeError("All retry attempts failed")
+    last_exc: Exception | None = None
     for attempt in range(max(retry_attempts, 1)):
         if attempt > 0:
             time.sleep(RETRY_BACKOFF_BASE ** attempt)
@@ -243,7 +243,9 @@ def fetch_url_text(
                 return raw.decode(encoding, errors="replace"), content_type
         except (urllib.error.URLError, TimeoutError, OSError) as exc:
             last_exc = exc
-    raise last_exc
+    if last_exc is not None:
+        raise last_exc
+    raise RuntimeError("All retry attempts failed")
 
 
 def fetch_feed(url: str) -> str:
@@ -264,14 +266,8 @@ class HTMLTextExtractor(HTMLParser):
             self._skip_stack.append(tag)
 
     def handle_endtag(self, tag: str) -> None:
-        if tag in HTML_SKIP_TAGS and self._skip_stack:
-            if self._skip_stack[-1] == tag:
-                self._skip_stack.pop()
-                return
-            for index in range(len(self._skip_stack) - 1, -1, -1):
-                if self._skip_stack[index] == tag:
-                    del self._skip_stack[index]
-                    break
+        if tag in HTML_SKIP_TAGS and self._skip_stack and self._skip_stack[-1] == tag:
+            self._skip_stack.pop()
 
     def handle_data(self, data: str) -> None:
         if not self._skip_stack:
@@ -364,9 +360,9 @@ def truncate_text(text: str, limit: int) -> str:
     if len(text) <= limit:
         return text
     snippet = text[:limit]
-    boundary = max(snippet.rfind(mark) for mark in ("。", "！", "？", ".", "!", "?"))
+    boundary = max((snippet.rfind(mark) for mark in ("。", "！", "？", ".", "!", "?")), default=-1)
     threshold = int(limit * TRUNCATE_BOUNDARY_THRESHOLD)
-    if boundary >= threshold:
+    if boundary >= threshold and boundary >= 0:
         return snippet[: boundary + 1]
     last_space = snippet.rfind(" ")
     if last_space >= threshold:
@@ -381,7 +377,8 @@ def fetch_article_text(link: str) -> str:
         max_bytes=ARTICLE_MAX_BYTES,
         retry_attempts=ARTICLE_RETRY_ATTEMPTS,
     )
-    if content_type and "text/html" not in content_type and "application/xhtml+xml" not in content_type:
+    is_html = not content_type or "text/html" in content_type or "application/xhtml+xml" in content_type
+    if not is_html:
         return ""
     main_html = extract_main_html(html_text)
     text = html_to_text(main_html)
@@ -409,7 +406,7 @@ def enrich_entries(entries: list[Entry]) -> list[dict[str, str]]:
         try:
             text = fetch_article_text(entry.link)
             if len(text) < ARTICLE_MIN_CHARS:
-                raise ValueError(f"article content too short (length {len(text)}, min {ARTICLE_MIN_CHARS})")
+                raise ValueError(f"文章内容过短（长度 {len(text)}，最小 {ARTICLE_MIN_CHARS}）")
             entry.content = text
             entry.summary = sanitize(summarize_text(text)) or DEFAULT_SUMMARY
             entry.analysis = sanitize(analyze_text(text)) or DEFAULT_ANALYSIS
