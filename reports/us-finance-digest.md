@@ -1,28 +1,30 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-15 08:37:23
+- 更新时间（UTC）：2026-05-15 11:12:45
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(254条)、科技与人工智能动态(169条)、美股市场(14条)，高频关键词包括AI、How、Claude、Code。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(251条)、科技与人工智能动态(169条)、美股市场(16条)，高频关键词包括AI、How、Claude、LLMs。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共14条，重点围绕Windows、AI、Cerebras、Download。
-- 解读：交易与公司消息集中在Windows、AI、Cerebras、Download，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共16条，重点围绕Windows、AI、Cerebras、equity。
+- 解读：交易与公司消息集中在Windows、AI、Cerebras、equity，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
-- [Stock futures fall after Dow retakes 50,000: Live updates](https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html)（来源：CNBC Markets）
-- [Cerebras pops 68% in Nasdaq debut, pushing the AI chipmaker's market cap to $95 billion](https://www.cnbc.com/2026/05/14/cerebras-cbrs-stock-trade-nasdaq-ipo.html)（来源：CNBC Markets）
+- [Cerebras stock falls after blockbuster IPO debut — here's what's happening](https://www.cnbc.com/2026/05/15/cerebras-stock-ipo-debut-ai.html)（来源：CNBC Markets）
+- [Magnum Ice Cream stock soars 18% after report of potential private equity takeover](https://www.cnbc.com/2026/05/15/magnum-ice-cream-takeover-report-blackstone-cdr.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
 - [Building a safe, effective sandbox to enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox)（来源：OpenAI Blog）
+- [Explore Wikipedia Like a Windows XP Desktop](https://explorer.samismith.com/)（来源：Hacker News Frontpage）
 - [Zero-day exploit completely defeats default Windows 11 BitLocker protections](https://arstechnica.com/security/2026/05/zero-day-exploit-completely-defeats-default-windows-11-bitlocker-protections/)（来源：Ars Technica）
 - [Cerebras IPO makes billions for Benchmark but VC Eric Vishria almost didn’t take the meeting](https://techcrunch.com/2026/05/14/cerebras-ipo-makes-billions-for-benchmark-but-vc-eric-vishria-almost-didnt-take-the-meeting/)（来源：TechCrunch）
 - [The Download: deepfake porn’s stolen bodies and AI sharing private numbers](https://www.technologyreview.com/2026/05/14/1137257/the-download-deepfake-porn-bodies-ai-exposing-phone-numbers/)（来源：MIT Technology Review）
-- [The Download: making drugs in orbit and NASA’s nuclear-powered spacecraft](https://www.technologyreview.com/2026/05/13/1137176/the-download-drugs-in-orbit-nasa-nuclear-spacecraft/)（来源：MIT Technology Review）
+- [Trump's Federal Gas Tax Holiday Isn't Likely to Bring Down Prices](https://www.wired.com/story/why-gas-tax-holiday-is-risky-idea/)（来源：Wired）
+- [The US Is Using AI to Hunt Down Insider Trading on Polymarket](https://www.wired.com/story/polymarket-insider-trading-cftc-michael-selig-interview/)（来源：Wired）
 - [Microsoft pits more than 100 AI agents against each other to find Windows vulnerabilities](https://the-decoder.com/microsoft-pits-more-than-100-ai-agents-against-each-other-to-find-windows-vulnerabilities/)（来源：The Decoder）
 - [Equity for Europeans](https://lucumr.pocoo.org/2026/4/23/equity-for-europeans/)（来源：Armin Ronacher）
 - [Why do Windows client editions on 32-bit x86 systems artificially limit RAM to 4 GB?](https://devblogs.microsoft.com/oldnewthing/20260512-00/?p=112316)（来源：The Old New Thing (Raymond Chen)）
@@ -30,10 +32,11 @@
 - [My homelab will be down for at least 20 days](https://xeiaso.net/notes/2026/homelab-is-down/)（来源：Xe Iaso）
 
 ## 美国经济
-- 汇总：本期共7条，重点围绕jobs、AI、April、inflation。
-- 解读：宏观数据与政策相关报道聚焦jobs、AI、April、inflation，表明通胀与货币政策预期仍是核心定价因素。
+- 汇总：本期共8条，重点围绕jobs、AI、April、Fed。
+- 解读：宏观数据与政策相关报道聚焦jobs、AI、April、Fed，表明通胀与货币政策预期仍是核心定价因素。
 
 ### 相关报道
+- [Fed Governor Miran submits resignation, throws support behind Warsh as new chair](https://www.cnbc.com/2026/05/14/fed-governor-miran-submits-resignation-throws-support-behind-warsh-as-new-chair.html)（来源：CNBC Markets）
 - [Bessent sees 'substantial disinflation' ahead as Warsh takes over the Fed](https://www.cnbc.com/2026/05/14/bessent-sees-substantial-disinflation-ahead-as-warsh-takes-over-the-fed.html)（来源：CNBC Economy）
 - [Wholesale inflation jumps 6% in April on annual basis, biggest increase since 2022](https://www.cnbc.com/2026/05/13/ppi-inflation-report-april-2026-.html)（来源：CNBC Economy）
 - [It's not just Iran and oil raising inflation. Prices also are reaccelerating in these other areas](https://www.cnbc.com/2026/05/12/iran-oil-energy-inflation-shelter-food-trump.html)（来源：CNBC Economy）
@@ -43,25 +46,24 @@
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共8条，重点围绕China、Trump、oil、buy。
-- 解读：地缘与大宗商品事件围绕China、Trump、oil、buy，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共8条，重点围绕China、competition、Trump、AI。
+- 解读：地缘与大宗商品事件围绕China、competition、Trump、AI，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
-- [Trump leaves China after talks dominated by trade, oil and Taiwan](https://www.cnbc.com/2026/05/15/trump-wraps-up-two-day-china-trip-invites-xi-for-a-september-visit.html)（来源：CNBC Markets）
-- [China to buy U.S. oil to feed its 'insatiable appetite,' Trump tells Fox News](https://www.cnbc.com/2026/05/15/trump-xi-summit-energy-purchase-china-iran-war-oil-shock-.html)（来源：CNBC Markets）
-- [Oil prices jump after Trump says China agreed to buy U.S. crude following Xi talks](https://www.cnbc.com/2026/05/15/oil-prices-china-us-iran-strait-of-hormuz-middle-east.html)（来源：CNBC Markets）
+- [UAE fast tracks second West-East oil pipeline to bypass Strait of Hormuz](https://www.cnbc.com/2026/05/15/uae-west-east-oil-pipeline-strait-hormuz-iran-war.html)（来源：CNBC Markets）
 - [Iran says it will 'never bow' as Trump rejects peace counteroffer, prolonging Middle East conflict](https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html)（来源：CNBC Economy）
 - [Jensen Huang – TPU competition, why we should sell chips to China, & Nvidia’s supply chain moat](https://www.dwarkesh.com/p/jensen-huang)（来源：Dwarkesh Patel）
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
 - [Tim Cook Is in Trump’s Executive Entourage for China Summit](https://www.the-independent.com/news/world/americas/us-politics/elon-musk-tim-cook-trump-china-tech-ceo-b2975568.html)（来源：Daring Fireball）
+- [Build a Radio Wave Detector With Balls of Aluminum Foil!](https://www.wired.com/story/build-a-radio-wave-detector-with-balls-of-aluminum-foil/)（来源：Wired）
+- [Anthropic frames AI competition with China as a now-or-never moment for Washington](https://the-decoder.com/anthropic-frames-ai-competition-with-china-as-a-now-or-never-moment-for-washington/)（来源：The Decoder）
 
 ## 科技与人工智能动态
 - 汇总：本期共169条，重点围绕AI、LLMs、Agent、Agents。
 - 解读：科技与人工智能相关消息聚焦AI、LLMs、Agent、Agents，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
-- [Billionaire Gautam Adani and nephew agree to pay $18 million in SEC settlement over fraud allegations](https://www.cnbc.com/2026/05/15/us-sec-settlement-gautam-adani-sagar-adani-fraud-case.html)（来源：CNBC Markets）
 - [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks)（来源：Hugging Face Blog）
 - [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo)（来源：Hugging Face Blog）
 - [vLLM V0 to V1: Correctness Before Corrections in RL](https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections)（来源：Hugging Face Blog）
@@ -81,14 +83,17 @@
 - [Diffusion Models for Video Generation](https://lilianweng.github.io/posts/2024-04-12-diffusion-video/)（来源：Lil'Log (Lilian Weng)）
 - [Adversarial Attacks on LLMs](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/)（来源：Lil'Log (Lilian Weng)）
 - [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)（来源：Lil'Log (Lilian Weng)）
+- [Reiner Pope – The math behind how LLMs are trained and served](https://www.dwarkesh.com/p/reiner-pope)（来源：Dwarkesh Patel）
 
 ## 其他重要财经动态
-- 汇总：本期共254条，重点围绕How、Code、Claude、Why。
-- 解读：多条报道涉及How、Code、Claude、Why，显示该领域仍有新的催化与风险点值得关注。
+- 汇总：本期共251条，重点围绕How、Code、Why、Building。
+- 解读：多条报道涉及How、Code、Why、Building，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
-- [CIA chief makes historic trip to Cuba as US blockade chokes island's energy supplies](https://www.cnbc.com/2026/05/15/cuba-cia-john-ratcliffe-oil-blockade-trump-blackouts.html)（来源：CNBC Markets）
-- [South Korea’s Kospi retreats from record high to drop over 6% as heavyweight tech names sell-off](https://www.cnbc.com/2026/05/15/asia-markets-live-updates-today-trump-xi-nikkei-225-kospi-hang-seng-index.html)（来源：CNBC Markets）
+- [Trump-Xi summit: the 3 big takeaways from historic meeting in Beijing](https://www.cnbc.com/2026/05/15/trump-xi-summit-the-3-big-takeaways-from-historic-meeting-in-beijing.html)（来源：CNBC Markets）
+- [Bill Ackman says he built Microsoft position in first quarter](https://www.cnbc.com/2026/05/15/bill-ackman-says-he-built-microsoft-position-in-first-quarter.html)（来源：CNBC Markets）
+- [This trucking stock has lagged of late. Citi thinks a rebound is coming](https://www.cnbc.com/2026/05/15/this-trucking-stock-has-lagged-of-late-citi-thinks-a-rebound-is-coming.html)（来源：CNBC Markets）
+- [Dems demand Lutnick resign over Epstein interview: 'You lied'](https://www.cnbc.com/2026/05/14/howard-lutnick-jeffrey-epstein-commerce-trump.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [Not so locked in any more](https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything)（来源：Simon Willison）
 - [Quoting Mitchell Hashimoto](https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything)（来源：Simon Willison）
@@ -105,6 +110,4 @@
 - [Work with Codex from anywhere](https://openai.com/index/work-with-codex-from-anywhere)（来源：OpenAI Blog）
 - [Helping ChatGPT better recognize context in sensitive conversations](https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations)（来源：OpenAI Blog）
 - [How finance teams use Codex](https://openai.com/academy/how-finance-teams-use-codex)（来源：OpenAI Blog）
-- [From DeepSeek V3 to V3.2: Architecture, Sparse Attention, and RL Updates](https://magazine.sebastianraschka.com/p/technical-deepseek)（来源：Sebastian Raschka）
-- [Why We Think](https://lilianweng.github.io/posts/2025-05-01-thinking/)（来源：Lil'Log (Lilian Weng)）
 
