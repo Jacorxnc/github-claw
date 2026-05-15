@@ -35,6 +35,7 @@ ARTICLE_MIN_CHARS = 300
 SUMMARY_SENTENCE_LIMIT = 3
 MAX_ARTICLE_FETCHES = 60
 MAX_FETCH_WORKERS = 6
+TRUNCATE_BOUNDARY_THRESHOLD = 0.6
 DEFAULT_SUMMARY = "未能抓取原文，暂以标题概括。"
 DEFAULT_ANALYSIS = "建议打开原文核对细节与影响。"
 ARTICLE_SKIP_DOMAINS = ("youtube.com", "youtu.be")
@@ -228,7 +229,7 @@ def fetch_url_text(
     max_bytes: int | None = None,
     retry_attempts: int = RETRY_ATTEMPTS,
 ) -> tuple[str, str]:
-    last_exc: Exception | None = None
+    last_exc: Exception = RuntimeError("Fetch failed without raising an exception")
     for attempt in range(max(retry_attempts, 1)):
         if attempt > 0:
             time.sleep(RETRY_BACKOFF_BASE ** attempt)
@@ -241,8 +242,6 @@ def fetch_url_text(
                 return raw.decode(encoding, errors="replace"), content_type
         except (urllib.error.URLError, TimeoutError, OSError) as exc:
             last_exc = exc
-    if last_exc is None:
-        raise RuntimeError("Fetch failed without raising an exception")
     raise last_exc
 
 
@@ -252,6 +251,8 @@ def fetch_feed(url: str) -> str:
 
 
 class HTMLTextExtractor(HTMLParser):
+    """Extract plain text from HTML while skipping navigation and script content."""
+
     def __init__(self) -> None:
         super().__init__()
         self._parts: list[str] = []
@@ -357,10 +358,11 @@ def truncate_text(text: str, limit: int) -> str:
         return text
     snippet = text[:limit]
     boundary = max(snippet.rfind(mark) for mark in ("。", "！", "？", ".", "!", "?"))
-    if boundary > limit * 0.6:
+    threshold = int(limit * TRUNCATE_BOUNDARY_THRESHOLD)
+    if boundary >= threshold:
         return snippet[: boundary + 1]
     last_space = snippet.rfind(" ")
-    if last_space > limit * 0.6:
+    if last_space >= threshold:
         return snippet[:last_space]
     return snippet
 
@@ -396,6 +398,7 @@ def enrich_entries(entries: list[Entry]) -> list[dict[str, str]]:
         fetchable = fetchable[:MAX_ARTICLE_FETCHES]
 
     def process_entry(entry: Entry) -> dict[str, str] | None:
+        """Fetch article content and populate summary/analysis, returning an error dict on failure."""
         try:
             text = fetch_article_text(entry.link)
             if len(text) < ARTICLE_MIN_CHARS:
