@@ -1,22 +1,21 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-15 01:54:53
+- 更新时间（UTC）：2026-05-15 05:47:05
 - 数据源数量：69
 - 收录条目：444
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总444条新闻，主要集中在其他重要财经动态(247条)、科技与人工智能动态(168条)、美股市场(14条)，高频关键词包括AI、How、Agent、LLMs。
+- 汇总：共汇总444条新闻，主要集中在其他重要财经动态(248条)、科技与人工智能动态(168条)、美股市场(13条)，高频关键词包括AI、How、Agent、Code。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共14条，重点围绕Windows、AI、Cerebras、Dow。
-- 解读：交易与公司消息集中在Windows、AI、Cerebras、Dow，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共13条，重点围绕Windows、AI、Cerebras、Download。
+- 解读：交易与公司消息集中在Windows、AI、Cerebras、Download，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
 - [Cerebras pops 68% in Nasdaq debut, pushing the AI chipmaker's market cap to $95 billion](https://www.cnbc.com/2026/05/14/cerebras-cbrs-stock-trade-nasdaq-ipo.html)（来源：CNBC Markets）
-- [Stock futures are little changed after Dow retakes 50,000: Live updates](https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html)（来源：CNBC Markets）
-- [Dow jumps 370 points to recapture 50,000; S&P 500 posts first close above 7,500: Live updates](https://www.cnbc.com/2026/05/13/stock-market-today-live-updates.html)（来源：CNBC Markets）
+- [Stock futures fall after Dow retakes 50,000: Live updates](https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
 - [Building a safe, effective sandbox to enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox)（来源：OpenAI Blog）
@@ -43,33 +42,33 @@
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共8条，重点围绕China、Trump、AI、AI-powered。
-- 解读：地缘与大宗商品事件围绕China、Trump、AI、AI-powered，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共8条，重点围绕China、Trump、buy、oil。
+- 解读：地缘与大宗商品事件围绕China、Trump、buy、oil，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
-- [Xi warns Trump: Mishandling Taiwan will put U.S.-China relationship in 'great jeopardy'](https://www.cnbc.com/2026/05/14/trump-xi-beijing-summit-trade-taiwan-ai-iran-rare-earths-tariffs.html)（来源：CNBC Markets）
+- [Trump wraps up two-day China trip; invites Xi for a September visit](https://www.cnbc.com/2026/05/15/trump-wraps-up-two-day-china-trip-invites-xi-for-a-september-visit.html)（来源：CNBC Markets）
+- [China to buy U.S. oil to feed its 'insatiable appetite,' Trump tells Fox News](https://www.cnbc.com/2026/05/15/trump-xi-summit-energy-purchase-china-iran-war-oil-shock-.html)（来源：CNBC Markets）
+- [Oil prices jump after Trump says China agreed to buy U.S. crude following Xi talks](https://www.cnbc.com/2026/05/15/oil-prices-china-us-iran-strait-of-hormuz-middle-east.html)（来源：CNBC Markets）
 - [Iran says it will 'never bow' as Trump rejects peace counteroffer, prolonging Middle East conflict](https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html)（来源：CNBC Economy）
 - [Jensen Huang – TPU competition, why we should sell chips to China, & Nvidia’s supply chain moat](https://www.dwarkesh.com/p/jensen-huang)（来源：Dwarkesh Patel）
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
 - [Tim Cook Is in Trump’s Executive Entourage for China Summit](https://www.the-independent.com/news/world/americas/us-politics/elon-musk-tim-cook-trump-china-tech-ceo-b2975568.html)（来源：Daring Fireball）
-- [Trump’s Tech Posse in China, Who’s Winning in Musk v. Altman, and Hantavirus Conspiracy Theories](https://www.wired.com/story/uncanny-valley-podcast-trump-tech-posse-china-musk-v-altman-trial-hantavirus-conspiracy-theories/)（来源：Wired）
-- [AI Promised the Audemars Piguet x Swatch Wristwatch. China Will Deliver It](https://www.wired.com/story/ai-ruined-the-audemars-piguet-x-swatch-collaboration-china-could-save-it/)（来源：Wired）
 
 ## 科技与人工智能动态
 - 汇总：本期共168条，重点围绕AI、Agent、LLMs、Agents。
 - 解读：科技与人工智能相关消息聚焦AI、Agent、LLMs、Agents，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
-- [Supreme Court allows mail-order of abortion pill mifepristone pending appeal](https://www.cnbc.com/2026/05/14/supreme-court-abortion-mifepristone-mail-order-appeal.html)（来源：CNBC Markets）
+- [Billionaire Gautam Adani and nephew agree to pay $18 million in SEC settlement over fraud allegations](https://www.cnbc.com/2026/05/15/us-sec-settlement-gautam-adani-sagar-adani-fraud-case.html)（来源：CNBC Markets）
 - [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks)（来源：Hugging Face Blog）
 - [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo)（来源：Hugging Face Blog）
 - [vLLM V0 to V1: Correctness Before Corrections in RL](https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections)（来源：Hugging Face Blog）
 - [Granite 4.1 LLMs: How They’re Built](https://huggingface.co/blog/ibm-granite/granite-4-1)（来源：Hugging Face Blog）
+- [Sea's View on the Future of Agentic Software Development with Codex](https://openai.com/index/sea-david-chen)（来源：OpenAI Blog）
 - [Our response to the TanStack npm supply chain attack](https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack)（来源：OpenAI Blog）
-- [How NVIDIA engineers and researchers build with Codex](https://openai.com/index/nvidia)（来源：OpenAI Blog）
 - [What Parameter Golf taught us about AI-assisted research](https://openai.com/index/what-parameter-golf-taught-us)（来源：OpenAI Blog）
-- [AutoScout24 scales engineering with AI-powered workflows](https://openai.com/index/autoscout24)（来源：OpenAI Blog）
+- [How NVIDIA engineers and researchers build with Codex](https://openai.com/index/nvidia)（来源：OpenAI Blog）
 - [My Workflow for Understanding LLM Architectures](https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms)（来源：Sebastian Raschka）
 - [Components of A Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)（来源：Sebastian Raschka）
 - [A Visual Guide to Attention Variants in Modern LLMs](https://magazine.sebastianraschka.com/p/visual-attention-variants)（来源：Sebastian Raschka）
@@ -83,13 +82,12 @@
 - [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
-- 汇总：本期共247条，重点围绕How、Code、Why、Building。
+- 汇总：本期共248条，重点围绕How、Code、Why、Building。
 - 解读：多条报道涉及How、Code、Why、Building，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
 - [South Korea’s Kospi retreats from 8,000 milestone as Trump-Xi talks enter second day](https://www.cnbc.com/2026/05/15/asia-markets-live-updates-today-trump-xi-nikkei-225-kospi-hang-seng-index.html)（来源：CNBC Markets）
-- [Closing arguments conclude in Musk v. Altman, jury to deliberate next week](https://www.cnbc.com/2026/05/14/closing-arguments-jury-openai-musk-altman.html)（来源：CNBC Markets）
-- [Gemini surges after Winklevoss Capital Fund invests $100 million in the crypto exchange](https://www.cnbc.com/2026/05/14/gemini-surges-after-winklevoss-capital-invests-100-million-in-the-crypto-exchange.html)（来源：CNBC Markets）
+- [Honda shares rise over 7% as investors shrug off first operating loss in nearly 70 years](https://www.cnbc.com/2026/05/15/honda-shares-rise-even-after-company-reports-operating-losses-.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [Not so locked in any more](https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything)（来源：Simon Willison）
 - [Quoting Mitchell Hashimoto](https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything)（来源：Simon Willison）
@@ -107,4 +105,5 @@
 - [Helping ChatGPT better recognize context in sensitive conversations](https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations)（来源：OpenAI Blog）
 - [How finance teams use Codex](https://openai.com/academy/how-finance-teams-use-codex)（来源：OpenAI Blog）
 - [From DeepSeek V3 to V3.2: Architecture, Sparse Attention, and RL Updates](https://magazine.sebastianraschka.com/p/technical-deepseek)（来源：Sebastian Raschka）
+- [Why We Think](https://lilianweng.github.io/posts/2025-05-01-thinking/)（来源：Lil'Log (Lilian Weng)）
 
