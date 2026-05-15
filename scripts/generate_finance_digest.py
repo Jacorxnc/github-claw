@@ -239,7 +239,9 @@ def fetch_url_text(
                 return raw.decode(encoding, errors="replace"), content_type
         except (urllib.error.URLError, TimeoutError, OSError) as exc:
             last_exc = exc
-    raise last_exc  # type: ignore[misc]
+    if last_exc is None:
+        raise RuntimeError("Fetch failed without raising an exception")
+    raise last_exc
 
 
 def fetch_feed(url: str) -> str:
@@ -289,9 +291,8 @@ def extract_main_html(html_text: str) -> str:
 
 
 def html_to_text(html_text: str) -> str:
-    cleaned = re.sub(r"(?is)<(script|style|noscript|svg)[^>]*>.*?</\1>", " ", html_text)
     extractor = HTMLTextExtractor()
-    extractor.feed(cleaned)
+    extractor.feed(html_text)
     return sanitize(html.unescape(extractor.text()))
 
 
@@ -341,8 +342,6 @@ def analyze_text(text: str) -> str:
 
 
 def fetch_article_text(link: str) -> str:
-    if not should_fetch_article(link):
-        return ""
     html_text, content_type = fetch_url_text(
         link,
         timeout=ARTICLE_TIMEOUT_SECONDS,
@@ -362,19 +361,23 @@ def enrich_entries(entries: list[Entry]) -> list[dict[str, str]]:
     errors: list[dict[str, str]] = []
     fetch_attempts = 0
     for entry in entries:
+        if not should_fetch_article(entry.link):
+            entry.summary = DEFAULT_SUMMARY
+            entry.analysis = DEFAULT_ANALYSIS
+            continue
         if fetch_attempts >= MAX_ARTICLE_FETCHES:
             entry.summary = DEFAULT_SUMMARY
             entry.analysis = DEFAULT_ANALYSIS
             continue
-        fetch_attempts += 1
         try:
+            fetch_attempts += 1
             text = fetch_article_text(entry.link)
             if len(text) < ARTICLE_MIN_CHARS:
-                raise ValueError("content too short")
+                raise ValueError(f"content too short ({len(text)} chars, min {ARTICLE_MIN_CHARS})")
             entry.content = text
             entry.summary = sanitize(summarize_text(text)) or DEFAULT_SUMMARY
             entry.analysis = sanitize(analyze_text(text)) or DEFAULT_ANALYSIS
-        except (urllib.error.URLError, TimeoutError, OSError, ValueError) as exc:
+        except (urllib.error.URLError, TimeoutError, OSError, ValueError, RuntimeError) as exc:
             entry.summary = DEFAULT_SUMMARY
             entry.analysis = DEFAULT_ANALYSIS
             errors.append({"source": entry.source, "link": entry.link, "error": str(exc)})
@@ -556,7 +559,7 @@ def main() -> None:
             xml_text = fetch_feed(url)
             entries = parse_entries(name, xml_text)
             all_entries.extend(entries)
-        except (urllib.error.URLError, TimeoutError, OSError, ET.ParseError, ValueError) as exc:
+        except (urllib.error.URLError, TimeoutError, OSError, ET.ParseError, ValueError, RuntimeError) as exc:
             errors.append({"source": name, "error": str(exc)})
 
     grouped: dict[str, list[Entry]] = {}
