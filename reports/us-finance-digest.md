@@ -1,24 +1,28 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-15 19:02:57
+- 更新时间（UTC）：2026-05-15 20:39:09
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(252条)、科技与人工智能动态(167条)、美股市场(13条)，高频关键词包括AI、How、Agent、why。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(251条)、科技与人工智能动态(169条)、美股市场(17条)，高频关键词包括AI、How、Agent、LLMs。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共13条，重点围绕AI、Download、Fed、Homelab。
-- 解读：交易与公司消息集中在AI、Download、Fed、Homelab，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共17条，重点围绕Windows、AI、Download、Fed。
+- 解读：交易与公司消息集中在Windows、AI、Download、Fed，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
+- [Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates](https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html)（来源：CNBC Markets）
 - [Trump went big on tech stocks in first quarter of 2026, new filings show](https://www.cnbc.com/2026/05/15/trump-stock-trade-tech-oge.html)（来源：CNBC Markets）
-- [S&P 500 and Nasdaq fall, strained by tech pullback and yields spike: Live updates](https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html)（来源：CNBC Markets）
+- [What you need to know about Nvidia competitor Cerebras after wild IPO](https://www.cnbc.com/2026/05/15/nvidia-cerebras-stock-price-ipo.html)（来源：CNBC Markets）
+- [Wall Street and Main Street face off next week with Nvidia, consumer earnings. Here's what's ahead](https://www.cnbc.com/2026/05/15/whats-ahead-wall-street-and-main-street-face-off-with-nvidia-consumer-earnings.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
 - [Building a safe, effective sandbox to enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox)（来源：OpenAI Blog）
+- [California bill would require patches or refunds when online games shut down](https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/)（来源：Hacker News Frontpage）
+- [WinCE64 – Windows CE 2.11 for N64](https://github.com/ThroatyMumbo/WinCE64)（来源：Hacker News Frontpage）
 - [BioLite’s stakeable solar lights are down to a new low price for Memorial Day](https://www.theverge.com/gadgets/930969/biolite-solar-site-lights-insta360-action-camera-deal-sale)（来源：The Verge）
 - [The Download: China’s AI drama factory and the WHO’s missing health targets](https://www.technologyreview.com/2026/05/15/1137341/the-download-china-short-drama-ai-who-health-targets/)（来源：MIT Technology Review）
 - [The Download: deepfake porn’s stolen bodies and AI sharing private numbers](https://www.technologyreview.com/2026/05/14/1137257/the-download-deepfake-porn-bodies-ai-exposing-phone-numbers/)（来源：MIT Technology Review）
@@ -29,11 +33,10 @@
 - [My homelab will be down for at least 20 days](https://xeiaso.net/notes/2026/homelab-is-down/)（来源：Xe Iaso）
 
 ## 美国经济
-- 汇总：本期共10条，重点围绕inflation、Fed、jobs、rate。
+- 汇总：本期共9条，重点围绕inflation、Fed、jobs、rate。
 - 解读：宏观数据与政策相关报道聚焦inflation、Fed、jobs、rate，表明通胀与货币政策预期仍是核心定价因素。
 
 ### 相关报道
-- [Stephen Miran exits the Fed. How he set the stage for Kevin Warsh.](https://www.cnbc.com/2026/05/15/stephen-miran-exits-the-fed-how-he-set-the-stage-for-kevin-warsh.html)（来源：CNBC Markets）
 - [Traders now see next Fed interest rate move as a hike following inflation surge](https://www.cnbc.com/2026/05/15/traders-now-see-next-fed-interest-rate-move-as-a-hike-following-inflation-surge.html)（来源：CNBC Markets）
 - [Traders now see next Fed interest rate move as a hike following inflation surge](https://www.cnbc.com/2026/05/15/traders-now-see-next-fed-interest-rate-move-as-a-hike-following-inflation-surge.html)（来源：CNBC Economy）
 - [Inflation rate projected to hit 6% in the second quarter, top economic forecasters say](https://www.cnbc.com/2026/05/15/inflation-rate-projected-to-hit-6percent-in-the-second-quarter-top-economic-forecasters-say.html)（来源：CNBC Economy）
@@ -45,26 +48,23 @@
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共10条，重点围绕China、competition、Russia、Trump。
-- 解读：地缘与大宗商品事件围绕China、competition、Russia、Trump，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共6条，重点围绕China、competition、Russia、AI。
+- 解读：地缘与大宗商品事件围绕China、competition、Russia、AI，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
-- [How China and U.S. eased the Middle East oil shock and kept prices from spiking even higher](https://www.cnbc.com/2026/05/15/china-us-oil-iran-war-strait-hormuz-trump-xi.html)（来源：CNBC Markets）
-- [Trump told Xi ‘I don't talk about’ whether U.S. would defend Taiwan from China](https://www.cnbc.com/2026/05/15/trump-china-xi-taiwan.html)（来源：CNBC Markets）
 - [Jensen Huang – TPU competition, why we should sell chips to China, & Nvidia’s supply chain moat](https://www.dwarkesh.com/p/jensen-huang)（来源：Dwarkesh Patel）
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
-- [Rocket Report: Cowboy up for data centers in LEO; Russia's new ICBM actually works](https://arstechnica.com/space/2026/05/rocket-report-russia-claims-success-with-new-icbm-spaceplane-deja-vu-in-europe/)（来源：Ars Technica）
+- [Three's a party: US, China, and now Russia are on the prowl in GEO](https://arstechnica.com/space/2026/05/threes-a-party-us-china-and-now-russia-are-on-the-prowl-in-geo/)（来源：Ars Technica）
 - [US orders travelers on Air Force One to throw away gifts, pins, and burner phones after China trip](https://techcrunch.com/2026/05/15/us-orders-travelers-on-air-force-one-to-throw-away-gifts-pins-and-burner-phones-after-china-trip/)（来源：TechCrunch）
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
-- [Tim Cook Is in Trump’s Executive Entourage for China Summit](https://www.the-independent.com/news/world/americas/us-politics/elon-musk-tim-cook-trump-china-tech-ceo-b2975568.html)（来源：Daring Fireball）
-- [Build a Radio Wave Detector With Balls of Aluminum Foil!](https://www.wired.com/story/build-a-radio-wave-detector-with-balls-of-aluminum-foil/)（来源：Wired）
 - [Anthropic frames AI competition with China as a now-or-never moment for Washington](https://the-decoder.com/anthropic-frames-ai-competition-with-china-as-a-now-or-never-moment-for-washington/)（来源：The Decoder）
 
 ## 科技与人工智能动态
-- 汇总：本期共167条，重点围绕AI、Agent、LLMs、Agents。
+- 汇总：本期共169条，重点围绕AI、Agent、LLMs、Agents。
 - 解读：科技与人工智能相关消息聚焦AI、Agent、LLMs、Agents，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
+- [Berkshire Hathaway returns to airlines with $2.6 billion stake in Delta Air Lines](https://www.cnbc.com/2026/05/15/berkshire-hathaway-returns-to-airlines-with-2point6-billion-stake-in-delta-air-lines.html)（来源：CNBC Markets）
 - [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks)（来源：Hugging Face Blog）
 - [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo)（来源：Hugging Face Blog）
 - [vLLM V0 to V1: Correctness Before Corrections in RL](https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections)（来源：Hugging Face Blog）
@@ -84,14 +84,13 @@
 - [Adversarial Attacks on LLMs](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/)（来源：Lil'Log (Lilian Weng)）
 - [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)（来源：Lil'Log (Lilian Weng)）
 - [Reiner Pope – The math behind how LLMs are trained and served](https://www.dwarkesh.com/p/reiner-pope)（来源：Dwarkesh Patel）
-- [Blog prize for the big questions about AI](https://www.dwarkesh.com/p/blog-prize)（来源：Dwarkesh Patel）
 
 ## 其他重要财经动态
-- 汇总：本期共252条，重点围绕How、Why、Building、code。
-- 解读：多条报道涉及How、Why、Building、code，显示该领域仍有新的催化与风险点值得关注。
+- 汇总：本期共251条，重点围绕How、Building、code、Why。
+- 解读：多条报道涉及How、Building、code、Why，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
-- [Seth Klarman’s Baupost makes Amazon top holding, starts Aon and Visa stakes](https://www.cnbc.com/2026/05/15/seth-klarmans-baupost-makes-amazon-top-holding-starts-aon-and-visa-stakes.html)（来源：CNBC Markets）
+- [Trump touted Palantir on Truth Social after buying the company's stock, records show](https://www.cnbc.com/2026/05/15/trump-palantir-stock-truth-social.html)（来源：CNBC Markets）
 - [Democrats blast Trump over 'slush fund' in possible IRS lawsuit settlement](https://www.cnbc.com/2026/05/15/trump-irs-taxes-democrats.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [QR code generator](https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything)（来源：Simon Willison）
