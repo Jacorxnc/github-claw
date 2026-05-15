@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import datetime as dt
 import html
+from html.parser import HTMLParser
 import json
 import pathlib
 import re
@@ -24,6 +25,18 @@ TIMEOUT_SECONDS = 20
 USER_AGENT = "Mozilla/5.0 (compatible; github-claw-finance-digest/1.0)"
 RETRY_ATTEMPTS = 3
 RETRY_BACKOFF_BASE = 2  # seconds
+FEED_MAX_BYTES = 400_000
+ARTICLE_TIMEOUT_SECONDS = 12
+ARTICLE_RETRY_ATTEMPTS = 2
+ARTICLE_MAX_BYTES = 1_200_000
+ARTICLE_TEXT_LIMIT = 12_000
+ARTICLE_MIN_CHARS = 300
+SUMMARY_SENTENCE_LIMIT = 3
+MAX_ARTICLE_FETCHES = 60
+DEFAULT_SUMMARY = "未能抓取原文，暂以标题概括。"
+DEFAULT_ANALYSIS = "建议打开原文核对细节与影响。"
+ARTICLE_SKIP_DOMAINS = ("youtube.com", "youtu.be")
+ARTICLE_SKIP_EXTENSIONS = (".pdf", ".mp3", ".mp4", ".zip", ".png", ".jpg", ".jpeg", ".gif")
 
 # CNBC updated their RSS to search.cnbc.com format (old /device/rss/ URLs deprecated 2023)
 BASE_SOURCES = [
@@ -164,6 +177,9 @@ class Entry:
     title: str
     link: str
     published: str
+    content: str = ""
+    summary: str = ""
+    analysis: str = ""
 
 
 def load_follow_news_sources() -> list[dict[str, str]]:
@@ -204,18 +220,165 @@ def load_sources() -> list[dict[str, str]]:
     return merge_sources(BASE_SOURCES, load_follow_news_sources())
 
 
-def fetch_feed(url: str) -> str:
+def fetch_url_text(
+    url: str,
+    timeout: int,
+    max_bytes: int | None = None,
+    retry_attempts: int = RETRY_ATTEMPTS,
+) -> tuple[str, str]:
     last_exc: Exception | None = None
-    for attempt in range(max(RETRY_ATTEMPTS, 1)):
+    for attempt in range(max(retry_attempts, 1)):
         if attempt > 0:
             time.sleep(RETRY_BACKOFF_BASE ** attempt)
         try:
             request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-            with urllib.request.urlopen(request, timeout=TIMEOUT_SECONDS) as response:
-                return response.read().decode("utf-8", errors="replace")
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                content_type = response.headers.get("Content-Type", "")
+                raw = response.read(max_bytes) if max_bytes else response.read()
+                encoding = response.headers.get_content_charset() or "utf-8"
+                return raw.decode(encoding, errors="replace"), content_type
         except (urllib.error.URLError, TimeoutError, OSError) as exc:
             last_exc = exc
     raise last_exc  # type: ignore[misc]
+
+
+def fetch_feed(url: str) -> str:
+    text, _ = fetch_url_text(url, timeout=TIMEOUT_SECONDS, max_bytes=FEED_MAX_BYTES)
+    return text
+
+
+class HTMLTextExtractor(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self._parts: list[str] = []
+        self._skip_depth = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag in {"script", "style", "noscript", "svg", "header", "footer", "nav", "aside"}:
+            self._skip_depth += 1
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag in {"script", "style", "noscript", "svg", "header", "footer", "nav", "aside"}:
+            self._skip_depth = max(self._skip_depth - 1, 0)
+
+    def handle_data(self, data: str) -> None:
+        if self._skip_depth == 0:
+            self._parts.append(data)
+
+    def text(self) -> str:
+        return " ".join(part.strip() for part in self._parts if part.strip())
+
+
+def should_fetch_article(link: str) -> bool:
+    if not link:
+        return False
+    lower = link.lower()
+    if any(domain in lower for domain in ARTICLE_SKIP_DOMAINS):
+        return False
+    return not lower.endswith(ARTICLE_SKIP_EXTENSIONS)
+
+
+def extract_main_html(html_text: str) -> str:
+    patterns = [
+        r"(?is)<article\b[^>]*>.*?</article>",
+        r"(?is)<main\b[^>]*>.*?</main>",
+        r"(?is)<body\b[^>]*>.*?</body>",
+    ]
+    matches = [match.group(0) for pattern in patterns if (match := re.search(pattern, html_text))]
+    return max(matches, key=len) if matches else html_text
+
+
+def html_to_text(html_text: str) -> str:
+    cleaned = re.sub(r"(?is)<(script|style|noscript|svg)[^>]*>.*?</\1>", " ", html_text)
+    extractor = HTMLTextExtractor()
+    extractor.feed(cleaned)
+    return sanitize(html.unescape(extractor.text()))
+
+
+def split_sentences(text: str) -> list[str]:
+    if not text:
+        return []
+    parts = re.split(r"(?<=[。！？.!?])\s+|\n+", text)
+    return [part.strip() for part in parts if part.strip()]
+
+
+def score_sentences(sentences: list[str], counts: Counter[str]) -> list[tuple[int, float]]:
+    scored: list[tuple[int, float]] = []
+    for idx, sentence in enumerate(sentences):
+        tokens = [token.lower() for token in TOKEN_RE.findall(sentence)]
+        score = sum(counts.get(token, 0) for token in tokens if token not in STOPWORDS)
+        if score > 0:
+            scored.append((idx, score))
+    return scored
+
+
+def summarize_text(text: str) -> str:
+    sentences = split_sentences(text)
+    if not sentences:
+        return ""
+    if len(sentences) <= SUMMARY_SENTENCE_LIMIT:
+        return " ".join(sentences)
+    counts = Counter()
+    for token in TOKEN_RE.findall(text):
+        normalized = token.lower()
+        if normalized in STOPWORDS or normalized.isdigit():
+            continue
+        counts[normalized] += 1
+    scored = score_sentences(sentences, counts)
+    if not scored:
+        return " ".join(sentences[:SUMMARY_SENTENCE_LIMIT])
+    scored.sort(key=lambda item: (-item[1], item[0]))
+    top_indices = sorted(index for index, _ in scored[:SUMMARY_SENTENCE_LIMIT])
+    return " ".join(sentences[index] for index in top_indices)
+
+
+def analyze_text(text: str) -> str:
+    keywords = extract_keywords([text])
+    if not keywords:
+        return "正文信息有限，建议阅读原文获取更多细节。"
+    keyword_text = "、".join(keywords)
+    return f"关键词集中在{keyword_text}，显示报道关注这些变量的最新进展与影响。"
+
+
+def fetch_article_text(link: str) -> str:
+    if not should_fetch_article(link):
+        return ""
+    html_text, content_type = fetch_url_text(
+        link,
+        timeout=ARTICLE_TIMEOUT_SECONDS,
+        max_bytes=ARTICLE_MAX_BYTES,
+        retry_attempts=ARTICLE_RETRY_ATTEMPTS,
+    )
+    if content_type and "text/html" not in content_type and "application/xhtml+xml" not in content_type:
+        return ""
+    main_html = extract_main_html(html_text)
+    text = html_to_text(main_html)
+    if len(text) > ARTICLE_TEXT_LIMIT:
+        text = text[:ARTICLE_TEXT_LIMIT]
+    return text
+
+
+def enrich_entries(entries: list[Entry]) -> list[dict[str, str]]:
+    errors: list[dict[str, str]] = []
+    fetch_attempts = 0
+    for entry in entries:
+        if fetch_attempts >= MAX_ARTICLE_FETCHES:
+            entry.summary = DEFAULT_SUMMARY
+            entry.analysis = DEFAULT_ANALYSIS
+            continue
+        fetch_attempts += 1
+        try:
+            text = fetch_article_text(entry.link)
+            if len(text) < ARTICLE_MIN_CHARS:
+                raise ValueError("content too short")
+            entry.content = text
+            entry.summary = sanitize(summarize_text(text)) or DEFAULT_SUMMARY
+            entry.analysis = sanitize(analyze_text(text)) or DEFAULT_ANALYSIS
+        except (urllib.error.URLError, TimeoutError, OSError, ValueError) as exc:
+            entry.summary = DEFAULT_SUMMARY
+            entry.analysis = DEFAULT_ANALYSIS
+            errors.append({"source": entry.source, "link": entry.link, "error": str(exc)})
+    return errors
 
 
 def parse_entries(source_name: str, xml_text: str) -> list[Entry]:
@@ -288,7 +451,7 @@ def interpret_topic(topic: str, keyword_text: str) -> str:
 def summarize_topic(topic: str, items: list[Entry]) -> tuple[str, str]:
     if not items:
         return "暂无匹配新闻", "暂无解读"
-    keywords = extract_keywords([item.title for item in items])
+    keywords = extract_keywords([item.content or item.title for item in items])
     keyword_text = "、".join(keywords) if keywords else "核心事件"
     summary = f"本期共{len(items)}条，重点围绕{keyword_text}。"
     interpretation = interpret_topic(topic, keyword_text)
@@ -303,8 +466,8 @@ def build_overview(grouped: dict[str, list[Entry]]) -> tuple[str, str]:
     topic_counts = [(topic, len(items)) for topic, items in grouped.items() if items]
     topic_counts.sort(key=lambda item: (-item[1], item[0]))
     top_topics = "、".join(f"{topic}({count}条)" for topic, count in topic_counts[:3])
-    all_titles = [entry.title for items in grouped.values() for entry in items]
-    keywords = extract_keywords(all_titles)
+    all_texts = [entry.content or entry.title for items in grouped.values() for entry in items]
+    keywords = extract_keywords(all_texts)
     keyword_text = "、".join(keywords) if keywords else "市场与产业热点"
 
     summary = f"共汇总{total_items}条新闻，主要集中在{top_topics}，高频关键词包括{keyword_text}。"
@@ -322,7 +485,7 @@ def to_markdown(grouped: dict[str, list[Entry]], source_count: int) -> str:
         f"- 更新时间（UTC）：{now_utc.strftime('%Y-%m-%d %H:%M:%S')}",
         f"- 数据源数量：{source_count}",
         f"- 收录条目：{total_items}",
-        "- 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。",
+        "- 说明：自动抓取财经与科技网站公开 RSS/Atom，并尝试抓取原文生成摘要与分析。",
         "",
         "## 总览",
         f"- 汇总：{overview_summary}",
@@ -344,7 +507,11 @@ def to_markdown(grouped: dict[str, list[Entry]], source_count: int) -> str:
         for item in items[:MAX_ITEMS_PER_TOPIC]:
             title = sanitize(item.title)
             source = sanitize(item.source)
+            summary = sanitize(item.summary or DEFAULT_SUMMARY)
+            analysis = sanitize(item.analysis or DEFAULT_ANALYSIS)
             lines.append(f"- [{title}]({item.link})（来源：{source}）")
+            lines.append(f"  - 摘要：{summary}")
+            lines.append(f"  - 分析：{analysis}")
         lines.append("")
 
     return "\n".join(lines)
@@ -362,6 +529,19 @@ def log_errors(errors: list[dict[str, str]]) -> None:
         source = sanitize(error.get("source", ""))
         message = sanitize(error.get("error", ""))
         print(f"- {source}: {message}", file=sys.stderr)
+
+
+def log_article_errors(errors: list[dict[str, str]]) -> None:
+    if not errors:
+        return
+    print(f"{len(errors)} articles failed to fetch:", file=sys.stderr)
+    for error in errors[:10]:
+        source = sanitize(error.get("source", ""))
+        link = sanitize(error.get("link", ""))
+        message = sanitize(error.get("error", ""))
+        print(f"- {source} ({link}): {message}", file=sys.stderr)
+    if len(errors) > 10:
+        print(f"... plus {len(errors) - 10} more article failures", file=sys.stderr)
 
 
 def main() -> None:
@@ -384,10 +564,16 @@ def main() -> None:
         topic = classify_topic(entry.title)
         grouped.setdefault(topic, []).append(entry)
 
+    selected_entries: list[Entry] = []
+    for topic in TOPIC_ORDER:
+        selected_entries.extend(grouped.get(topic, [])[:MAX_ITEMS_PER_TOPIC])
+    article_errors = enrich_entries(selected_entries)
+
     markdown = to_markdown(grouped, source_count=len(sources))
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(markdown + "\n", encoding="utf-8")
     log_errors(errors)
+    log_article_errors(article_errors)
 
 
 if __name__ == "__main__":

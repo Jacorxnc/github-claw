@@ -30,3 +30,5 @@
 - 输出文件：`reports/us-finance-digest.md`（由工作流自动更新）。
 - 接入 follow-news 数据源与技能目录：`.agents/ski11s/follow-news/`、`data/follow-news-rss.json`。
 - 摘要改为包含汇总/解读，并移除报错信息写入。
+- 财经摘要新增原文抓取与单条摘要/分析输出：`scripts/generate_finance_digest.py`。
+- 当日记录：`memory/daily/2026-05-15.md`。
