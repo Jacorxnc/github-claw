@@ -239,9 +239,7 @@ def fetch_url_text(
                 return raw.decode(encoding, errors="replace"), content_type
         except (urllib.error.URLError, TimeoutError, OSError) as exc:
             last_exc = exc
-    if last_exc is None:
-        raise RuntimeError("Fetch failed without raising an exception")
-    raise last_exc
+    raise last_exc  # type: ignore[misc]
 
 
 def fetch_feed(url: str) -> str:
@@ -286,8 +284,12 @@ def extract_main_html(html_text: str) -> str:
         r"(?is)<main\b[^>]*>.*?</main>",
         r"(?is)<body\b[^>]*>.*?</body>",
     ]
-    matches = [match.group(0) for pattern in patterns if (match := re.search(pattern, html_text))]
-    return max(matches, key=len) if matches else html_text
+    best_match = ""
+    for pattern in patterns:
+        match = re.search(pattern, html_text)
+        if match and len(match.group(0)) > len(best_match):
+            best_match = match.group(0)
+    return best_match or html_text
 
 
 def html_to_text(html_text: str) -> str:
@@ -341,6 +343,10 @@ def analyze_text(text: str) -> str:
     return f"关键词集中在{keyword_text}，显示报道关注这些变量的最新进展与影响。"
 
 
+def entry_text(entry: Entry) -> str:
+    return entry.content or entry.title
+
+
 def fetch_article_text(link: str) -> str:
     html_text, content_type = fetch_url_text(
         link,
@@ -373,7 +379,7 @@ def enrich_entries(entries: list[Entry]) -> list[dict[str, str]]:
             fetch_attempts += 1
             text = fetch_article_text(entry.link)
             if len(text) < ARTICLE_MIN_CHARS:
-                raise ValueError(f"content too short ({len(text)} chars, min {ARTICLE_MIN_CHARS})")
+                raise ValueError(f"content too short ({len(text)} characters, min {ARTICLE_MIN_CHARS})")
             entry.content = text
             entry.summary = sanitize(summarize_text(text)) or DEFAULT_SUMMARY
             entry.analysis = sanitize(analyze_text(text)) or DEFAULT_ANALYSIS
@@ -454,7 +460,7 @@ def interpret_topic(topic: str, keyword_text: str) -> str:
 def summarize_topic(topic: str, items: list[Entry]) -> tuple[str, str]:
     if not items:
         return "暂无匹配新闻", "暂无解读"
-    keywords = extract_keywords([item.content or item.title for item in items])
+    keywords = extract_keywords([entry_text(item) for item in items])
     keyword_text = "、".join(keywords) if keywords else "核心事件"
     summary = f"本期共{len(items)}条，重点围绕{keyword_text}。"
     interpretation = interpret_topic(topic, keyword_text)
@@ -469,7 +475,7 @@ def build_overview(grouped: dict[str, list[Entry]]) -> tuple[str, str]:
     topic_counts = [(topic, len(items)) for topic, items in grouped.items() if items]
     topic_counts.sort(key=lambda item: (-item[1], item[0]))
     top_topics = "、".join(f"{topic}({count}条)" for topic, count in topic_counts[:3])
-    all_texts = [entry.content or entry.title for items in grouped.values() for entry in items]
+    all_texts = [entry_text(entry) for items in grouped.values() for entry in items]
     keywords = extract_keywords(all_texts)
     keyword_text = "、".join(keywords) if keywords else "市场与产业热点"
 
