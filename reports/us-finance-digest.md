@@ -1,29 +1,29 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-15 20:39:09
+- 更新时间（UTC）：2026-05-15 21:47:24
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(251条)、科技与人工智能动态(169条)、美股市场(17条)，高频关键词包括AI、How、Agent、LLMs。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(249条)、科技与人工智能动态(171条)、美股市场(17条)，高频关键词包括AI、How、Agent、LLMs。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共17条，重点围绕Windows、AI、Download、Fed。
-- 解读：交易与公司消息集中在Windows、AI、Download、Fed，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共17条，重点围绕Windows、tech、AI、big。
+- 解读：交易与公司消息集中在Windows、tech、AI、big，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
 - [Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates](https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html)（来源：CNBC Markets）
 - [Trump went big on tech stocks in first quarter of 2026, new filings show](https://www.cnbc.com/2026/05/15/trump-stock-trade-tech-oge.html)（来源：CNBC Markets）
 - [What you need to know about Nvidia competitor Cerebras after wild IPO](https://www.cnbc.com/2026/05/15/nvidia-cerebras-stock-price-ipo.html)（来源：CNBC Markets）
-- [Wall Street and Main Street face off next week with Nvidia, consumer earnings. Here's what's ahead](https://www.cnbc.com/2026/05/15/whats-ahead-wall-street-and-main-street-face-off-with-nvidia-consumer-earnings.html)（来源：CNBC Markets）
+- [Sundheim's D1 Capital bought several tech stocks last quarter — with one big exception](https://www.cnbc.com/2026/05/15/sundheims-d1-capital-bought-several-tech-stocks-last-quarter-with-one-big-exception.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
 - [Building a safe, effective sandbox to enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox)（来源：OpenAI Blog）
 - [California bill would require patches or refunds when online games shut down](https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/)（来源：Hacker News Frontpage）
 - [WinCE64 – Windows CE 2.11 for N64](https://github.com/ThroatyMumbo/WinCE64)（来源：Hacker News Frontpage）
-- [BioLite’s stakeable solar lights are down to a new low price for Memorial Day](https://www.theverge.com/gadgets/930969/biolite-solar-site-lights-insta360-action-camera-deal-sale)（来源：The Verge）
+- [Windows 11 tests an adjustable taskbar and resizable Start menu](https://www.theverge.com/tech/931817/windows-11-movable-taskbar-start-button)（来源：The Verge）
 - [The Download: China’s AI drama factory and the WHO’s missing health targets](https://www.technologyreview.com/2026/05/15/1137341/the-download-china-short-drama-ai-who-health-targets/)（来源：MIT Technology Review）
 - [The Download: deepfake porn’s stolen bodies and AI sharing private numbers](https://www.technologyreview.com/2026/05/14/1137257/the-download-deepfake-porn-bodies-ai-exposing-phone-numbers/)（来源：MIT Technology Review）
 - [Arxiv cracks down on unchecked AI-generated content in research papers](https://the-decoder.com/arxiv-tightens-penalties-for-ai-bungling-in-scientific-papers/)（来源：The Decoder）
@@ -60,7 +60,7 @@
 - [Anthropic frames AI competition with China as a now-or-never moment for Washington](https://the-decoder.com/anthropic-frames-ai-competition-with-china-as-a-now-or-never-moment-for-washington/)（来源：The Decoder）
 
 ## 科技与人工智能动态
-- 汇总：本期共169条，重点围绕AI、Agent、LLMs、Agents。
+- 汇总：本期共171条，重点围绕AI、Agent、LLMs、Agents。
 - 解读：科技与人工智能相关消息聚焦AI、Agent、LLMs、Agents，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
@@ -71,7 +71,7 @@
 - [Granite 4.1 LLMs: How They’re Built](https://huggingface.co/blog/ibm-granite/granite-4-1)（来源：Hugging Face Blog）
 - [Sea's View on the Future of Agentic Software Development with Codex](https://openai.com/index/sea-david-chen)（来源：OpenAI Blog）
 - [Our response to the TanStack npm supply chain attack](https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack)（来源：OpenAI Blog）
-- [What Parameter Golf taught us about AI-assisted research](https://openai.com/index/what-parameter-golf-taught-us)（来源：OpenAI Blog）
+- [How NVIDIA engineers and researchers build with Codex](https://openai.com/index/nvidia)（来源：OpenAI Blog）
 - [My Workflow for Understanding LLM Architectures](https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms)（来源：Sebastian Raschka）
 - [Components of A Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)（来源：Sebastian Raschka）
 - [A Visual Guide to Attention Variants in Modern LLMs](https://magazine.sebastianraschka.com/p/visual-attention-variants)（来源：Sebastian Raschka）
@@ -86,7 +86,7 @@
 - [Reiner Pope – The math behind how LLMs are trained and served](https://www.dwarkesh.com/p/reiner-pope)（来源：Dwarkesh Patel）
 
 ## 其他重要财经动态
-- 汇总：本期共251条，重点围绕How、Building、code、Why。
+- 汇总：本期共249条，重点围绕How、Building、code、Why。
 - 解读：多条报道涉及How、Building、code、Why，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
