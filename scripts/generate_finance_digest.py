@@ -13,6 +13,7 @@ import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -33,6 +34,7 @@ ARTICLE_TEXT_LIMIT = 12_000
 ARTICLE_MIN_CHARS = 300
 SUMMARY_SENTENCE_LIMIT = 3
 MAX_ARTICLE_FETCHES = 60
+MAX_FETCH_WORKERS = 6
 DEFAULT_SUMMARY = "未能抓取原文，暂以标题概括。"
 DEFAULT_ANALYSIS = "建议打开原文核对细节与影响。"
 ARTICLE_SKIP_DOMAINS = ("youtube.com", "youtu.be")
@@ -239,7 +241,9 @@ def fetch_url_text(
                 return raw.decode(encoding, errors="replace"), content_type
         except (urllib.error.URLError, TimeoutError, OSError) as exc:
             last_exc = exc
-    raise last_exc  # type: ignore[misc]
+    if last_exc is None:
+        raise RuntimeError("Fetch failed without raising an exception")
+    raise last_exc
 
 
 def fetch_feed(url: str) -> str:
@@ -299,9 +303,10 @@ def html_to_text(html_text: str) -> str:
 
 
 def split_sentences(text: str) -> list[str]:
-    if not text:
+    cleaned = re.sub(r"\s+", " ", text).strip()
+    if not cleaned:
         return []
-    parts = re.split(r"(?<=[。！？.!?])\s+|\n+", text)
+    parts = re.split(r"(?<=[。！？.!?])\s+", cleaned)
     return [part.strip() for part in parts if part.strip()]
 
 
@@ -347,6 +352,19 @@ def entry_text(entry: Entry) -> str:
     return entry.content or entry.title
 
 
+def truncate_text(text: str, limit: int) -> str:
+    if len(text) <= limit:
+        return text
+    snippet = text[:limit]
+    boundary = max(snippet.rfind(mark) for mark in ("。", "！", "？", ".", "!", "?"))
+    if boundary > limit * 0.6:
+        return snippet[: boundary + 1]
+    last_space = snippet.rfind(" ")
+    if last_space > limit * 0.6:
+        return snippet[:last_space]
+    return snippet
+
+
 def fetch_article_text(link: str) -> str:
     html_text, content_type = fetch_url_text(
         link,
@@ -358,35 +376,48 @@ def fetch_article_text(link: str) -> str:
         return ""
     main_html = extract_main_html(html_text)
     text = html_to_text(main_html)
-    if len(text) > ARTICLE_TEXT_LIMIT:
-        text = text[:ARTICLE_TEXT_LIMIT]
-    return text
+    return truncate_text(text, ARTICLE_TEXT_LIMIT)
 
 
 def enrich_entries(entries: list[Entry]) -> list[dict[str, str]]:
     errors: list[dict[str, str]] = []
-    fetch_attempts = 0
+    fetchable: list[Entry] = []
     for entry in entries:
         if not should_fetch_article(entry.link):
             entry.summary = DEFAULT_SUMMARY
             entry.analysis = DEFAULT_ANALYSIS
             continue
-        if fetch_attempts >= MAX_ARTICLE_FETCHES:
+        fetchable.append(entry)
+
+    if len(fetchable) > MAX_ARTICLE_FETCHES:
+        for entry in fetchable[MAX_ARTICLE_FETCHES:]:
             entry.summary = DEFAULT_SUMMARY
             entry.analysis = DEFAULT_ANALYSIS
-            continue
+        fetchable = fetchable[:MAX_ARTICLE_FETCHES]
+
+    def process_entry(entry: Entry) -> dict[str, str] | None:
         try:
-            fetch_attempts += 1
             text = fetch_article_text(entry.link)
             if len(text) < ARTICLE_MIN_CHARS:
-                raise ValueError(f"content too short ({len(text)} characters, min {ARTICLE_MIN_CHARS})")
+                raise ValueError(f"content too short (length {len(text)}, min {ARTICLE_MIN_CHARS})")
             entry.content = text
             entry.summary = sanitize(summarize_text(text)) or DEFAULT_SUMMARY
             entry.analysis = sanitize(analyze_text(text)) or DEFAULT_ANALYSIS
         except (urllib.error.URLError, TimeoutError, OSError, ValueError, RuntimeError) as exc:
             entry.summary = DEFAULT_SUMMARY
             entry.analysis = DEFAULT_ANALYSIS
-            errors.append({"source": entry.source, "link": entry.link, "error": str(exc)})
+            return {"source": entry.source, "link": entry.link, "error": str(exc)}
+        return None
+
+    if not fetchable:
+        return errors
+
+    with ThreadPoolExecutor(max_workers=MAX_FETCH_WORKERS) as executor:
+        futures = [executor.submit(process_entry, entry) for entry in fetchable]
+        for future in as_completed(futures):
+            error = future.result()
+            if error:
+                errors.append(error)
     return errors
 
 
