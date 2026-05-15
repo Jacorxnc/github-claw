@@ -40,6 +40,7 @@ DEFAULT_SUMMARY = "未能抓取原文，暂以标题概括。"
 DEFAULT_ANALYSIS = "建议打开原文核对细节与影响。"
 ARTICLE_SKIP_DOMAINS = ("youtube.com", "youtu.be")
 ARTICLE_SKIP_EXTENSIONS = (".pdf", ".mp3", ".mp4", ".zip", ".png", ".jpg", ".jpeg", ".gif")
+HTML_SKIP_TAGS = {"script", "style", "noscript", "svg", "header", "footer", "nav", "aside"}
 
 # CNBC updated their RSS to search.cnbc.com format (old /device/rss/ URLs deprecated 2023)
 BASE_SOURCES = [
@@ -229,7 +230,7 @@ def fetch_url_text(
     max_bytes: int | None = None,
     retry_attempts: int = RETRY_ATTEMPTS,
 ) -> tuple[str, str]:
-    last_exc: Exception = RuntimeError("Fetch failed without raising an exception")
+    last_exc: Exception = RuntimeError("All retry attempts failed")
     for attempt in range(max(retry_attempts, 1)):
         if attempt > 0:
             time.sleep(RETRY_BACKOFF_BASE ** attempt)
@@ -256,18 +257,24 @@ class HTMLTextExtractor(HTMLParser):
     def __init__(self) -> None:
         super().__init__()
         self._parts: list[str] = []
-        self._skip_depth = 0
+        self._skip_stack: list[str] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
-        if tag in {"script", "style", "noscript", "svg", "header", "footer", "nav", "aside"}:
-            self._skip_depth += 1
+        if tag in HTML_SKIP_TAGS:
+            self._skip_stack.append(tag)
 
     def handle_endtag(self, tag: str) -> None:
-        if tag in {"script", "style", "noscript", "svg", "header", "footer", "nav", "aside"}:
-            self._skip_depth = max(self._skip_depth - 1, 0)
+        if tag in HTML_SKIP_TAGS and self._skip_stack:
+            if self._skip_stack[-1] == tag:
+                self._skip_stack.pop()
+                return
+            for index in range(len(self._skip_stack) - 1, -1, -1):
+                if self._skip_stack[index] == tag:
+                    del self._skip_stack[index]
+                    break
 
     def handle_data(self, data: str) -> None:
-        if self._skip_depth == 0:
+        if not self._skip_stack:
             self._parts.append(data)
 
     def text(self) -> str:
@@ -402,7 +409,7 @@ def enrich_entries(entries: list[Entry]) -> list[dict[str, str]]:
         try:
             text = fetch_article_text(entry.link)
             if len(text) < ARTICLE_MIN_CHARS:
-                raise ValueError(f"content too short (length {len(text)}, min {ARTICLE_MIN_CHARS})")
+                raise ValueError(f"article content too short (length {len(text)}, min {ARTICLE_MIN_CHARS})")
             entry.content = text
             entry.summary = sanitize(summarize_text(text)) or DEFAULT_SUMMARY
             entry.analysis = sanitize(analyze_text(text)) or DEFAULT_ANALYSIS
