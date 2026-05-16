@@ -1,24 +1,23 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-16 20:38:18
+- 更新时间（UTC）：2026-05-16 21:39:32
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(245条)、科技与人工智能动态(175条)、美股市场(16条)，高频关键词包括AI、How、LLMs、agent。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(246条)、科技与人工智能动态(174条)、美股市场(15条)，高频关键词包括AI、How、LLMs、Why。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共16条，重点围绕AI、market、bond、China。
-- 解读：交易与公司消息集中在AI、market、bond、China，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共15条，重点围绕AI、market、China、Download。
+- 解读：交易与公司消息集中在AI、market、China、Download，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
-- [Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates](https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html)（来源：CNBC Markets）
 - [Trump went big on tech stocks in first quarter of 2026, new filings show](https://www.cnbc.com/2026/05/15/trump-stock-trade-tech-oge.html)（来源：CNBC Markets）
-- [China signals tariff cuts, advances in farm market access after Trump-Xi summit](https://www.cnbc.com/2026/05/16/china-signals-tariff-cuts-advances-in-farm-market-access-after-trump-xi-summit.html)（来源：CNBC Markets）
+- [For better or worse, investors are living through Trump’s stock market. Here's why](https://www.cnbc.com/2026/05/16/for-better-or-worse-investors-are-living-through-trumps-stock-market-heres-why.html)（来源：CNBC Markets）
 - [Cisco is the most overbought stock in the S&P 500. Here are the others.](https://www.cnbc.com/2026/05/16/cisco-is-the-most-overbought-stock-in-the-sp-500-here-are-the-others.html)（来源：CNBC Markets）
-- [The bond market is flashing a warning over Iran. A veteran of energy geopolitics explains the risk](https://www.cnbc.com/2026/05/16/the-bond-market-is-flashing-a-warning-energy-geopolitics-expert-warns.html)（来源：CNBC Markets）
+- [China signals tariff cuts, advances in farm market access after Trump-Xi summit](https://www.cnbc.com/2026/05/16/china-signals-tariff-cuts-advances-in-farm-market-access-after-trump-xi-summit.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
 - [The US is betting on AI to catch insider trading in prediction markets](https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets/)（来源：Ars Technica）
@@ -47,10 +46,11 @@
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共7条，重点围绕Russia、Altman、Musk、now。
-- 解读：地缘与大宗商品事件围绕Russia、Altman、Musk、now，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共8条，重点围绕Russia、Altman、could、Musk。
+- 解读：地缘与大宗商品事件围绕Russia、Altman、could、Musk，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
+- [Global oil stockpiles could hit record lows if Strait of Hormuz remains closed](https://www.cnbc.com/2026/05/16/oil-inventory-stockpile-iran-war-strait-hormuz.html)（来源：CNBC Markets）
 - [UAE says its decision to leave OPEC was a strategic economic move, not a political one](https://www.cnbc.com/2026/05/16/uae-decision-to-leave-opec-was-not-a-political-move.html)（来源：CNBC Markets）
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
 - [Russia pressures university students to become wartime drone pilots](https://arstechnica.com/gadgets/2026/05/russia-pressures-university-students-to-become-wartime-drone-pilots/)（来源：Ars Technica）
@@ -60,7 +60,7 @@
 - [Old Oil and Gas Wells Could Find Second Life Producing Clean Energy](https://www.wired.com/story/oil-wells-second-life-clean-energy/)（来源：Wired）
 
 ## 科技与人工智能动态
-- 汇总：本期共175条，重点围绕AI、LLMs、agent、Agents。
+- 汇总：本期共174条，重点围绕AI、LLMs、agent、Agents。
 - 解读：科技与人工智能相关消息聚焦AI、LLMs、agent、Agents，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
@@ -86,7 +86,7 @@
 - [Adversarial Attacks on LLMs](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
-- 汇总：本期共245条，重点围绕How、code、Building、Why。
+- 汇总：本期共246条，重点围绕How、code、Building、Why。
 - 解读：多条报道涉及How、code、Building、Why，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
