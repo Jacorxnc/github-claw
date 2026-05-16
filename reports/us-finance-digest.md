@@ -1,6 +1,6 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-16 15:33:50
+- 更新时间（UTC）：2026-05-16 16:44:19
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
@@ -57,7 +57,7 @@
 - [Russia pressures university students to become wartime drone pilots](https://arstechnica.com/gadgets/2026/05/russia-pressures-university-students-to-become-wartime-drone-pilots/)（来源：Ars Technica）
 - [Three's a party: US, China, and now Russia are on the prowl in GEO](https://arstechnica.com/space/2026/05/threes-a-party-us-china-and-now-russia-are-on-the-prowl-in-geo/)（来源：Ars Technica）
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
-- [Musk v. Altman week 3: Musk and Altman traded blows over each other’s credibility. Now the jury will pick a side.](https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/)（来源：MIT Technology Review）
+- [Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other’s credibility. Now the jury will pick a side.](https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/)（来源：MIT Technology Review）
 - [Old Oil and Gas Wells Could Find Second Life Producing Clean Energy](https://www.wired.com/story/oil-wells-second-life-clean-energy/)（来源：Wired）
 
 ## 科技与人工智能动态
