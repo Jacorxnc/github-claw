@@ -1,16 +1,16 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-16 17:46:35
+- 更新时间（UTC）：2026-05-16 18:47:13
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(246条)、科技与人工智能动态(173条)、美股市场(16条)，高频关键词包括AI、How、Why、LLMs。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(247条)、科技与人工智能动态(173条)、美股市场(15条)，高频关键词包括AI、How、Why、LLMs。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共16条，重点围绕AI、market、bond、China。
+- 汇总：本期共15条，重点围绕AI、market、bond、China。
 - 解读：交易与公司消息集中在AI、market、bond、China，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
@@ -21,7 +21,6 @@
 - [The bond market is flashing a warning over Iran. A veteran of energy geopolitics explains the risk](https://www.cnbc.com/2026/05/16/the-bond-market-is-flashing-a-warning-energy-geopolitics-expert-warns.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
-- [Kyber (YC W23) Is Hiring a Founding Marketer](https://www.ycombinator.com/companies/kyber/jobs/1rLQAro-founding-marketer-content-community)（来源：Hacker News Frontpage）
 - [The US is betting on AI to catch insider trading in prediction markets](https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets/)（来源：Ars Technica）
 - [奥特曼投的芯片涨疯了，今年最大科技IPO](https://www.qbitai.com/2026/05/418594.html)（来源：量子位 QbitAI）
 - [The Download: China’s AI drama factory and the WHO’s missing health targets](https://www.technologyreview.com/2026/05/15/1137341/the-download-china-short-drama-ai-who-health-targets/)（来源：MIT Technology Review）
@@ -87,7 +86,7 @@
 - [Adversarial Attacks on LLMs](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
-- 汇总：本期共246条，重点围绕How、code、Building、Why。
+- 汇总：本期共247条，重点围绕How、code、Building、Why。
 - 解读：多条报道涉及How、code、Building、Why，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
