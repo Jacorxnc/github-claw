@@ -1,21 +1,22 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-16 16:44:19
+- 更新时间（UTC）：2026-05-16 17:46:35
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(246条)、科技与人工智能动态(173条)、美股市场(15条)，高频关键词包括AI、How、Why、LLMs。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(246条)、科技与人工智能动态(173条)、美股市场(16条)，高频关键词包括AI、How、Why、LLMs。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共15条，重点围绕AI、bond、Download、Fed。
-- 解读：交易与公司消息集中在AI、bond、Download、Fed，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共16条，重点围绕AI、market、bond、China。
+- 解读：交易与公司消息集中在AI、market、bond、China，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
 - [Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates](https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html)（来源：CNBC Markets）
 - [Trump went big on tech stocks in first quarter of 2026, new filings show](https://www.cnbc.com/2026/05/15/trump-stock-trade-tech-oge.html)（来源：CNBC Markets）
+- [China signals tariff cuts, advances in farm market access after Trump-Xi summit](https://www.cnbc.com/2026/05/16/china-signals-tariff-cuts-advances-in-farm-market-access-after-trump-xi-summit.html)（来源：CNBC Markets）
 - [Cisco is the most overbought stock in the S&P 500. Here are the others.](https://www.cnbc.com/2026/05/16/cisco-is-the-most-overbought-stock-in-the-sp-500-here-are-the-others.html)（来源：CNBC Markets）
 - [The bond market is flashing a warning over Iran. A veteran of energy geopolitics explains the risk](https://www.cnbc.com/2026/05/16/the-bond-market-is-flashing-a-warning-energy-geopolitics-expert-warns.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
@@ -46,11 +47,10 @@
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共9条，重点围绕China、Russia、Altman、Musk。
-- 解读：地缘与大宗商品事件围绕China、Russia、Altman、Musk，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共8条，重点围绕Russia、Altman、China、Musk。
+- 解读：地缘与大宗商品事件围绕Russia、Altman、China、Musk，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
-- [Trump says Xi agrees Iran must open strait, but no sign China will weigh in](https://www.cnbc.com/2026/05/16/trump-says-xi-agrees-iran-must-open-strait-but-no-sign-china-will-weigh-in.html)（来源：CNBC Markets）
 - [UAE says its decision to leave OPEC was a strategic economic move, not a political one](https://www.cnbc.com/2026/05/16/uae-decision-to-leave-opec-was-not-a-political-move.html)（来源：CNBC Markets）
 - [Jensen Huang – TPU competition, why we should sell chips to China, & Nvidia’s supply chain moat](https://www.dwarkesh.com/p/jensen-huang)（来源：Dwarkesh Patel）
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
@@ -92,13 +92,13 @@
 
 ### 相关报道
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
+- [Quoting Julia Evans](https://simonwillison.net/2026/May/16/julia-evans/#atom-everything)（来源：Simon Willison）
 - [inaturalist-clumper 0.1](https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything)（来源：Simon Willison）
 - [Western Gull, Rock Pigeon](https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything)（来源：Simon Willison）
 - [QR code generator](https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything)（来源：Simon Willison）
 - [Not so locked in any more](https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything)（来源：Simon Willison）
 - [Quoting Mitchell Hashimoto](https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything)（来源：Simon Willison）
 - [datasette-ip-rate-limit 0.1a0](https://simonwillison.net/2026/May/14/datasette-ip-rate-limit/#atom-everything)（来源：Simon Willison）
-- [Welcome to the Datasette blog](https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything)（来源：Simon Willison）
 - [Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality](https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2)（来源：Hugging Face Blog）
 - [Unlocking asynchronicity in continuous batching](https://huggingface.co/blog/continuous_async)（来源：Hugging Face Blog）
 - [Adding Benchmaxxer Repellant to the Open ASR Leaderboard](https://huggingface.co/blog/open-asr-leaderboard-private-data)（来源：Hugging Face Blog）
