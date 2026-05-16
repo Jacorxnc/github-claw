@@ -1,22 +1,24 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-16 12:54:54
+- 更新时间（UTC）：2026-05-16 14:18:57
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(245条)、科技与人工智能动态(173条)、美股市场(15条)，高频关键词包括AI、How、Why、LLMs。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(247条)、科技与人工智能动态(172条)、美股市场(17条)，高频关键词包括AI、How、why、LLMs。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共15条，重点围绕AI、tech、big、Download。
-- 解读：交易与公司消息集中在AI、tech、big、Download，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共17条，重点围绕AI、market、bond、Download。
+- 解读：交易与公司消息集中在AI、market、bond、Download，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
 - [Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates](https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html)（来源：CNBC Markets）
 - [Trump went big on tech stocks in first quarter of 2026, new filings show](https://www.cnbc.com/2026/05/15/trump-stock-trade-tech-oge.html)（来源：CNBC Markets）
-- [Sundheim's D1 Capital bought several tech stocks last quarter — with one big exception](https://www.cnbc.com/2026/05/15/sundheims-d1-capital-bought-several-tech-stocks-last-quarter-with-one-big-exception.html)（来源：CNBC Markets）
+- [For better or worse, investors are living through Trump’s stock market. Here's why](https://www.cnbc.com/2026/05/16/for-better-or-worse-investors-are-living-through-trumps-stock-market-heres-why.html)（来源：CNBC Markets）
+- [Cisco is the most overbought stock in the S&P 500. Here are the others.](https://www.cnbc.com/2026/05/16/cisco-is-the-most-overbought-stock-in-the-sp-500-here-are-the-others.html)（来源：CNBC Markets）
+- [The bond market is flashing a warning over Iran. A veteran of energy geopolitics explains the risk](https://www.cnbc.com/2026/05/16/the-bond-market-is-flashing-a-warning-energy-geopolitics-expert-warns.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
 - [Kyber (YC W23) Is Hiring a Founding Marketer](https://www.ycombinator.com/companies/kyber/jobs/1rLQAro-founding-marketer-content-community)（来源：Hacker News Frontpage）
@@ -31,10 +33,11 @@
 - [My homelab will be down for at least 20 days](https://xeiaso.net/notes/2026/homelab-is-down/)（来源：Xe Iaso）
 
 ## 美国经济
-- 汇总：本期共8条，重点围绕inflation、jobs、AI、Fed。
-- 解读：宏观数据与政策相关报道聚焦inflation、jobs、AI、Fed，表明通胀与货币政策预期仍是核心定价因素。
+- 汇总：本期共9条，重点围绕inflation、Fed、jobs、AI。
+- 解读：宏观数据与政策相关报道聚焦inflation、Fed、jobs、AI，表明通胀与货币政策预期仍是核心定价因素。
 
 ### 相关报道
+- [Kevin Warsh comes into the Fed facing a big 'family fight' over cutting interest rates](https://www.cnbc.com/2026/05/16/kevin-warsh-comes-into-the-fed-facing-a-big-family-fight-over-cutting-interest-rates.html)（来源：CNBC Markets）
 - [Traders now see next Fed interest rate move as a hike following inflation surge](https://www.cnbc.com/2026/05/15/traders-now-see-next-fed-interest-rate-move-as-a-hike-following-inflation-surge.html)（来源：CNBC Economy）
 - [Inflation rate projected to hit 6% in the second quarter, top economic forecasters say](https://www.cnbc.com/2026/05/15/inflation-rate-projected-to-hit-6percent-in-the-second-quarter-top-economic-forecasters-say.html)（来源：CNBC Economy）
 - [Bessent sees 'substantial disinflation' ahead as Warsh takes over the Fed](https://www.cnbc.com/2026/05/14/bessent-sees-substantial-disinflation-ahead-as-warsh-takes-over-the-fed.html)（来源：CNBC Economy）
@@ -45,29 +48,25 @@
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共11条，重点围绕China、Russia、Altman、Beijing。
-- 解读：地缘与大宗商品事件围绕China、Russia、Altman、Beijing，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共7条，重点围绕Russia、Altman、China、Musk。
+- 解读：地缘与大宗商品事件围绕Russia、Altman、China、Musk，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
-- [Trump says China and Taiwan should 'both cool it'](https://www.cnbc.com/2026/05/15/trump-china-xi-taiwan.html)（来源：CNBC Markets）
-- [Russia's Putin to meet China's Xi in Beijing from May 19-20, Beijing and Moscow say](https://www.cnbc.com/2026/05/16/russias-putin-to-meet-chinas-xi-in-beijing-from-may-19-20.html)（来源：CNBC Markets）
 - [Jensen Huang – TPU competition, why we should sell chips to China, & Nvidia’s supply chain moat](https://www.dwarkesh.com/p/jensen-huang)（来源：Dwarkesh Patel）
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
-- [Europe built sovereign clouds to escape US control. Forgot about the processors](https://www.theregister.com/systems/2026/05/16/europe-built-sovereign-clouds-to-escape-us-control-then-forgot-about-the-processors/5237735)（来源：Hacker News Frontpage）
 - [Russia pressures university students to become wartime drone pilots](https://arstechnica.com/gadgets/2026/05/russia-pressures-university-students-to-become-wartime-drone-pilots/)（来源：Ars Technica）
 - [Three's a party: US, China, and now Russia are on the prowl in GEO](https://arstechnica.com/space/2026/05/threes-a-party-us-china-and-now-russia-are-on-the-prowl-in-geo/)（来源：Ars Technica）
-- [US orders travelers on Air Force One to throw away gifts, pins, and burner phones after China trip](https://techcrunch.com/2026/05/15/us-orders-travelers-on-air-force-one-to-throw-away-gifts-pins-and-burner-phones-after-china-trip/)（来源：TechCrunch）
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
 - [Musk v. Altman week 3: Musk and Altman traded blows over each other’s credibility. Now the jury will pick a side.](https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/)（来源：MIT Technology Review）
 - [Old Oil and Gas Wells Could Find Second Life Producing Clean Energy](https://www.wired.com/story/oil-wells-second-life-clean-energy/)（来源：Wired）
 
 ## 科技与人工智能动态
-- 汇总：本期共173条，重点围绕AI、LLMs、agent、Agents。
+- 汇总：本期共172条，重点围绕AI、LLMs、agent、Agents。
 - 解读：科技与人工智能相关消息聚焦AI、LLMs、agent、Agents，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
 - [Why Taiwan became the defining issue in the Trump-Xi talks](https://www.cnbc.com/2026/05/16/trumps-meeting-with-chinas-xi-steers-the-us-away-from-taiwan-again.html)（来源：CNBC Markets）
-- [Meet the pilots flying Spirit Airlines' yellow jets to the desert](https://www.cnbc.com/2026/05/16/spirit-airlines-airplanes.html)（来源：CNBC Markets）
+- [Creator content made the main stage at TV's 'upfront' pitches — and not just for YouTube](https://www.cnbc.com/2026/05/16/tv-upfronts-creator-content-youtube-fox-wbd.html)（来源：CNBC Markets）
 - [datasette-llm-limits 0.1a0](https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything)（来源：Simon Willison）
 - [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks)（来源：Hugging Face Blog）
 - [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo)（来源：Hugging Face Blog）
@@ -88,11 +87,10 @@
 - [Diffusion Models for Video Generation](https://lilianweng.github.io/posts/2024-04-12-diffusion-video/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
-- 汇总：本期共245条，重点围绕How、code、Building、Why。
+- 汇总：本期共247条，重点围绕How、code、Building、Why。
 - 解读：多条报道涉及How、code、Building、Why，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
-- [A state banquet, selfies with Musk and Huang's noodle run: The spectacle of Trump's Beijing visit](https://www.cnbc.com/2026/05/16/a-state-banquet-selfies-and-a-noodle-run-trumps-beijing-visit.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [inaturalist-clumper 0.1](https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything)（来源：Simon Willison）
 - [Western Gull, Rock Pigeon](https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything)（来源：Simon Willison）
@@ -112,4 +110,5 @@
 - [Work with Codex from anywhere](https://openai.com/index/work-with-codex-from-anywhere)（来源：OpenAI Blog）
 - [Why We Think](https://lilianweng.github.io/posts/2025-05-01-thinking/)（来源：Lil'Log (Lilian Weng)）
 - [Reward Hacking in Reinforcement Learning](https://lilianweng.github.io/posts/2024-11-28-reward-hacking/)（来源：Lil'Log (Lilian Weng)）
+- [Thinking about High-Quality Human Data](https://lilianweng.github.io/posts/2024-02-05-human-data-quality/)（来源：Lil'Log (Lilian Weng)）
 
