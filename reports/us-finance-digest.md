@@ -1,17 +1,17 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-16 11:43:38
+- 更新时间（UTC）：2026-05-16 12:54:54
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(244条)、科技与人工智能动态(177条)、美股市场(13条)，高频关键词包括AI、How、Why、agent。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(245条)、科技与人工智能动态(173条)、美股市场(15条)，高频关键词包括AI、How、Why、LLMs。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共13条，重点围绕tech、AI、big、Download。
-- 解读：交易与公司消息集中在tech、AI、big、Download，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共15条，重点围绕AI、tech、big、Download。
+- 解读：交易与公司消息集中在AI、tech、big、Download，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
 - [Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates](https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html)（来源：CNBC Markets）
@@ -19,6 +19,8 @@
 - [Sundheim's D1 Capital bought several tech stocks last quarter — with one big exception](https://www.cnbc.com/2026/05/15/sundheims-d1-capital-bought-several-tech-stocks-last-quarter-with-one-big-exception.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
+- [Kyber (YC W23) Is Hiring a Founding Marketer](https://www.ycombinator.com/companies/kyber/jobs/1rLQAro-founding-marketer-content-community)（来源：Hacker News Frontpage）
+- [The US is betting on AI to catch insider trading in prediction markets](https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets/)（来源：Ars Technica）
 - [Windows 11 tests an adjustable taskbar and resizable Start menu](https://www.theverge.com/tech/931817/windows-11-movable-taskbar-start-button)（来源：The Verge）
 - [奥特曼投的芯片涨疯了，今年最大科技IPO](https://www.qbitai.com/2026/05/418594.html)（来源：量子位 QbitAI）
 - [The Download: China’s AI drama factory and the WHO’s missing health targets](https://www.technologyreview.com/2026/05/15/1137341/the-download-china-short-drama-ai-who-health-targets/)（来源：MIT Technology Review）
@@ -43,7 +45,7 @@
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共10条，重点围绕China、Russia、Altman、Beijing。
+- 汇总：本期共11条，重点围绕China、Russia、Altman、Beijing。
 - 解读：地缘与大宗商品事件围绕China、Russia、Altman、Beijing，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
@@ -51,6 +53,7 @@
 - [Russia's Putin to meet China's Xi in Beijing from May 19-20, Beijing and Moscow say](https://www.cnbc.com/2026/05/16/russias-putin-to-meet-chinas-xi-in-beijing-from-may-19-20.html)（来源：CNBC Markets）
 - [Jensen Huang – TPU competition, why we should sell chips to China, & Nvidia’s supply chain moat](https://www.dwarkesh.com/p/jensen-huang)（来源：Dwarkesh Patel）
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
+- [Europe built sovereign clouds to escape US control. Forgot about the processors](https://www.theregister.com/systems/2026/05/16/europe-built-sovereign-clouds-to-escape-us-control-then-forgot-about-the-processors/5237735)（来源：Hacker News Frontpage）
 - [Russia pressures university students to become wartime drone pilots](https://arstechnica.com/gadgets/2026/05/russia-pressures-university-students-to-become-wartime-drone-pilots/)（来源：Ars Technica）
 - [Three's a party: US, China, and now Russia are on the prowl in GEO](https://arstechnica.com/space/2026/05/threes-a-party-us-china-and-now-russia-are-on-the-prowl-in-geo/)（来源：Ars Technica）
 - [US orders travelers on Air Force One to throw away gifts, pins, and burner phones after China trip](https://techcrunch.com/2026/05/15/us-orders-travelers-on-air-force-one-to-throw-away-gifts-pins-and-burner-phones-after-china-trip/)（来源：TechCrunch）
@@ -59,12 +62,12 @@
 - [Old Oil and Gas Wells Could Find Second Life Producing Clean Energy](https://www.wired.com/story/oil-wells-second-life-clean-energy/)（来源：Wired）
 
 ## 科技与人工智能动态
-- 汇总：本期共177条，重点围绕AI、agent、LLMs、Agents。
-- 解读：科技与人工智能相关消息聚焦AI、agent、LLMs、Agents，显示新技术落地与产业竞争仍在加速。
+- 汇总：本期共173条，重点围绕AI、LLMs、agent、Agents。
+- 解读：科技与人工智能相关消息聚焦AI、LLMs、agent、Agents，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
 - [Why Taiwan became the defining issue in the Trump-Xi talks](https://www.cnbc.com/2026/05/16/trumps-meeting-with-chinas-xi-steers-the-us-away-from-taiwan-again.html)（来源：CNBC Markets）
-- [Bill Ackman built Microsoft stake in first quarter during sell-off, betting on AI and cloud growth](https://www.cnbc.com/2026/05/15/bill-ackman-says-he-built-microsoft-position-in-first-quarter.html)（来源：CNBC Markets）
+- [Meet the pilots flying Spirit Airlines' yellow jets to the desert](https://www.cnbc.com/2026/05/16/spirit-airlines-airplanes.html)（来源：CNBC Markets）
 - [datasette-llm-limits 0.1a0](https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything)（来源：Simon Willison）
 - [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks)（来源：Hugging Face Blog）
 - [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo)（来源：Hugging Face Blog）
@@ -85,7 +88,7 @@
 - [Diffusion Models for Video Generation](https://lilianweng.github.io/posts/2024-04-12-diffusion-video/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
-- 汇总：本期共244条，重点围绕How、code、Building、Why。
+- 汇总：本期共245条，重点围绕How、code、Building、Why。
 - 解读：多条报道涉及How、code、Building、Why，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
