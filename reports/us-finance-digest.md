@@ -1,12 +1,12 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-16 07:31:42
+- 更新时间（UTC）：2026-05-16 09:12:53
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(251条)、科技与人工智能动态(169条)、美股市场(15条)，高频关键词包括AI、How、code、agent。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(249条)、科技与人工智能动态(172条)、美股市场(15条)，高频关键词包括AI、How、agent、code。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
@@ -45,8 +45,8 @@
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共9条，重点围绕China、Russia、Altman、competition。
-- 解读：地缘与大宗商品事件围绕China、Russia、Altman、competition，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共8条，重点围绕China、Russia、Altman、Musk。
+- 解读：地缘与大宗商品事件围绕China、Russia、Altman、Musk，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
 - [Trump says China and Taiwan should 'both cool it'](https://www.cnbc.com/2026/05/15/trump-china-xi-taiwan.html)（来源：CNBC Markets）
@@ -57,10 +57,9 @@
 - [US orders travelers on Air Force One to throw away gifts, pins, and burner phones after China trip](https://techcrunch.com/2026/05/15/us-orders-travelers-on-air-force-one-to-throw-away-gifts-pins-and-burner-phones-after-china-trip/)（来源：TechCrunch）
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
 - [Musk v. Altman week 3: Musk and Altman traded blows over each other’s credibility. Now the jury will pick a side.](https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/)（来源：MIT Technology Review）
-- [Anthropic frames AI competition with China as a now-or-never moment for Washington](https://the-decoder.com/anthropic-frames-ai-competition-with-china-as-a-now-or-never-moment-for-washington/)（来源：The Decoder）
 
 ## 科技与人工智能动态
-- 汇总：本期共169条，重点围绕AI、agent、LLMs、Agents。
+- 汇总：本期共172条，重点围绕AI、agent、LLMs、Agents。
 - 解读：科技与人工智能相关消息聚焦AI、agent、LLMs、Agents，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
@@ -86,8 +85,8 @@
 - [Reiner Pope – The math behind how LLMs are trained and served](https://www.dwarkesh.com/p/reiner-pope)（来源：Dwarkesh Patel）
 
 ## 其他重要财经动态
-- 汇总：本期共251条，重点围绕How、code、May、Building。
-- 解读：多条报道涉及How、code、May、Building，显示该领域仍有新的催化与风险点值得关注。
+- 汇总：本期共249条，重点围绕How、code、Building、May。
+- 解读：多条报道涉及How、code、Building、May，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
 - [FDA shuffles top drug, biologics leaders in latest shakeup](https://www.cnbc.com/2026/05/15/fda-shuffles-top-drug-biologics-leaders-in-latest-leadership-shakeup.html)（来源：CNBC Markets）
