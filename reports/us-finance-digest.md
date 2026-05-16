@@ -1,30 +1,29 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-16 09:12:53
+- 更新时间（UTC）：2026-05-16 10:44:14
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(249条)、科技与人工智能动态(172条)、美股市场(15条)，高频关键词包括AI、How、agent、code。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(244条)、科技与人工智能动态(177条)、美股市场(14条)，高频关键词包括AI、How、Why、agent。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共15条，重点围绕tech、AI、big、Download。
+- 汇总：本期共14条，重点围绕tech、AI、big、Download。
 - 解读：交易与公司消息集中在tech、AI、big、Download，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
 - [Dow loses more than 500 points Friday as tech slumps and yields spike: Live updates](https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html)（来源：CNBC Markets）
 - [Trump went big on tech stocks in first quarter of 2026, new filings show](https://www.cnbc.com/2026/05/15/trump-stock-trade-tech-oge.html)（来源：CNBC Markets）
-- [What you need to know about Nvidia competitor Cerebras after wild IPO](https://www.cnbc.com/2026/05/15/nvidia-cerebras-stock-price-ipo.html)（来源：CNBC Markets）
 - [Sundheim's D1 Capital bought several tech stocks last quarter — with one big exception](https://www.cnbc.com/2026/05/15/sundheims-d1-capital-bought-several-tech-stocks-last-quarter-with-one-big-exception.html)（来源：CNBC Markets）
+- [What you need to know about Nvidia competitor Cerebras after wild IPO](https://www.cnbc.com/2026/05/15/nvidia-cerebras-stock-price-ipo.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
 - [Windows 11 tests an adjustable taskbar and resizable Start menu](https://www.theverge.com/tech/931817/windows-11-movable-taskbar-start-button)（来源：The Verge）
 - [奥特曼投的芯片涨疯了，今年最大科技IPO](https://www.qbitai.com/2026/05/418594.html)（来源：量子位 QbitAI）
 - [The Download: China’s AI drama factory and the WHO’s missing health targets](https://www.technologyreview.com/2026/05/15/1137341/the-download-china-short-drama-ai-who-health-targets/)（来源：MIT Technology Review）
 - [The Download: deepfake porn’s stolen bodies and AI sharing private numbers](https://www.technologyreview.com/2026/05/14/1137257/the-download-deepfake-porn-bodies-ai-exposing-phone-numbers/)（来源：MIT Technology Review）
-- [Arxiv cracks down on unchecked AI-generated content in research papers](https://the-decoder.com/arxiv-tightens-penalties-for-ai-bungling-in-scientific-papers/)（来源：The Decoder）
 - [Equity for Europeans](https://lucumr.pocoo.org/2026/4/23/equity-for-europeans/)（来源：Armin Ronacher）
 - [Why do Windows client editions on 32-bit x86 systems artificially limit RAM to 4 GB?](https://devblogs.microsoft.com/oldnewthing/20260512-00/?p=112316)（来源：The Old New Thing (Raymond Chen)）
 - [Homelab downtime update: The fight for DNS supremacy](https://xeiaso.net/notes/2026/dns-fight/)（来源：Xe Iaso）
@@ -45,11 +44,12 @@
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共8条，重点围绕China、Russia、Altman、Musk。
-- 解读：地缘与大宗商品事件围绕China、Russia、Altman、Musk，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共9条，重点围绕China、Russia、Altman、Beijing。
+- 解读：地缘与大宗商品事件围绕China、Russia、Altman、Beijing，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
 - [Trump says China and Taiwan should 'both cool it'](https://www.cnbc.com/2026/05/15/trump-china-xi-taiwan.html)（来源：CNBC Markets）
+- [Russia's Putin to meet China's Xi in Beijing from May 19-20, Beijing and Moscow say](https://www.cnbc.com/2026/05/16/russias-putin-to-meet-chinas-xi-in-beijing-from-may-19-20.html)（来源：CNBC Markets）
 - [Jensen Huang – TPU competition, why we should sell chips to China, & Nvidia’s supply chain moat](https://www.dwarkesh.com/p/jensen-huang)（来源：Dwarkesh Patel）
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
 - [Russia pressures university students to become wartime drone pilots](https://arstechnica.com/gadgets/2026/05/russia-pressures-university-students-to-become-wartime-drone-pilots/)（来源：Ars Technica）
@@ -59,16 +59,18 @@
 - [Musk v. Altman week 3: Musk and Altman traded blows over each other’s credibility. Now the jury will pick a side.](https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/)（来源：MIT Technology Review）
 
 ## 科技与人工智能动态
-- 汇总：本期共172条，重点围绕AI、agent、LLMs、Agents。
+- 汇总：本期共177条，重点围绕AI、agent、LLMs、Agents。
 - 解读：科技与人工智能相关消息聚焦AI、agent、LLMs、Agents，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
-- [Berkshire Hathaway returns to airlines with $2.6 billion stake in Delta Air Lines](https://www.cnbc.com/2026/05/15/berkshire-hathaway-returns-to-airlines-with-2point6-billion-stake-in-delta-air-lines.html)（来源：CNBC Markets）
+- [Why Taiwan became the defining issue in the Trump-Xi talks](https://www.cnbc.com/2026/05/16/trumps-meeting-with-chinas-xi-steers-the-us-away-from-taiwan-again.html)（来源：CNBC Markets）
+- [Bill Ackman built Microsoft stake in first quarter during sell-off, betting on AI and cloud growth](https://www.cnbc.com/2026/05/15/bill-ackman-says-he-built-microsoft-position-in-first-quarter.html)（来源：CNBC Markets）
 - [datasette-llm-limits 0.1a0](https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything)（来源：Simon Willison）
 - [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks)（来源：Hugging Face Blog）
 - [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo)（来源：Hugging Face Blog）
 - [vLLM V0 to V1: Correctness Before Corrections in RL](https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections)（来源：Hugging Face Blog）
 - [Granite 4.1 LLMs: How They’re Built](https://huggingface.co/blog/ibm-granite/granite-4-1)（来源：Hugging Face Blog）
+- [OpenAI and Malta partner to bring ChatGPT Plus to all citizens](https://openai.com/index/malta-chatgpt-plus-partnership)（来源：OpenAI Blog）
 - [Databricks brings GPT-5.5 to enterprise agent workflows](https://openai.com/index/databricks)（来源：OpenAI Blog）
 - [Sea's View on the Future of Agentic Software Development with Codex](https://openai.com/index/sea-david-chen)（来源：OpenAI Blog）
 - [My Workflow for Understanding LLM Architectures](https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms)（来源：Sebastian Raschka）
@@ -81,16 +83,12 @@
 - [Extrinsic Hallucinations in LLMs](https://lilianweng.github.io/posts/2024-07-07-hallucination/)（来源：Lil'Log (Lilian Weng)）
 - [Diffusion Models for Video Generation](https://lilianweng.github.io/posts/2024-04-12-diffusion-video/)（来源：Lil'Log (Lilian Weng)）
 - [Adversarial Attacks on LLMs](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/)（来源：Lil'Log (Lilian Weng)）
-- [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)（来源：Lil'Log (Lilian Weng)）
-- [Reiner Pope – The math behind how LLMs are trained and served](https://www.dwarkesh.com/p/reiner-pope)（来源：Dwarkesh Patel）
 
 ## 其他重要财经动态
-- 汇总：本期共249条，重点围绕How、code、Building、May。
-- 解读：多条报道涉及How、code、Building、May，显示该领域仍有新的催化与风险点值得关注。
+- 汇总：本期共244条，重点围绕How、code、Building、Why。
+- 解读：多条报道涉及How、code、Building、Why，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
-- [FDA shuffles top drug, biologics leaders in latest shakeup](https://www.cnbc.com/2026/05/15/fda-shuffles-top-drug-biologics-leaders-in-latest-leadership-shakeup.html)（来源：CNBC Markets）
-- [Trump touted Palantir on Truth Social after buying the company's stock, records show](https://www.cnbc.com/2026/05/15/trump-palantir-stock-truth-social.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [inaturalist-clumper 0.1](https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything)（来源：Simon Willison）
 - [Western Gull, Rock Pigeon](https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything)（来源：Simon Willison）
@@ -103,10 +101,12 @@
 - [Unlocking asynchronicity in continuous batching](https://huggingface.co/blog/continuous_async)（来源：Hugging Face Blog）
 - [Adding Benchmaxxer Repellant to the Open ASR Leaderboard](https://huggingface.co/blog/open-asr-leaderboard-private-data)（来源：Hugging Face Blog）
 - [DeepInfra on Hugging Face Inference Providers 🔥](https://huggingface.co/blog/inference-providers-deepinfra)（来源：Hugging Face Blog）
-- [How sales teams use Codex](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex)（来源：OpenAI Blog）
 - [How business operations teams use Codex](https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex)（来源：OpenAI Blog）
 - [How data science teams use Codex](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex)（来源：OpenAI Blog）
 - [A new personal finance experience in ChatGPT](https://openai.com/index/personal-finance-chatgpt)（来源：OpenAI Blog）
+- [How sales teams use Codex](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex)（来源：OpenAI Blog）
 - [Work with Codex from anywhere](https://openai.com/index/work-with-codex-from-anywhere)（来源：OpenAI Blog）
-- [Helping ChatGPT better recognize context in sensitive conversations](https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations)（来源：OpenAI Blog）
+- [From DeepSeek V3 to V3.2: Architecture, Sparse Attention, and RL Updates](https://magazine.sebastianraschka.com/p/technical-deepseek)（来源：Sebastian Raschka）
+- [Why We Think](https://lilianweng.github.io/posts/2025-05-01-thinking/)（来源：Lil'Log (Lilian Weng)）
+- [Reward Hacking in Reinforcement Learning](https://lilianweng.github.io/posts/2024-11-28-reward-hacking/)（来源：Lil'Log (Lilian Weng)）
 
