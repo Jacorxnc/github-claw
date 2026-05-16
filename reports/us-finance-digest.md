@@ -1,12 +1,12 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-16 01:47:50
+- 更新时间（UTC）：2026-05-16 05:18:53
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(247条)、科技与人工智能动态(173条)、美股市场(15条)，高频关键词包括AI、How、agent、LLMs。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(249条)、科技与人工智能动态(171条)、美股市场(15条)，高频关键词包括AI、How、code、agent。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
@@ -60,7 +60,7 @@
 - [Anthropic frames AI competition with China as a now-or-never moment for Washington](https://the-decoder.com/anthropic-frames-ai-competition-with-china-as-a-now-or-never-moment-for-washington/)（来源：The Decoder）
 
 ## 科技与人工智能动态
-- 汇总：本期共173条，重点围绕AI、agent、LLMs、Agents。
+- 汇总：本期共171条，重点围绕AI、agent、LLMs、Agents。
 - 解读：科技与人工智能相关消息聚焦AI、agent、LLMs、Agents，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
@@ -86,8 +86,8 @@
 - [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
-- 汇总：本期共247条，重点围绕How、Building、code、Why。
-- 解读：多条报道涉及How、Building、code、Why，显示该领域仍有新的催化与风险点值得关注。
+- 汇总：本期共249条，重点围绕code、How、May、Building。
+- 解读：多条报道涉及code、How、May、Building，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
 - [FDA shuffles top drug, biologics leaders in latest shakeup](https://www.cnbc.com/2026/05/15/fda-shuffles-top-drug-biologics-leaders-in-latest-leadership-shakeup.html)（来源：CNBC Markets）
