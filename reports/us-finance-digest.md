@@ -1,16 +1,16 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-16 19:56:24
+- 更新时间（UTC）：2026-05-16 20:38:18
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(245条)、科技与人工智能动态(174条)、美股市场(17条)，高频关键词包括AI、How、LLMs、Why。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(245条)、科技与人工智能动态(175条)、美股市场(16条)，高频关键词包括AI、How、LLMs、agent。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共17条，重点围绕AI、market、bond、China。
+- 汇总：本期共16条，重点围绕AI、market、bond、China。
 - 解读：交易与公司消息集中在AI、market、bond、China，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
@@ -21,7 +21,6 @@
 - [The bond market is flashing a warning over Iran. A veteran of energy geopolitics explains the risk](https://www.cnbc.com/2026/05/16/the-bond-market-is-flashing-a-warning-energy-geopolitics-expert-warns.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
-- [Why is this site named Antipope?](https://www.antipope.org/charlie/old/antipope.html)（来源：Hacker News Frontpage）
 - [The US is betting on AI to catch insider trading in prediction markets](https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets/)（来源：Ars Technica）
 - [Marketing operating system Nectar Social raises $30M Series A led by Menlo](https://techcrunch.com/2026/05/16/marketing-operating-system-nectar-social-raises-30m-series-a-in-round-led-by-menlo/)（来源：TechCrunch）
 - [奥特曼投的芯片涨疯了，今年最大科技IPO](https://www.qbitai.com/2026/05/418594.html)（来源：量子位 QbitAI）
@@ -61,7 +60,7 @@
 - [Old Oil and Gas Wells Could Find Second Life Producing Clean Energy](https://www.wired.com/story/oil-wells-second-life-clean-energy/)（来源：Wired）
 
 ## 科技与人工智能动态
-- 汇总：本期共174条，重点围绕AI、LLMs、agent、Agents。
+- 汇总：本期共175条，重点围绕AI、LLMs、agent、Agents。
 - 解读：科技与人工智能相关消息聚焦AI、LLMs、agent、Agents，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
@@ -92,13 +91,13 @@
 
 ### 相关报道
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
+- [Warelay -> OpenClaw](https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything)（来源：Simon Willison）
 - [Quoting Julia Evans](https://simonwillison.net/2026/May/16/julia-evans/#atom-everything)（来源：Simon Willison）
 - [inaturalist-clumper 0.1](https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything)（来源：Simon Willison）
 - [Western Gull, Rock Pigeon](https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything)（来源：Simon Willison）
 - [QR code generator](https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything)（来源：Simon Willison）
 - [Not so locked in any more](https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything)（来源：Simon Willison）
 - [Quoting Mitchell Hashimoto](https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything)（来源：Simon Willison）
-- [datasette-ip-rate-limit 0.1a0](https://simonwillison.net/2026/May/14/datasette-ip-rate-limit/#atom-everything)（来源：Simon Willison）
 - [Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality](https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2)（来源：Hugging Face Blog）
 - [Unlocking asynchronicity in continuous batching](https://huggingface.co/blog/continuous_async)（来源：Hugging Face Blog）
 - [Adding Benchmaxxer Repellant to the Open ASR Leaderboard](https://huggingface.co/blog/open-asr-leaderboard-private-data)（来源：Hugging Face Blog）
