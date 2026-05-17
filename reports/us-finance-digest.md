@@ -1,6 +1,6 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-17 20:49:34
+- 更新时间（UTC）：2026-05-17 21:44:57
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
@@ -89,7 +89,7 @@
 
 ### 相关报道
 - [Trump warns Iran to 'get moving' or 'there won’t be anything left'](https://www.cnbc.com/2026/05/17/trump-warns-iran-wont-be-anything-left.html)（来源：CNBC Markets）
-- [UAE reports drone strike at nuclear power plant as Iran war deadlock persists](https://www.cnbc.com/2026/05/17/abu-dhabi-says-drone-strike-caused-fire-at-nuclear-power-plant.html)（来源：CNBC Markets）
+- [UAE and Saudi Arabia report drone incidents as Iran war deadlock drags on](https://www.cnbc.com/2026/05/17/abu-dhabi-says-drone-strike-caused-fire-at-nuclear-power-plant.html)（来源：CNBC Markets）
 - [Trump touted Palantir on Truth Social after buying the company's stock, records show](https://www.cnbc.com/2026/05/15/trump-palantir-stock-truth-social.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [GDS weighs in on the NHS's decision to retreat from Open Source](https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything)（来源：Simon Willison）
