@@ -1,23 +1,21 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-17 11:37:39
+- 更新时间（UTC）：2026-05-17 12:52:21
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(246条)、科技与人工智能动态(174条)、美股市场(15条)，高频关键词包括AI、How、agent、LLMs。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(246条)、科技与人工智能动态(178条)、美股市场(13条)，高频关键词包括AI、How、agent、LLMs。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共15条，重点围绕AI、market、China、Download。
-- 解读：交易与公司消息集中在AI、market、China、Download，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共13条，重点围绕AI、Download、Fed、Homelab。
+- 解读：交易与公司消息集中在AI、Download、Fed、Homelab，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
+- [Top Wall Street analysts suggest these 3 stocks for their long-term prospects](https://www.cnbc.com/2026/05/17/top-analysts-suggest-these-3-stocks-for-their-long-term-prospects.html)（来源：CNBC Markets）
 - [Trump went big on tech stocks in first quarter of 2026, new filings show](https://www.cnbc.com/2026/05/15/trump-stock-trade-tech-oge.html)（来源：CNBC Markets）
-- [For better or worse, investors are living through Trump’s stock market. Here's why](https://www.cnbc.com/2026/05/16/for-better-or-worse-investors-are-living-through-trumps-stock-market-heres-why.html)（来源：CNBC Markets）
-- [Cisco is the most overbought stock in the S&P 500. Here are the others.](https://www.cnbc.com/2026/05/16/cisco-is-the-most-overbought-stock-in-the-sp-500-here-are-the-others.html)（来源：CNBC Markets）
-- [China signals tariff cuts, advances in farm market access after Trump-Xi summit](https://www.cnbc.com/2026/05/16/china-signals-tariff-cuts-advances-in-farm-market-access-after-trump-xi-summit.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
 - [The US is betting on AI to catch insider trading in prediction markets](https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets/)（来源：Ars Technica）
@@ -46,12 +44,10 @@
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共8条，重点围绕oil、Altman、could、if。
-- 解读：地缘与大宗商品事件围绕oil、Altman、could、if，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共6条，重点围绕Altman、Musk、Oil、Russia。
+- 解读：地缘与大宗商品事件围绕Altman、Musk、Oil、Russia，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
-- [Global oil stockpiles could hit record lows if Strait of Hormuz remains closed](https://www.cnbc.com/2026/05/16/oil-inventory-stockpile-iran-war-strait-hormuz.html)（来源：CNBC Markets）
-- [UAE says its decision to leave OPEC was a strategic economic move, not a political one](https://www.cnbc.com/2026/05/16/uae-decision-to-leave-opec-was-not-a-political-move.html)（来源：CNBC Markets）
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
 - [Russia pressures university students to become wartime drone pilots](https://arstechnica.com/gadgets/2026/05/russia-pressures-university-students-to-become-wartime-drone-pilots/)（来源：Ars Technica）
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
@@ -60,11 +56,14 @@
 - [Old Oil and Gas Wells Could Find Second Life Producing Clean Energy](https://www.wired.com/story/oil-wells-second-life-clean-energy/)（来源：Wired）
 
 ## 科技与人工智能动态
-- 汇总：本期共174条，重点围绕AI、agent、LLMs、Agents。
+- 汇总：本期共178条，重点围绕AI、agent、LLMs、Agents。
 - 解读：科技与人工智能相关消息聚焦AI、agent、LLMs、Agents，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
+- [G7 finance ministers to meet amid warning of economic consequences of prolonged Strait of Hormuz closure](https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html)（来源：CNBC Markets）
 - [Why Taiwan became the defining issue in the Trump-Xi talks](https://www.cnbc.com/2026/05/16/trumps-meeting-with-chinas-xi-steers-the-us-away-from-taiwan-again.html)（来源：CNBC Markets）
+- [These ‘underappreciated winners of AI’ also pay solid income](https://www.cnbc.com/2026/05/17/these-underappreciated-winners-of-ai-also-pay-solid-income.html)（来源：CNBC Markets）
+- [Creator content made the main stage at TV's 'upfront' pitches — and not just for YouTube](https://www.cnbc.com/2026/05/16/tv-upfronts-creator-content-youtube-fox-wbd.html)（来源：CNBC Markets）
 - [datasette-llm-limits 0.1a0](https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything)（来源：Simon Willison）
 - [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks)（来源：Hugging Face Blog）
 - [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo)（来源：Hugging Face Blog）
@@ -81,15 +80,13 @@
 - [Categories of Inference-Time Scaling for Improved LLM Reasoning](https://magazine.sebastianraschka.com/p/categories-of-inference-time-scaling)（来源：Sebastian Raschka）
 - [The State Of LLMs 2025: Progress, Problems, and Predictions](https://magazine.sebastianraschka.com/p/state-of-llms-2025)（来源：Sebastian Raschka）
 - [LLM Research Papers: The 2025 List (July to December)](https://magazine.sebastianraschka.com/p/llm-research-papers-2025-part2)（来源：Sebastian Raschka）
-- [Extrinsic Hallucinations in LLMs](https://lilianweng.github.io/posts/2024-07-07-hallucination/)（来源：Lil'Log (Lilian Weng)）
-- [Diffusion Models for Video Generation](https://lilianweng.github.io/posts/2024-04-12-diffusion-video/)（来源：Lil'Log (Lilian Weng)）
-- [Adversarial Attacks on LLMs](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
 - 汇总：本期共246条，重点围绕How、Building、code、Why。
 - 解读：多条报道涉及How、Building、code、Why，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
+- [Abu Dhabi says drone strike caused fire at nuclear power plant, no injuries or safety impacted](https://www.cnbc.com/2026/05/17/abu-dhabi-says-drone-strike-caused-fire-at-nuclear-power-plant.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [Warelay -> OpenClaw](https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything)（来源：Simon Willison）
 - [Quoting Julia Evans](https://simonwillison.net/2026/May/16/julia-evans/#atom-everything)（来源：Simon Willison）
@@ -109,5 +106,4 @@
 - [Work with Codex from anywhere](https://openai.com/index/work-with-codex-from-anywhere)（来源：OpenAI Blog）
 - [Why We Think](https://lilianweng.github.io/posts/2025-05-01-thinking/)（来源：Lil'Log (Lilian Weng)）
 - [Reward Hacking in Reinforcement Learning](https://lilianweng.github.io/posts/2024-11-28-reward-hacking/)（来源：Lil'Log (Lilian Weng)）
-- [Thinking about High-Quality Human Data](https://lilianweng.github.io/posts/2024-02-05-human-data-quality/)（来源：Lil'Log (Lilian Weng)）
 
