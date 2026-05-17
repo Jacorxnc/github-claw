@@ -1,21 +1,24 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-17 12:52:21
+- 更新时间（UTC）：2026-05-17 14:21:32
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(246条)、科技与人工智能动态(178条)、美股市场(13条)，高频关键词包括AI、How、agent、LLMs。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(244条)、科技与人工智能动态(178条)、美股市场(16条)，高频关键词包括AI、How、agent、LLMs。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共13条，重点围绕AI、Download、Fed、Homelab。
-- 解读：交易与公司消息集中在AI、Download、Fed、Homelab，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共16条，重点围绕stocks、AI、bond、Download。
+- 解读：交易与公司消息集中在stocks、AI、bond、Download，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
+- [AI-related layoffs a boost for stocks? Not necessarily](https://www.cnbc.com/2026/05/17/ai-related-layoffs-a-boost-for-stocks-not-necessarily.html)（来源：CNBC Markets）
+- [Berkshire's new CEO overhauls portfolio, dumping a slate of stocks](https://www.cnbc.com/2026/05/16/berkshires-new-ceo-overhauls-portfolio-dumping-a-slate-of-stocks.html)（来源：CNBC Markets）
+- [Ross Stores and TJX Companies among stocks with earnings momentum reporting this week](https://www.cnbc.com/2026/05/17/ross-stores-tjx-are-companies-with-earnings-momentum-that-are-reporting-this-week.html)（来源：CNBC Markets）
 - [Top Wall Street analysts suggest these 3 stocks for their long-term prospects](https://www.cnbc.com/2026/05/17/top-analysts-suggest-these-3-stocks-for-their-long-term-prospects.html)（来源：CNBC Markets）
-- [Trump went big on tech stocks in first quarter of 2026, new filings show](https://www.cnbc.com/2026/05/15/trump-stock-trade-tech-oge.html)（来源：CNBC Markets）
+- [The bond market is flashing a warning over Iran. A veteran of energy geopolitics explains the risk](https://www.cnbc.com/2026/05/16/the-bond-market-is-flashing-a-warning-energy-geopolitics-expert-warns.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
 - [The US is betting on AI to catch insider trading in prediction markets](https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets/)（来源：Ars Technica）
@@ -29,11 +32,10 @@
 - [My homelab will be down for at least 20 days](https://xeiaso.net/notes/2026/homelab-is-down/)（来源：Xe Iaso）
 
 ## 美国经济
-- 汇总：本期共9条，重点围绕inflation、Fed、jobs、AI。
-- 解读：宏观数据与政策相关报道聚焦inflation、Fed、jobs、AI，表明通胀与货币政策预期仍是核心定价因素。
+- 汇总：本期共8条，重点围绕inflation、jobs、AI、Fed。
+- 解读：宏观数据与政策相关报道聚焦inflation、jobs、AI、Fed，表明通胀与货币政策预期仍是核心定价因素。
 
 ### 相关报道
-- [Kevin Warsh comes into the Fed facing a big 'family fight' over cutting interest rates](https://www.cnbc.com/2026/05/16/kevin-warsh-comes-into-the-fed-facing-a-big-family-fight-over-cutting-interest-rates.html)（来源：CNBC Markets）
 - [Traders now see next Fed interest rate move as a hike following inflation surge](https://www.cnbc.com/2026/05/15/traders-now-see-next-fed-interest-rate-move-as-a-hike-following-inflation-surge.html)（来源：CNBC Economy）
 - [Inflation rate projected to hit 6% in the second quarter, top economic forecasters say](https://www.cnbc.com/2026/05/15/inflation-rate-projected-to-hit-6percent-in-the-second-quarter-top-economic-forecasters-say.html)（来源：CNBC Economy）
 - [Bessent sees 'substantial disinflation' ahead as Warsh takes over the Fed](https://www.cnbc.com/2026/05/14/bessent-sees-substantial-disinflation-ahead-as-warsh-takes-over-the-fed.html)（来源：CNBC Economy）
@@ -62,8 +64,7 @@
 ### 相关报道
 - [G7 finance ministers to meet amid warning of economic consequences of prolonged Strait of Hormuz closure](https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html)（来源：CNBC Markets）
 - [Why Taiwan became the defining issue in the Trump-Xi talks](https://www.cnbc.com/2026/05/16/trumps-meeting-with-chinas-xi-steers-the-us-away-from-taiwan-again.html)（来源：CNBC Markets）
-- [These ‘underappreciated winners of AI’ also pay solid income](https://www.cnbc.com/2026/05/17/these-underappreciated-winners-of-ai-also-pay-solid-income.html)（来源：CNBC Markets）
-- [Creator content made the main stage at TV's 'upfront' pitches — and not just for YouTube](https://www.cnbc.com/2026/05/16/tv-upfronts-creator-content-youtube-fox-wbd.html)（来源：CNBC Markets）
+- [Long Island Rail Road remains shut a second day as Monday rush hour looms](https://www.cnbc.com/2026/05/17/long-island-rail-road-lirr-shutdown-union-strike.html)（来源：CNBC Markets）
 - [datasette-llm-limits 0.1a0](https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything)（来源：Simon Willison）
 - [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks)（来源：Hugging Face Blog）
 - [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo)（来源：Hugging Face Blog）
@@ -80,13 +81,13 @@
 - [Categories of Inference-Time Scaling for Improved LLM Reasoning](https://magazine.sebastianraschka.com/p/categories-of-inference-time-scaling)（来源：Sebastian Raschka）
 - [The State Of LLMs 2025: Progress, Problems, and Predictions](https://magazine.sebastianraschka.com/p/state-of-llms-2025)（来源：Sebastian Raschka）
 - [LLM Research Papers: The 2025 List (July to December)](https://magazine.sebastianraschka.com/p/llm-research-papers-2025-part2)（来源：Sebastian Raschka）
+- [Extrinsic Hallucinations in LLMs](https://lilianweng.github.io/posts/2024-07-07-hallucination/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
-- 汇总：本期共246条，重点围绕How、Building、code、Why。
+- 汇总：本期共244条，重点围绕How、Building、code、Why。
 - 解读：多条报道涉及How、Building、code、Why，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
-- [Abu Dhabi says drone strike caused fire at nuclear power plant, no injuries or safety impacted](https://www.cnbc.com/2026/05/17/abu-dhabi-says-drone-strike-caused-fire-at-nuclear-power-plant.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [Warelay -> OpenClaw](https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything)（来源：Simon Willison）
 - [Quoting Julia Evans](https://simonwillison.net/2026/May/16/julia-evans/#atom-everything)（来源：Simon Willison）
@@ -106,4 +107,5 @@
 - [Work with Codex from anywhere](https://openai.com/index/work-with-codex-from-anywhere)（来源：OpenAI Blog）
 - [Why We Think](https://lilianweng.github.io/posts/2025-05-01-thinking/)（来源：Lil'Log (Lilian Weng)）
 - [Reward Hacking in Reinforcement Learning](https://lilianweng.github.io/posts/2024-11-28-reward-hacking/)（来源：Lil'Log (Lilian Weng)）
+- [Thinking about High-Quality Human Data](https://lilianweng.github.io/posts/2024-02-05-human-data-quality/)（来源：Lil'Log (Lilian Weng)）
 
