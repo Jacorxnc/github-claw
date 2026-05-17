@@ -1,12 +1,12 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-17 10:04:42
+- 更新时间（UTC）：2026-05-17 11:37:39
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(245条)、科技与人工智能动态(175条)、美股市场(15条)，高频关键词包括AI、How、agent、LLMs。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(246条)、科技与人工智能动态(174条)、美股市场(15条)，高频关键词包括AI、How、agent、LLMs。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
@@ -46,21 +46,21 @@
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共8条，重点围绕Russia、Altman、could、Musk。
-- 解读：地缘与大宗商品事件围绕Russia、Altman、could、Musk，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共8条，重点围绕oil、Altman、could、if。
+- 解读：地缘与大宗商品事件围绕oil、Altman、could、if，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
 - [Global oil stockpiles could hit record lows if Strait of Hormuz remains closed](https://www.cnbc.com/2026/05/16/oil-inventory-stockpile-iran-war-strait-hormuz.html)（来源：CNBC Markets）
 - [UAE says its decision to leave OPEC was a strategic economic move, not a political one](https://www.cnbc.com/2026/05/16/uae-decision-to-leave-opec-was-not-a-political-move.html)（来源：CNBC Markets）
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
 - [Russia pressures university students to become wartime drone pilots](https://arstechnica.com/gadgets/2026/05/russia-pressures-university-students-to-become-wartime-drone-pilots/)（来源：Ars Technica）
-- [Three's a party: US, China, and now Russia are on the prowl in GEO](https://arstechnica.com/space/2026/05/threes-a-party-us-china-and-now-russia-are-on-the-prowl-in-geo/)（来源：Ars Technica）
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
 - [Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other’s credibility. Now the jury will pick a side.](https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/)（来源：MIT Technology Review）
+- [If You’re a Serious Bowler, You Need to Know About Bowling Lane Oil](https://www.wired.com/story/bowling-lane-oil/)（来源：Wired）
 - [Old Oil and Gas Wells Could Find Second Life Producing Clean Energy](https://www.wired.com/story/oil-wells-second-life-clean-energy/)（来源：Wired）
 
 ## 科技与人工智能动态
-- 汇总：本期共175条，重点围绕AI、agent、LLMs、Agents。
+- 汇总：本期共174条，重点围绕AI、agent、LLMs、Agents。
 - 解读：科技与人工智能相关消息聚焦AI、agent、LLMs、Agents，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
@@ -86,7 +86,7 @@
 - [Adversarial Attacks on LLMs](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
-- 汇总：本期共245条，重点围绕How、Building、code、Why。
+- 汇总：本期共246条，重点围绕How、Building、code、Why。
 - 解读：多条报道涉及How、Building、code、Why，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
