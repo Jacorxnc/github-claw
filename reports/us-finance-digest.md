@@ -1,24 +1,24 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-17 16:44:24
+- 更新时间（UTC）：2026-05-17 17:47:22
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(245条)、科技与人工智能动态(177条)、美股市场(16条)，高频关键词包括AI、How、agent、LLMs。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(244条)、科技与人工智能动态(177条)、美股市场(16条)，高频关键词包括AI、How、agent、LLMs。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共16条，重点围绕stocks、AI、bond、Download。
-- 解读：交易与公司消息集中在stocks、AI、bond、Download，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共16条，重点围绕stocks、AI、Download、Fed。
+- 解读：交易与公司消息集中在stocks、AI、Download、Fed，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
 - [AI-related layoffs a boost for stocks? Not necessarily](https://www.cnbc.com/2026/05/17/ai-related-layoffs-a-boost-for-stocks-not-necessarily.html)（来源：CNBC Markets）
-- [Berkshire's new CEO overhauls portfolio, dumping a slate of stocks](https://www.cnbc.com/2026/05/16/berkshires-new-ceo-overhauls-portfolio-dumping-a-slate-of-stocks.html)（来源：CNBC Markets）
+- [With Long Island Rail Road shut down, NY governor begs unions to resume talks](https://www.cnbc.com/2026/05/17/long-island-rail-road-lirr-shutdown-union-strike.html)（来源：CNBC Markets）
 - [Ross Stores and TJX Companies among stocks with earnings momentum reporting this week](https://www.cnbc.com/2026/05/17/ross-stores-tjx-are-companies-with-earnings-momentum-that-are-reporting-this-week.html)（来源：CNBC Markets）
+- [Berkshire's new CEO overhauls portfolio, dumping a slate of stocks](https://www.cnbc.com/2026/05/16/berkshires-new-ceo-overhauls-portfolio-dumping-a-slate-of-stocks.html)（来源：CNBC Markets）
 - [Top Wall Street analysts suggest these 3 stocks for their long-term prospects](https://www.cnbc.com/2026/05/17/top-analysts-suggest-these-3-stocks-for-their-long-term-prospects.html)（来源：CNBC Markets）
-- [The bond market is flashing a warning over Iran. A veteran of energy geopolitics explains the risk](https://www.cnbc.com/2026/05/16/the-bond-market-is-flashing-a-warning-energy-geopolitics-expert-warns.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
 - [The US is betting on AI to catch insider trading in prediction markets](https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets/)（来源：Ars Technica）
@@ -46,11 +46,12 @@
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共6条，重点围绕Altman、Musk、Oil、Russia。
-- 解读：地缘与大宗商品事件围绕Altman、Musk、Oil、Russia，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共7条，重点围绕Altman、Europe、Musk、Oil。
+- 解读：地缘与大宗商品事件围绕Altman、Europe、Musk、Oil，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
+- [Mistral's CEO: Europe has 2 years to stop becoming America's AI 'vassal state'](https://www.businessinsider.com/mistral-ceo-warns-europe-2-years-avoid-us-ai-dependence-2026-5)（来源：Hacker News Frontpage）
 - [Russia pressures university students to become wartime drone pilots](https://arstechnica.com/gadgets/2026/05/russia-pressures-university-students-to-become-wartime-drone-pilots/)（来源：Ars Technica）
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
 - [Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other’s credibility. Now the jury will pick a side.](https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/)（来源：MIT Technology Review）
@@ -64,7 +65,6 @@
 ### 相关报道
 - [G7 finance ministers to meet amid warning of economic consequences of prolonged Strait of Hormuz closure](https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html)（来源：CNBC Markets）
 - [Why Taiwan became the defining issue in the Trump-Xi talks](https://www.cnbc.com/2026/05/16/trumps-meeting-with-chinas-xi-steers-the-us-away-from-taiwan-again.html)（来源：CNBC Markets）
-- [Long Island Rail Road remains shut a second day as Monday rush hour looms](https://www.cnbc.com/2026/05/17/long-island-rail-road-lirr-shutdown-union-strike.html)（来源：CNBC Markets）
 - [datasette-llm-limits 0.1a0](https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything)（来源：Simon Willison）
 - [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks)（来源：Hugging Face Blog）
 - [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo)（来源：Hugging Face Blog）
@@ -82,12 +82,14 @@
 - [The State Of LLMs 2025: Progress, Problems, and Predictions](https://magazine.sebastianraschka.com/p/state-of-llms-2025)（来源：Sebastian Raschka）
 - [LLM Research Papers: The 2025 List (July to December)](https://magazine.sebastianraschka.com/p/llm-research-papers-2025-part2)（来源：Sebastian Raschka）
 - [Extrinsic Hallucinations in LLMs](https://lilianweng.github.io/posts/2024-07-07-hallucination/)（来源：Lil'Log (Lilian Weng)）
+- [Diffusion Models for Video Generation](https://lilianweng.github.io/posts/2024-04-12-diffusion-video/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
-- 汇总：本期共245条，重点围绕How、Building、code、Why。
+- 汇总：本期共244条，重点围绕How、Building、code、Why。
 - 解读：多条报道涉及How、Building、code、Why，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
+- [UAE reports drone strike at nuclear power plant as Iran war deadlock endures](https://www.cnbc.com/2026/05/17/abu-dhabi-says-drone-strike-caused-fire-at-nuclear-power-plant.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [GDS weighs in on the NHS's decision to retreat from Open Source](https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything)（来源：Simon Willison）
 - [Warelay -> OpenClaw](https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything)（来源：Simon Willison）
@@ -107,5 +109,4 @@
 - [Work with Codex from anywhere](https://openai.com/index/work-with-codex-from-anywhere)（来源：OpenAI Blog）
 - [Why We Think](https://lilianweng.github.io/posts/2025-05-01-thinking/)（来源：Lil'Log (Lilian Weng)）
 - [Reward Hacking in Reinforcement Learning](https://lilianweng.github.io/posts/2024-11-28-reward-hacking/)（来源：Lil'Log (Lilian Weng)）
-- [Thinking about High-Quality Human Data](https://lilianweng.github.io/posts/2024-02-05-human-data-quality/)（来源：Lil'Log (Lilian Weng)）
 
