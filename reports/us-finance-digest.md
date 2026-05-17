@@ -1,23 +1,24 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-17 18:51:42
+- 更新时间（UTC）：2026-05-17 20:00:44
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(246条)、科技与人工智能动态(177条)、美股市场(15条)，高频关键词包括AI、How、agent、LLMs。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(247条)、科技与人工智能动态(175条)、美股市场(16条)，高频关键词包括AI、How、agent、LLMs。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共15条，重点围绕AI、stocks、Download、Fed。
-- 解读：交易与公司消息集中在AI、stocks、Download、Fed，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共16条，重点围绕stocks、AI、Download、Fed。
+- 解读：交易与公司消息集中在stocks、AI、Download、Fed，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
 - [AI-related layoffs a boost for stocks? Not necessarily](https://www.cnbc.com/2026/05/17/ai-related-layoffs-a-boost-for-stocks-not-necessarily.html)（来源：CNBC Markets）
-- [With Long Island Rail Road shut down, NY governor begs unions to resume talks](https://www.cnbc.com/2026/05/17/long-island-rail-road-lirr-shutdown-union-strike.html)（来源：CNBC Markets）
-- [Berkshire's new CEO overhauls portfolio, dumping a slate of stocks](https://www.cnbc.com/2026/05/16/berkshires-new-ceo-overhauls-portfolio-dumping-a-slate-of-stocks.html)（来源：CNBC Markets）
+- [With the Long Island Rail Road shut down, New York governor urges unions to resume talks](https://www.cnbc.com/2026/05/17/long-island-rail-road-lirr-shutdown-union-strike.html)（来源：CNBC Markets）
 - [Ross Stores and TJX Companies among stocks with earnings momentum reporting this week](https://www.cnbc.com/2026/05/17/ross-stores-tjx-are-companies-with-earnings-momentum-that-are-reporting-this-week.html)（来源：CNBC Markets）
+- [Berkshire's new CEO overhauls portfolio, dumping a slate of stocks](https://www.cnbc.com/2026/05/16/berkshires-new-ceo-overhauls-portfolio-dumping-a-slate-of-stocks.html)（来源：CNBC Markets）
+- [Top Wall Street analysts suggest these 3 stocks for their long-term prospects](https://www.cnbc.com/2026/05/17/top-analysts-suggest-these-3-stocks-for-their-long-term-prospects.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
 - [The US is betting on AI to catch insider trading in prediction markets](https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets/)（来源：Ars Technica）
@@ -57,11 +58,10 @@
 - [Old Oil and Gas Wells Could Find Second Life Producing Clean Energy](https://www.wired.com/story/oil-wells-second-life-clean-energy/)（来源：Wired）
 
 ## 科技与人工智能动态
-- 汇总：本期共177条，重点围绕AI、agent、LLMs、Agents。
+- 汇总：本期共175条，重点围绕AI、agent、LLMs、Agents。
 - 解读：科技与人工智能相关消息聚焦AI、agent、LLMs、Agents，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
-- [G7 finance ministers to meet amid warning of economic consequences of prolonged Strait of Hormuz closure](https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html)（来源：CNBC Markets）
 - [datasette-llm-limits 0.1a0](https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything)（来源：Simon Willison）
 - [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks)（来源：Hugging Face Blog）
 - [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo)（来源：Hugging Face Blog）
@@ -81,14 +81,15 @@
 - [Extrinsic Hallucinations in LLMs](https://lilianweng.github.io/posts/2024-07-07-hallucination/)（来源：Lil'Log (Lilian Weng)）
 - [Diffusion Models for Video Generation](https://lilianweng.github.io/posts/2024-04-12-diffusion-video/)（来源：Lil'Log (Lilian Weng)）
 - [Adversarial Attacks on LLMs](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/)（来源：Lil'Log (Lilian Weng)）
+- [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
-- 汇总：本期共246条，重点围绕How、Building、code、Why。
+- 汇总：本期共247条，重点围绕How、Building、code、Why。
 - 解读：多条报道涉及How、Building、code、Why，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
 - [Trump warns Iran to 'get moving' or 'there won’t be anything left'](https://www.cnbc.com/2026/05/17/trump-warns-iran-wont-be-anything-left.html)（来源：CNBC Markets）
-- [UAE reports drone strike at nuclear power plant as Iran war deadlock endures](https://www.cnbc.com/2026/05/17/abu-dhabi-says-drone-strike-caused-fire-at-nuclear-power-plant.html)（来源：CNBC Markets）
+- [UAE reports drone strike at nuclear power plant as Iran war deadlock persists](https://www.cnbc.com/2026/05/17/abu-dhabi-says-drone-strike-caused-fire-at-nuclear-power-plant.html)（来源：CNBC Markets）
 - [Trump touted Palantir on Truth Social after buying the company's stock, records show](https://www.cnbc.com/2026/05/15/trump-palantir-stock-truth-social.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [GDS weighs in on the NHS's decision to retreat from Open Source](https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything)（来源：Simon Willison）
