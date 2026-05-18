@@ -1,22 +1,21 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-18 20:53:14
+- 更新时间（UTC）：2026-05-18 21:59:18
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(256条)、科技与人工智能动态(172条)、美国经济(10条)，高频关键词包括AI、how、Code、Agent。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(256条)、科技与人工智能动态(173条)、美国经济(10条)，高频关键词包括AI、How、code、Agent。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共9条，重点围绕Download、Homelab、tech、Windows。
-- 解读：交易与公司消息集中在Download、Homelab、tech、Windows，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共8条，重点围绕Download、Homelab、tech、AI。
+- 解读：交易与公司消息集中在Download、Homelab、tech、AI，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
 - [Nasdaq posts back-to-back losses as Micron's decline weighs down tech sector: Live updates](https://www.cnbc.com/2026/05/17/stock-market-today-live-updates.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
-- [Five years later, Windows 11 brings back much-missed taskbar options (and more)](https://arstechnica.com/gadgets/2026/05/five-years-later-windows-11-brings-back-much-missed-taskbar-options-and-more/)（来源：Ars Technica）
 - [The Download: Musk v. Altman week 3, and Trump’s tech trading](https://www.technologyreview.com/2026/05/18/1137407/the-download-musk-altman-trial-trump-tech-trading/)（来源：MIT Technology Review）
 - [The Download: China’s AI drama factory and the WHO’s missing health targets](https://www.technologyreview.com/2026/05/15/1137341/the-download-china-short-drama-ai-who-health-targets/)（来源：MIT Technology Review）
 - [Equity for Europeans](https://lucumr.pocoo.org/2026/4/23/equity-for-europeans/)（来源：Armin Ronacher）
@@ -52,11 +51,10 @@
 - [Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other’s credibility. Now the jury will pick a side.](https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/)（来源：MIT Technology Review）
 
 ## 科技与人工智能动态
-- 汇总：本期共172条，重点围绕AI、Agent、Agents、LLMs。
+- 汇总：本期共173条，重点围绕AI、Agent、Agents、LLMs。
 - 解读：科技与人工智能相关消息聚焦AI、Agent、Agents、LLMs，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
-- [Elon Musk loses court battle against Sam Altman and OpenAI after 3-week trial](https://www.cnbc.com/2026/05/18/musk-altman-openai-trial-verdict.html)（来源：CNBC Markets）
 - [datasette-llm-limits 0.1a0](https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything)（来源：Simon Willison）
 - [Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation](https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation)（来源：Hugging Face Blog）
 - [The Open Agent Leaderboard](https://huggingface.co/blog/ibm-research/open-agent-leaderboard)（来源：Hugging Face Blog）
@@ -76,12 +74,14 @@
 - [The State Of LLMs 2025: Progress, Problems, and Predictions](https://magazine.sebastianraschka.com/p/state-of-llms-2025)（来源：Sebastian Raschka）
 - [LLM Research Papers: The 2025 List (July to December)](https://magazine.sebastianraschka.com/p/llm-research-papers-2025-part2)（来源：Sebastian Raschka）
 - [Extrinsic Hallucinations in LLMs](https://lilianweng.github.io/posts/2024-07-07-hallucination/)（来源：Lil'Log (Lilian Weng)）
+- [Diffusion Models for Video Generation](https://lilianweng.github.io/posts/2024-04-12-diffusion-video/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
 - 汇总：本期共256条，重点围绕code、How、Building、Why。
 - 解读：多条报道涉及code、How、Building、Why，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
+- [Musk slams Altman trial verdict as a 'technicality,' vows to appeal](https://www.cnbc.com/2026/05/18/musk-altman-openai-trial-verdict.html)（来源：CNBC Markets）
 - [Warren Buffett teased to CNBC a ‘tiny purchase’ in March. Berkshire filing may have revealed it](https://www.cnbc.com/2026/05/18/warren-buffett-teased-to-cnbc-a-tiny-purchase-in-march-berkshire-filing-may-have-revealed-it.html)（来源：CNBC Markets）
 - [Seagate leads memory sell-off as CEO says it would 'take too long' to build new factories](https://www.cnbc.com/2026/05/18/seagate-memory-chip-stocks-ai.html)（来源：CNBC Markets）
 - [This gas stock just cleared a 2014 peak and is set to continue higher, says Katie Stockton](https://www.cnbc.com/2026/05/18/this-gas-stock-just-cleared-a-2014-peak-and-is-set-to-continue-higher-says-katie-stockton.html)（来源：CNBC Markets）
@@ -101,5 +101,4 @@
 - [How sales teams use Codex](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex)（来源：OpenAI Blog）
 - [A new personal finance experience in ChatGPT](https://openai.com/index/personal-finance-chatgpt)（来源：OpenAI Blog）
 - [How data science teams use Codex](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex)（来源：OpenAI Blog）
-- [Why We Think](https://lilianweng.github.io/posts/2025-05-01-thinking/)（来源：Lil'Log (Lilian Weng)）
 
