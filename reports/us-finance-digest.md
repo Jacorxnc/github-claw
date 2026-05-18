@@ -1,12 +1,12 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-18 19:12:08
+- 更新时间（UTC）：2026-05-18 20:53:14
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(254条)、科技与人工智能动态(174条)、美国经济(11条)，高频关键词包括AI、how、Code、Agent。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(256条)、科技与人工智能动态(172条)、美国经济(10条)，高频关键词包括AI、how、Code、Agent。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
@@ -14,7 +14,7 @@
 - 解读：交易与公司消息集中在Download、Homelab、tech、Windows，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
-- [Nasdaq drops for a second day as tech pullback picks up steam, Micron shares slide 7%: Live updates](https://www.cnbc.com/2026/05/17/stock-market-today-live-updates.html)（来源：CNBC Markets）
+- [Nasdaq posts back-to-back losses as Micron's decline weighs down tech sector: Live updates](https://www.cnbc.com/2026/05/17/stock-market-today-live-updates.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Five years later, Windows 11 brings back much-missed taskbar options (and more)](https://arstechnica.com/gadgets/2026/05/five-years-later-windows-11-brings-back-much-missed-taskbar-options-and-more/)（来源：Ars Technica）
 - [The Download: Musk v. Altman week 3, and Trump’s tech trading](https://www.technologyreview.com/2026/05/18/1137407/the-download-musk-altman-trial-trump-tech-trading/)（来源：MIT Technology Review）
@@ -25,11 +25,10 @@
 - [My homelab will be down for at least 20 days](https://xeiaso.net/notes/2026/homelab-is-down/)（来源：Xe Iaso）
 
 ## 美国经济
-- 汇总：本期共11条，重点围绕Fed、inflation、jobs、Warsh。
-- 解读：宏观数据与政策相关报道聚焦Fed、inflation、jobs、Warsh，表明通胀与货币政策预期仍是核心定价因素。
+- 汇总：本期共10条，重点围绕Fed、inflation、jobs、AI。
+- 解读：宏观数据与政策相关报道聚焦Fed、inflation、jobs、AI，表明通胀与货币政策预期仍是核心定价因素。
 
 ### 相关报道
-- [Kevin Warsh to be sworn in as Federal Reserve chair on Friday](https://www.cnbc.com/2026/05/18/kevin-warsh-trump-federal-reserve-chair.html)（来源：CNBC Markets）
 - [Kevin Warsh to be sworn in as Federal Reserve chair on Friday](https://www.cnbc.com/2026/05/18/kevin-warsh-trump-federal-reserve-chair.html)（来源：CNBC Economy）
 - [The Fed will have to raise interest rates in July to appease 'bond vigilantes,' Yardeni says](https://www.cnbc.com/2026/05/18/the-fed-will-have-to-raise-interest-rates-in-july-to-appease-bond-vigilantes-yardeni-says.html)（来源：CNBC Economy）
 - [Traders now see next Fed interest rate move as a hike following inflation surge](https://www.cnbc.com/2026/05/15/traders-now-see-next-fed-interest-rate-move-as-a-hike-following-inflation-surge.html)（来源：CNBC Economy）
@@ -42,17 +41,18 @@
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共4条，重点围绕Altman、Musk、affordability、AI-powered。
-- 解读：地缘与大宗商品事件围绕Altman、Musk、affordability、AI-powered，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共5条，重点围绕Altman、Iran、Musk、Trump。
+- 解读：地缘与大宗商品事件围绕Altman、Iran、Musk、Trump，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
 - [Trump pivots to midterms, affordability after China summit as Iran war persists](https://www.cnbc.com/2026/05/18/trump-hegseth-economy-2026-election-midterms-iran-china.html)（来源：CNBC Markets）
+- [Trump says he's postponing 'scheduled attack of Iran tomorrow' at Middle East leaders' request](https://www.cnbc.com/2026/05/18/trump-iran-attack-saudi-uae-qatar-deal.html)（来源：CNBC Markets）
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
 - [Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other’s credibility. Now the jury will pick a side.](https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/)（来源：MIT Technology Review）
 
 ## 科技与人工智能动态
-- 汇总：本期共174条，重点围绕AI、Agent、Agents、LLMs。
+- 汇总：本期共172条，重点围绕AI、Agent、Agents、LLMs。
 - 解读：科技与人工智能相关消息聚焦AI、Agent、Agents、LLMs，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
@@ -78,14 +78,14 @@
 - [Extrinsic Hallucinations in LLMs](https://lilianweng.github.io/posts/2024-07-07-hallucination/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
-- 汇总：本期共254条，重点围绕code、How、Building、Why。
+- 汇总：本期共256条，重点围绕code、How、Building、Why。
 - 解读：多条报道涉及code、How、Building、Why，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
 - [Warren Buffett teased to CNBC a ‘tiny purchase’ in March. Berkshire filing may have revealed it](https://www.cnbc.com/2026/05/18/warren-buffett-teased-to-cnbc-a-tiny-purchase-in-march-berkshire-filing-may-have-revealed-it.html)（来源：CNBC Markets）
 - [Seagate leads memory sell-off as CEO says it would 'take too long' to build new factories](https://www.cnbc.com/2026/05/18/seagate-memory-chip-stocks-ai.html)（来源：CNBC Markets）
 - [This gas stock just cleared a 2014 peak and is set to continue higher, says Katie Stockton](https://www.cnbc.com/2026/05/18/this-gas-stock-just-cleared-a-2014-peak-and-is-set-to-continue-higher-says-katie-stockton.html)（来源：CNBC Markets）
-- [U.S. creates $1.8B 'lawfare' fund in exchange for Trump dropping $10B IRS suit](https://www.cnbc.com/2026/05/18/trump-dismiss-irs-lawsuit.html)（来源：CNBC Markets）
+- [Kentucky Republican Thomas Massie is Trump revenge tour's next target](https://www.cnbc.com/2026/05/18/thomas-massie-primary-trump-kentucky-elections-2026-midterms.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose](https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything)（来源：Simon Willison）
 - [GDS weighs in on the NHS's decision to retreat from Open Source](https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything)（来源：Simon Willison）
@@ -97,9 +97,9 @@
 - [PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend](https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers)（来源：Hugging Face Blog）
 - [Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality](https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2)（来源：Hugging Face Blog）
 - [Unlocking asynchronicity in continuous batching](https://huggingface.co/blog/continuous_async)（来源：Hugging Face Blog）
+- [How business operations teams use Codex](https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex)（来源：OpenAI Blog）
+- [How sales teams use Codex](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex)（来源：OpenAI Blog）
 - [A new personal finance experience in ChatGPT](https://openai.com/index/personal-finance-chatgpt)（来源：OpenAI Blog）
 - [How data science teams use Codex](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex)（来源：OpenAI Blog）
-- [How sales teams use Codex](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex)（来源：OpenAI Blog）
-- [How business operations teams use Codex](https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex)（来源：OpenAI Blog）
 - [Why We Think](https://lilianweng.github.io/posts/2025-05-01-thinking/)（来源：Lil'Log (Lilian Weng)）
 
