@@ -1,29 +1,24 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-18 17:16:33
+- 更新时间（UTC）：2026-05-18 19:12:08
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(245条)、科技与人工智能动态(178条)、美股市场(14条)，高频关键词包括AI、how、Code、Agent。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(254条)、科技与人工智能动态(174条)、美国经济(11条)，高频关键词包括AI、how、Code、Agent。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共14条，重点围绕Download、AI、biggest、Homelab。
-- 解读：交易与公司消息集中在Download、AI、biggest、Homelab，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共9条，重点围绕Download、Homelab、tech、Windows。
+- 解读：交易与公司消息集中在Download、Homelab、tech、Windows，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
-- [S&P 500, Nasdaq fall for a second day as Micron drops, traders eye oil and yields: Live updates](https://www.cnbc.com/2026/05/17/stock-market-today-live-updates.html)（来源：CNBC Markets）
-- [The ‘biggest and best tailwind’ for the market this week would be a Nvidia earnings beat, pro trader says](https://www.cnbc.com/2026/05/18/nvidia-beat-would-be-the-biggest-and-best-tailwind-for-the-market-jay-woods-says.html)（来源：CNBC Markets）
-- [Stocks making the biggest moves midday: Regeneron, Dominion, Mobileye, Viking and more](https://www.cnbc.com/2026/05/18/stocks-making-the-biggest-moves-midday-regn-d-mbly-vik.html)（来源：CNBC Markets）
+- [Nasdaq drops for a second day as tech pullback picks up steam, Micron shares slide 7%: Live updates](https://www.cnbc.com/2026/05/17/stock-market-today-live-updates.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
-- [1024000^2 Blocks, 2B2T Minecraft Server World Download Project, and Discoveries](https://github.com/2b2tplace/1m_release)（来源：Hacker News Frontpage）
 - [Five years later, Windows 11 brings back much-missed taskbar options (and more)](https://arstechnica.com/gadgets/2026/05/five-years-later-windows-11-brings-back-much-missed-taskbar-options-and-more/)（来源：Ars Technica）
-- [The US is betting on AI to catch insider trading in prediction markets](https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets/)（来源：Ars Technica）
 - [The Download: Musk v. Altman week 3, and Trump’s tech trading](https://www.technologyreview.com/2026/05/18/1137407/the-download-musk-altman-trial-trump-tech-trading/)（来源：MIT Technology Review）
 - [The Download: China’s AI drama factory and the WHO’s missing health targets](https://www.technologyreview.com/2026/05/15/1137341/the-download-china-short-drama-ai-who-health-targets/)（来源：MIT Technology Review）
-- [Shadow](https://www.producthunt.com/products/shadow-4)（来源：Product Hunt）
 - [Equity for Europeans](https://lucumr.pocoo.org/2026/4/23/equity-for-europeans/)（来源：Armin Ronacher）
 - [Why do Windows client editions on 32-bit x86 systems artificially limit RAM to 4 GB?](https://devblogs.microsoft.com/oldnewthing/20260512-00/?p=112316)（来源：The Old New Thing (Raymond Chen)）
 - [Homelab downtime update: The fight for DNS supremacy](https://xeiaso.net/notes/2026/dns-fight/)（来源：Xe Iaso）
@@ -47,21 +42,21 @@
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共4条，重点围绕Altman、Musk、Russia、AI-powered。
-- 解读：地缘与大宗商品事件围绕Altman、Musk、Russia、AI-powered，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共4条，重点围绕Altman、Musk、affordability、AI-powered。
+- 解读：地缘与大宗商品事件围绕Altman、Musk、affordability、AI-powered，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
+- [Trump pivots to midterms, affordability after China summit as Iran war persists](https://www.cnbc.com/2026/05/18/trump-hegseth-economy-2026-election-midterms-iran-china.html)（来源：CNBC Markets）
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
-- [Russia pressures university students to become wartime drone pilots](https://arstechnica.com/gadgets/2026/05/russia-pressures-university-students-to-become-wartime-drone-pilots/)（来源：Ars Technica）
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
 - [Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other’s credibility. Now the jury will pick a side.](https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/)（来源：MIT Technology Review）
 
 ## 科技与人工智能动态
-- 汇总：本期共178条，重点围绕AI、Agent、Agents、LLMs。
+- 汇总：本期共174条，重点围绕AI、Agent、Agents、LLMs。
 - 解读：科技与人工智能相关消息聚焦AI、Agent、Agents、LLMs，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
-- [Meta layoffs starting this week stress harsh AI reality inside Zuckerberg’s company](https://www.cnbc.com/2026/05/18/metas-layoffs-starting-this-week-underscore-zuckerbergs-ai-reality-.html)（来源：CNBC Markets）
+- [Elon Musk loses court battle against Sam Altman and OpenAI after 3-week trial](https://www.cnbc.com/2026/05/18/musk-altman-openai-trial-verdict.html)（来源：CNBC Markets）
 - [datasette-llm-limits 0.1a0](https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything)（来源：Simon Willison）
 - [Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation](https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation)（来源：Hugging Face Blog）
 - [The Open Agent Leaderboard](https://huggingface.co/blog/ibm-research/open-agent-leaderboard)（来源：Hugging Face Blog）
@@ -83,13 +78,14 @@
 - [Extrinsic Hallucinations in LLMs](https://lilianweng.github.io/posts/2024-07-07-hallucination/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
-- 汇总：本期共245条，重点围绕How、code、Building、Why。
-- 解读：多条报道涉及How、code、Building、Why，显示该领域仍有新的催化与风险点值得关注。
+- 汇总：本期共254条，重点围绕code、How、Building、Why。
+- 解读：多条报道涉及code、How、Building、Why，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
-- [U.S. creates $1.7B 'lawfare' fund in exchange for Trump dropping $10B IRS suit](https://www.cnbc.com/2026/05/18/trump-dismiss-irs-lawsuit.html)（来源：CNBC Markets）
 - [Warren Buffett teased to CNBC a ‘tiny purchase’ in March. Berkshire filing may have revealed it](https://www.cnbc.com/2026/05/18/warren-buffett-teased-to-cnbc-a-tiny-purchase-in-march-berkshire-filing-may-have-revealed-it.html)（来源：CNBC Markets）
-- [Trump ballroom money in question after Senate parliamentarian rules. Thune says GOP will persist](https://www.cnbc.com/2026/05/18/trump-ballroom-provision-blocked-senate-parliamentarian.html)（来源：CNBC Markets）
+- [Seagate leads memory sell-off as CEO says it would 'take too long' to build new factories](https://www.cnbc.com/2026/05/18/seagate-memory-chip-stocks-ai.html)（来源：CNBC Markets）
+- [This gas stock just cleared a 2014 peak and is set to continue higher, says Katie Stockton](https://www.cnbc.com/2026/05/18/this-gas-stock-just-cleared-a-2014-peak-and-is-set-to-continue-higher-says-katie-stockton.html)（来源：CNBC Markets）
+- [U.S. creates $1.8B 'lawfare' fund in exchange for Trump dropping $10B IRS suit](https://www.cnbc.com/2026/05/18/trump-dismiss-irs-lawsuit.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose](https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything)（来源：Simon Willison）
 - [GDS weighs in on the NHS's decision to retreat from Open Source](https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything)（来源：Simon Willison）
@@ -106,5 +102,4 @@
 - [How sales teams use Codex](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex)（来源：OpenAI Blog）
 - [How business operations teams use Codex](https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex)（来源：OpenAI Blog）
 - [Why We Think](https://lilianweng.github.io/posts/2025-05-01-thinking/)（来源：Lil'Log (Lilian Weng)）
-- [Reward Hacking in Reinforcement Learning](https://lilianweng.github.io/posts/2024-11-28-reward-hacking/)（来源：Lil'Log (Lilian Weng)）
 
