@@ -1,20 +1,22 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-18 06:18:40
+- 更新时间（UTC）：2026-05-18 10:47:29
 - 数据源数量：69
-- 收录条目：412
+- 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总412条新闻，主要集中在其他重要财经动态(236条)、科技与人工智能动态(149条)、美股市场(11条)，高频关键词包括AI、How、LLMs、agent。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(248条)、科技与人工智能动态(174条)、美股市场(13条)，高频关键词包括AI、How、agent、LLMs。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共11条，重点围绕AI、markets、Download、Fed。
-- 解读：交易与公司消息集中在AI、markets、Download、Fed，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共13条，重点围绕AI、inflation、markets、Download。
+- 解读：交易与公司消息集中在AI、inflation、markets、Download，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
-- [European markets to start the week lower after Trump threatens Iran](https://www.cnbc.com/2026/05/18/european-markets-stoxx-600-ftse-dax-iran-latest-uk-news.html)（来源：CNBC Markets）
+- [Berkshire has revamped its portfolio — here's how the new stocks are trading](https://www.cnbc.com/2026/05/18/berkshire-portfolio-revamp-delta-airlines-macys-unitedhealth.html)（来源：CNBC Markets）
+- [Citi Wealth warns markets may be 'uncomfortably strong' amid mounting geopolitical, inflation risks](https://www.cnbc.com/2026/05/18/citi-wealth-warns-markets-may-be-uncomfortably-strong-as-risks-mount.html)（来源：CNBC Markets）
+- [One of the market's hottest stock themes is buying everything AI can't replace](https://www.cnbc.com/2026/05/17/ai-stock-market-trade-halo-investing.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Markets raise chances for a Fed rate hike following hot inflation report](https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html)（来源：CNBC Economy）
 - [The US is betting on AI to catch insider trading in prediction markets](https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets/)（来源：Ars Technica）
@@ -27,7 +29,7 @@
 - [My homelab will be down for at least 20 days](https://xeiaso.net/notes/2026/homelab-is-down/)（来源：Xe Iaso）
 
 ## 美国经济
-- 汇总：本期共8条，重点围绕inflation、jobs、AI、Fed。
+- 汇总：本期共9条，重点围绕inflation、jobs、AI、Fed。
 - 解读：宏观数据与政策相关报道聚焦inflation、jobs、AI、Fed，表明通胀与货币政策预期仍是核心定价因素。
 
 ### 相关报道
@@ -38,29 +40,28 @@
 - [It's not just Iran and oil raising inflation. Prices also are reaccelerating in these other areas](https://www.cnbc.com/2026/05/12/iran-oil-energy-inflation-shelter-food-trump.html)（来源：CNBC Economy）
 - [Reduce friction and latency for long-running jobs with Webhooks in Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/)（来源：Google AI Blog）
 - [AI will create jobs](https://geohot.github.io//blog/jekyll/update/2026/05/01/ai-will-create-jobs.html)（来源：Geohot）
+- [信通院&清华提出FedRE：用「纠缠」搞定联邦学习三难困境 | CVPR 26](https://www.qbitai.com/2026/05/419373.html)（来源：量子位 QbitAI）
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共8条，重点围绕Altman、China、could、energy。
-- 解读：地缘与大宗商品事件围绕Altman、China、could、energy，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共8条，重点围绕Altman、Musk、Oil、Russia。
+- 解读：地缘与大宗商品事件围绕Altman、Musk、Oil、Russia，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
+- [Oil jumps as Trump warns 'Clock is Ticking' for Iran, fanning fears of escalation in conflict](https://www.cnbc.com/2026/05/18/oil-today-brent-wti-iran-trump-hormuz-iea-supply-crude-.html)（来源：CNBC Markets）
 - [White House touts deals on soybeans and rare earths after Trump-Xi summit, while China talks up tariff cuts](https://www.cnbc.com/2026/05/18/us-china-announce-deals-after-trump-xi-summit.html)（来源：CNBC Markets）
-- [High energy prices could derail Europe’s AI race with U.S. and China](https://www.cnbc.com/2026/05/18/europe-ai-energy-electricity-costs-data-centers-china-us.html)（来源：CNBC Markets）
+- [Ryanair has plans for 'armageddon' scenario as CFO warns weaker European carriers may not survive jet fuel crunch](https://www.cnbc.com/2026/05/18/ryanair-earnings-fy-jet-fuel-crunch-airlines.html)（来源：CNBC Markets）
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
 - [Russia pressures university students to become wartime drone pilots](https://arstechnica.com/gadgets/2026/05/russia-pressures-university-students-to-become-wartime-drone-pilots/)（来源：Ars Technica）
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
 - [Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other’s credibility. Now the jury will pick a side.](https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/)（来源：MIT Technology Review）
 - [If You’re a Serious Bowler, You Need to Know About Bowling Lane Oil](https://www.wired.com/story/bowling-lane-oil/)（来源：Wired）
-- [Old Oil and Gas Wells Could Find Second Life Producing Clean Energy](https://www.wired.com/story/oil-wells-second-life-clean-energy/)（来源：Wired）
 
 ## 科技与人工智能动态
-- 汇总：本期共149条，重点围绕AI、LLMs、agent、Coding。
-- 解读：科技与人工智能相关消息聚焦AI、LLMs、agent、Coding，显示新技术落地与产业竞争仍在加速。
+- 汇总：本期共174条，重点围绕AI、agent、LLMs、Agents。
+- 解读：科技与人工智能相关消息聚焦AI、agent、LLMs、Agents，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
-- [G7 finance ministers to meet amid warning of economic consequences of prolonged Strait of Hormuz closure](https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html)（来源：CNBC Markets）
-- [These ‘underappreciated winners of AI’ also pay solid income](https://www.cnbc.com/2026/05/17/these-underappreciated-winners-of-ai-also-pay-solid-income.html)（来源：CNBC Markets）
 - [datasette-llm-limits 0.1a0](https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything)（来源：Simon Willison）
 - [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks)（来源：Hugging Face Blog）
 - [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo)（来源：Hugging Face Blog）
@@ -79,15 +80,16 @@
 - [LLM Research Papers: The 2025 List (July to December)](https://magazine.sebastianraschka.com/p/llm-research-papers-2025-part2)（来源：Sebastian Raschka）
 - [Extrinsic Hallucinations in LLMs](https://lilianweng.github.io/posts/2024-07-07-hallucination/)（来源：Lil'Log (Lilian Weng)）
 - [Diffusion Models for Video Generation](https://lilianweng.github.io/posts/2024-04-12-diffusion-video/)（来源：Lil'Log (Lilian Weng)）
+- [Adversarial Attacks on LLMs](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/)（来源：Lil'Log (Lilian Weng)）
+- [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
-- 汇总：本期共236条，重点围绕How、Building、code、Why。
-- 解读：多条报道涉及How、Building、code、Why，显示该领域仍有新的催化与风险点值得关注。
+- 汇总：本期共248条，重点围绕How、code、Why、Building。
+- 解读：多条报道涉及How、code、Why、Building，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
-- [Samsung strike involving 47,000 workers looms as South Korea’s president urges labor deal](https://www.cnbc.com/2026/05/18/samsung-strike-lee-jae-myung-labor-deal.html)（来源：CNBC Markets）
-- [Novo Nordisk’s next obesity battlefront: Winning beyond America](https://www.cnbc.com/2026/05/18/novo-nordisk-wegovy-pill-launch-eli-lilly-foundayo-weight-loss.html)（来源：CNBC Markets）
-- [Why a small UK lender has major U.S. credit firms on edge](https://www.cnbc.com/2026/05/18/mfs-private-credit-insolvency-banks-failure-collapse-barclays-mortgage.html)（来源：CNBC Markets）
+- [Trump says he should've asked for 'more' of Intel when negotiating stake with CEO](https://www.cnbc.com/2026/05/18/trump-stake-in-intel.html)（来源：CNBC Markets）
+- [How Elon Musk and Sam Altman went from besties to bitter rivals](https://www.cnbc.com/2026/05/18/how-elon-musk-and-sam-altman-went-from-besties-to-bitter-rivals.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [GDS weighs in on the NHS's decision to retreat from Open Source](https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything)（来源：Simon Willison）
 - [Warelay -> OpenClaw](https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything)（来源：Simon Willison）
@@ -100,9 +102,10 @@
 - [Unlocking asynchronicity in continuous batching](https://huggingface.co/blog/continuous_async)（来源：Hugging Face Blog）
 - [Adding Benchmaxxer Repellant to the Open ASR Leaderboard](https://huggingface.co/blog/open-asr-leaderboard-private-data)（来源：Hugging Face Blog）
 - [DeepInfra on Hugging Face Inference Providers 🔥](https://huggingface.co/blog/inference-providers-deepinfra)（来源：Hugging Face Blog）
-- [How business operations teams use Codex](https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex)（来源：OpenAI Blog）
-- [How data science teams use Codex](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex)（来源：OpenAI Blog）
 - [A new personal finance experience in ChatGPT](https://openai.com/index/personal-finance-chatgpt)（来源：OpenAI Blog）
+- [How data science teams use Codex](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex)（来源：OpenAI Blog）
 - [How sales teams use Codex](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex)（来源：OpenAI Blog）
+- [How business operations teams use Codex](https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex)（来源：OpenAI Blog）
 - [Work with Codex from anywhere](https://openai.com/index/work-with-codex-from-anywhere)（来源：OpenAI Blog）
+- [Why We Think](https://lilianweng.github.io/posts/2025-05-01-thinking/)（来源：Lil'Log (Lilian Weng)）
 
