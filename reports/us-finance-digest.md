@@ -1,20 +1,21 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-17 23:47:33
+- 更新时间（UTC）：2026-05-18 02:01:56
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(247条)、科技与人工智能动态(177条)、美股市场(14条)，高频关键词包括AI、How、agent、LLMs。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(249条)、科技与人工智能动态(173条)、美股市场(15条)，高频关键词包括AI、How、agent、LLMs。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共14条，重点围绕AI、Download、Fed、Homelab。
-- 解读：交易与公司消息集中在AI、Download、Fed、Homelab，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共15条，重点围绕AI、markets、Download、Fed。
+- 解读：交易与公司消息集中在AI、markets、Download、Fed，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
 - [Stock futures are little changed after record-setting week for Wall Street; traders await Nvidia and retail earnings: Live updates](https://www.cnbc.com/2026/05/17/stock-market-today-live-updates.html)（来源：CNBC Markets）
+- [Asia-Pacific markets fall as Trump’s Iran warning stokes fresh oil supply fears](https://www.cnbc.com/2026/05/18/asia-pacific-markets-today-live-updates-nikkei-225-hang-seng-index-kospi-nifty-50.html)（来源：CNBC Markets）
 - [With the Long Island Rail Road shut down, New York governor urges unions to resume talks](https://www.cnbc.com/2026/05/17/long-island-rail-road-lirr-shutdown-union-strike.html)（来源：CNBC Markets）
 - [Berkshire's new CEO overhauls portfolio, dumping a slate of stocks](https://www.cnbc.com/2026/05/16/berkshires-new-ceo-overhauls-portfolio-dumping-a-slate-of-stocks.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
@@ -44,10 +45,11 @@
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共6条，重点围绕Altman、Musk、Oil、Russia。
-- 解读：地缘与大宗商品事件围绕Altman、Musk、Oil、Russia，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共7条，重点围绕Oil、Altman、Musk、Russia。
+- 解读：地缘与大宗商品事件围绕Oil、Altman、Musk、Russia，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
+- [Oil jumps as Trump warns 'Clock is Ticking' for Iran, fanning fears of escalation in conflict](https://www.cnbc.com/2026/05/18/oil-today-brent-wti-iran-trump-hormuz-iea-supply-crude-.html)（来源：CNBC Markets）
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
 - [Russia pressures university students to become wartime drone pilots](https://arstechnica.com/gadgets/2026/05/russia-pressures-university-students-to-become-wartime-drone-pilots/)（来源：Ars Technica）
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
@@ -56,7 +58,7 @@
 - [Old Oil and Gas Wells Could Find Second Life Producing Clean Energy](https://www.wired.com/story/oil-wells-second-life-clean-energy/)（来源：Wired）
 
 ## 科技与人工智能动态
-- 汇总：本期共177条，重点围绕AI、agent、LLMs、Agents。
+- 汇总：本期共173条，重点围绕AI、agent、LLMs、Agents。
 - 解读：科技与人工智能相关消息聚焦AI、agent、LLMs、Agents，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
@@ -82,14 +84,12 @@
 - [Adversarial Attacks on LLMs](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
-- 汇总：本期共247条，重点围绕How、Why、Building、code。
-- 解读：多条报道涉及How、Why、Building、code，显示该领域仍有新的催化与风险点值得关注。
+- 汇总：本期共249条，重点围绕How、Building、code、Why。
+- 解读：多条报道涉及How、Building、code、Why，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
 - [Trump warns Iran to 'get moving' or 'there won’t be anything left'](https://www.cnbc.com/2026/05/17/trump-warns-iran-wont-be-anything-left.html)（来源：CNBC Markets）
 - [UAE and Saudi Arabia report drone incidents as Iran war deadlock drags on](https://www.cnbc.com/2026/05/17/abu-dhabi-says-drone-strike-caused-fire-at-nuclear-power-plant.html)（来源：CNBC Markets）
-- [Trump touted Palantir on Truth Social after buying the company's stock, records show](https://www.cnbc.com/2026/05/15/trump-palantir-stock-truth-social.html)（来源：CNBC Markets）
-- [Why your 'fixed' mortgage payment keeps going up](https://www.cnbc.com/2026/05/17/mortgage-escrow-shortages.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [GDS weighs in on the NHS's decision to retreat from Open Source](https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything)（来源：Simon Willison）
 - [Warelay -> OpenClaw](https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything)（来源：Simon Willison）
@@ -106,4 +106,6 @@
 - [How data science teams use Codex](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex)（来源：OpenAI Blog）
 - [A new personal finance experience in ChatGPT](https://openai.com/index/personal-finance-chatgpt)（来源：OpenAI Blog）
 - [How sales teams use Codex](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex)（来源：OpenAI Blog）
+- [Work with Codex from anywhere](https://openai.com/index/work-with-codex-from-anywhere)（来源：OpenAI Blog）
+- [Why We Think](https://lilianweng.github.io/posts/2025-05-01-thinking/)（来源：Lil'Log (Lilian Weng)）
 
