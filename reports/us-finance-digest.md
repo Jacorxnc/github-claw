@@ -1,22 +1,23 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-19 16:44:49
+- 更新时间（UTC）：2026-05-19 18:32:16
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(255条)、科技与人工智能动态(176条)、美股市场(10条)，高频关键词包括AI、How、Agent、Agents。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(258条)、科技与人工智能动态(173条)、美股市场(11条)，高频关键词包括AI、Google、How、agents。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共10条，重点围绕Altman、America、Download、Homelab。
-- 解读：交易与公司消息集中在Altman、America、Download、Homelab，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共11条，重点围绕Altman、Download、Homelab、Musk。
+- 解读：交易与公司消息集中在Altman、Download、Homelab、Musk，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
-- [Investors are flooding out of cash to buy stocks. That 'bull capitulation' is a sell signal, Bank of America says](https://www.cnbc.com/2026/05/19/investors-are-leaving-cash-to-buy-stocks-thats-a-sell-signal-bank-of-america-says.html)（来源：CNBC Markets）
+- [These stocks typically move the most on Nvidia's earnings. Some of the names may surprise you](https://www.cnbc.com/2026/05/19/these-stocks-typically-move-the-most-on-nvidias-earnings-some-of-the-names-may-surprise-you.html)（来源：CNBC Markets）
+- [Stocks making the biggest moves midday: Marvell, Micron, Akamai, Shake Shack & more](https://www.cnbc.com/2026/05/19/stocks-making-the-biggest-moves-midday-mrvl-mu-akam-shak.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
-- [America’s dangerous, messy deepfakes crackdown is here](https://www.theverge.com/policy/933518/take-it-down-act-notice-removal-social-media-deepfake)（来源：The Verge）
+- [Cursor Cloud Agents Down](https://forum.cursor.com/t/cloud-agents-broken-ii/161036)（来源：Hacker News Frontpage）
 - [The Download: Musk v. Altman, smart glasses for warfare, and Google I/O](https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o/)（来源：MIT Technology Review）
 - [The Download: Musk v. Altman week 3, and Trump’s tech trading](https://www.technologyreview.com/2026/05/18/1137407/the-download-musk-altman-trial-trump-tech-trading/)（来源：MIT Technology Review）
 - [Former OpenAI Staffers Warn That xAI’s Poor Safety Record Could Complicate SpaceX’s IPO](https://www.wired.com/story/ex-openai-staffers-warn-spacex-investors-of-ai-safety-risks/)（来源：Wired）
@@ -26,8 +27,8 @@
 - [My homelab will be down for at least 20 days](https://xeiaso.net/notes/2026/homelab-is-down/)（来源：Xe Iaso）
 
 ## 美国经济
-- 汇总：本期共9条，重点围绕Fed、jobs、AI、inflation。
-- 解读：宏观数据与政策相关报道聚焦Fed、jobs、AI、inflation，表明通胀与货币政策预期仍是核心定价因素。
+- 汇总：本期共8条，重点围绕Fed、AI、inflation、interest。
+- 解读：宏观数据与政策相关报道聚焦Fed、AI、inflation、interest，表明通胀与货币政策预期仍是核心定价因素。
 
 ### 相关报道
 - [30-year Treasury yield tops 5.19%, highest since before the financial crisis](https://www.cnbc.com/2026/05/19/treasurys-yields-inflation-traders-fed-interest-rates.html)（来源：CNBC Markets）
@@ -36,7 +37,6 @@
 - [Traders now see next Fed interest rate move as a hike following inflation surge](https://www.cnbc.com/2026/05/15/traders-now-see-next-fed-interest-rate-move-as-a-hike-following-inflation-surge.html)（来源：CNBC Economy）
 - [Inflation rate projected to hit 6% in the second quarter, top economic forecasters say](https://www.cnbc.com/2026/05/15/inflation-rate-projected-to-hit-6percent-in-the-second-quarter-top-economic-forecasters-say.html)（来源：CNBC Economy）
 - [Bessent sees 'substantial disinflation' ahead as Warsh takes over the Fed](https://www.cnbc.com/2026/05/14/bessent-sees-substantial-disinflation-ahead-as-warsh-takes-over-the-fed.html)（来源：CNBC Economy）
-- [Reduce friction and latency for long-running jobs with Webhooks in Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/)（来源：Google AI Blog）
 - [AI will create jobs](https://geohot.github.io//blog/jekyll/update/2026/05/01/ai-will-create-jobs.html)（来源：Geohot）
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
@@ -49,11 +49,11 @@
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
 
 ## 科技与人工智能动态
-- 汇总：本期共176条，重点围绕AI、Agent、Agents、LLMs。
-- 解读：科技与人工智能相关消息聚焦AI、Agent、Agents、LLMs，显示新技术落地与产业竞争仍在加速。
+- 汇总：本期共173条，重点围绕AI、Agent、agents、Google。
+- 解读：科技与人工智能相关消息聚焦AI、Agent、agents、Google，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
-- [The AI economy is rewriting the American Dream — and blue-collar workers are poised to win](https://www.cnbc.com/2026/05/19/ai-hiring-slowdown-skilled-trade-workers.html)（来源：CNBC Markets）
+- [Google debuts new AI models, personal AI agents in effort to keep pace with OpenAI and Anthropic](https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html)（来源：CNBC Markets）
 - [Anthropic hires OpenAI co-founder Andrej Karpathy, former Tesla AI leader](https://www.cnbc.com/2026/05/19/anthropic-hires-openai-cofounder-andrej-karpathy-former-tesla-ai-lead.html)（来源：CNBC Markets）
 - [The AI economy is rewriting the American Dream — and blue-collar workers are poised to win](https://www.cnbc.com/2026/05/19/ai-hiring-slowdown-skilled-trade-workers.html)（来源：CNBC Economy）
 - [The last six months in LLMs in five minutes](https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything)（来源：Simon Willison）
@@ -61,10 +61,10 @@
 - [The Open Agent Leaderboard](https://huggingface.co/blog/ibm-research/open-agent-leaderboard)（来源：Hugging Face Blog）
 - [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks)（来源：Hugging Face Blog）
 - [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo)（来源：Hugging Face Blog）
+- [Advancing content provenance for a safer, more transparent AI ecosystem](https://openai.com/index/advancing-content-provenance)（来源：OpenAI Blog）
 - [OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments](https://openai.com/index/dell-codex-enterprise-partnership)（来源：OpenAI Blog）
 - [OpenAI and Malta partner to bring ChatGPT Plus to all citizens](https://openai.com/index/malta-chatgpt-plus-partnership)（来源：OpenAI Blog）
 - [Databricks brings GPT-5.5 to enterprise agent workflows](https://openai.com/index/databricks)（来源：OpenAI Blog）
-- [Sea's View on the Future of Agentic Software Development with Codex](https://openai.com/index/sea-david-chen)（来源：OpenAI Blog）
 - [Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention](https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures)（来源：Sebastian Raschka）
 - [My Workflow for Understanding LLM Architectures](https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms)（来源：Sebastian Raschka）
 - [Components of A Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)（来源：Sebastian Raschka）
@@ -75,14 +75,13 @@
 - [LLM Research Papers: The 2025 List (July to December)](https://magazine.sebastianraschka.com/p/llm-research-papers-2025-part2)（来源：Sebastian Raschka）
 
 ## 其他重要财经动态
-- 汇总：本期共255条，重点围绕How、Why、code、Building。
-- 解读：多条报道涉及How、Why、code、Building，显示该领域仍有新的催化与风险点值得关注。
+- 汇总：本期共258条，重点围绕How、Google、Why、Building。
+- 解读：多条报道涉及How、Google、Why、Building，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
+- [Mortgage rates surge to highest level since July](https://www.cnbc.com/2026/05/19/mortgage-rates-closing-in-on-7percent.html)（来源：CNBC Markets）
+- [Trump flexes endorsement power for Ken Paxton after ousting Cassidy, targeting Massie](https://www.cnbc.com/2026/05/19/trump-primary-election-ken-paxton-john-cornyn-texas-senate.html)（来源：CNBC Markets）
 - [Trump says it's not a 'war.' Insurers with money on the line say it is](https://www.cnbc.com/2026/05/19/trump-says-its-not-a-war-insurers-with-money-on-the-line-say-it-is.html)（来源：CNBC Markets）
-- [Trump says he was 'an hour away' from Iran strike decision before he postponed it](https://www.cnbc.com/2026/05/19/trump-iran-war-strike-postponed.html)（来源：CNBC Markets）
-- [Blanche won't rule out Jan. 6 rioters getting Trump DOJ fund payouts](https://www.cnbc.com/2026/05/19/trump-doj-irs-fund-blanche-payouts-jan-6-rioters.html)（来源：CNBC Markets）
-- [Bessent urges G7 to help U.S. attack Iran's finances](https://www.cnbc.com/2026/05/19/bessent-g7-iran-finance-terrorism.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose](https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything)（来源：Simon Willison）
 - [GDS weighs in on the NHS's decision to retreat from Open Source](https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything)（来源：Simon Willison）
@@ -95,8 +94,9 @@
 - [PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend](https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers)（来源：Hugging Face Blog）
 - [Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality](https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2)（来源：Hugging Face Blog）
 - [Unlocking asynchronicity in continuous batching](https://huggingface.co/blog/continuous_async)（来源：Hugging Face Blog）
-- [A new personal finance experience in ChatGPT](https://openai.com/index/personal-finance-chatgpt)（来源：OpenAI Blog）
 - [How sales teams use Codex](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex)（来源：OpenAI Blog）
-- [How business operations teams use Codex](https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex)（来源：OpenAI Blog）
 - [How data science teams use Codex](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex)（来源：OpenAI Blog）
+- [How business operations teams use Codex](https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex)（来源：OpenAI Blog）
+- [A new personal finance experience in ChatGPT](https://openai.com/index/personal-finance-chatgpt)（来源：OpenAI Blog）
+- [Why We Think](https://lilianweng.github.io/posts/2025-05-01-thinking/)（来源：Lil'Log (Lilian Weng)）
 
