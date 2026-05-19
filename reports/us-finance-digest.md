@@ -1,26 +1,26 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-18 23:55:32
+- 更新时间（UTC）：2026-05-19 02:02:37
 - 数据源数量：69
-- 收录条目：452
+- 收录条目：380
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(256条)、科技与人工智能动态(170条)、美股市场(11条)，高频关键词包括AI、How、code、Agent。
+- 汇总：共汇总380条新闻，主要集中在其他重要财经动态(213条)、科技与人工智能动态(140条)、美股市场(11条)，高频关键词包括AI、How、code、LLMs。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共11条，重点围绕AI、Download、Homelab、market。
-- 解读：交易与公司消息集中在AI、Download、Homelab、market，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共11条，重点围绕Download、Homelab、market、tech。
+- 解读：交易与公司消息集中在Download、Homelab、market、tech，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
 - [S&P 500 futures are flat after index posts back-to-back losses amid tech selloff: Live updates](https://www.cnbc.com/2026/05/18/stock-market-today-live-updates.html)（来源：CNBC Markets）
-- [Tuesday's big stock stories: What’s likely to move the market in the next trading session](https://www.cnbc.com/2026/05/18/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html)（来源：CNBC Markets）
 - [These chip stocks could extend historic gains by rallying over 110%, according to Nomura](https://www.cnbc.com/2026/05/19/chip-stocks-samsung-sk-hynix-ai-memory.html)（来源：CNBC Markets）
-- [Google I/O primer: Alphabet's AI showcase is its chance to wow Wall Street](https://www.cnbc.com/2026/05/18/google-i-o-alphabet-ai-wall-street.html)（来源：CNBC Markets）
+- [Tuesday's big stock stories: What’s likely to move the market in the next trading session](https://www.cnbc.com/2026/05/18/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [The Download: Musk v. Altman week 3, and Trump’s tech trading](https://www.technologyreview.com/2026/05/18/1137407/the-download-musk-altman-trial-trump-tech-trading/)（来源：MIT Technology Review）
 - [The Download: China’s AI drama factory and the WHO’s missing health targets](https://www.technologyreview.com/2026/05/15/1137341/the-download-china-short-drama-ai-who-health-targets/)（来源：MIT Technology Review）
+- [Shadow](https://www.producthunt.com/products/shadow-4)（来源：Product Hunt）
 - [Equity for Europeans](https://lucumr.pocoo.org/2026/4/23/equity-for-europeans/)（来源：Armin Ronacher）
 - [Why do Windows client editions on 32-bit x86 systems artificially limit RAM to 4 GB?](https://devblogs.microsoft.com/oldnewthing/20260512-00/?p=112316)（来源：The Old New Thing (Raymond Chen)）
 - [Homelab downtime update: The fight for DNS supremacy](https://xeiaso.net/notes/2026/dns-fight/)（来源：Xe Iaso）
@@ -43,22 +43,23 @@
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共5条，重点围绕Altman、Musk、AI-powered、attack。
-- 解读：地缘与大宗商品事件围绕Altman、Musk、AI-powered、attack，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共6条，重点围绕Trump、Altman、Iran、Musk。
+- 解读：地缘与大宗商品事件围绕Trump、Altman、Iran、Musk，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
+- [Putin heads to Beijing days after Trump in test of China's balancing act](https://www.cnbc.com/2026/05/19/putin-russia-visit-china-beijing-trump-summit-ukraine-war-energy-shock-.html)（来源：CNBC Markets）
 - [Trump says he's postponing 'scheduled attack of Iran tomorrow' at Middle East leaders' request](https://www.cnbc.com/2026/05/18/trump-iran-attack-saudi-uae-qatar-deal.html)（来源：CNBC Markets）
-- [CNBC's The China Connection newsletter: Three major shifts from the Trump-Xi meeting](https://www.cnbc.com/2026/05/18/three-major-shifts-from-the-trump-xi-meeting.html)（来源：CNBC Markets）
+- [Oil prices fall as Trump postpones Iran strike, easing supply disruption fears](https://www.cnbc.com/2026/05/19/oil-today-brent-wti-iran-trump-hormuz-iea-supply-crude.html)（来源：CNBC Markets）
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
 - [Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other’s credibility. Now the jury will pick a side.](https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/)（来源：MIT Technology Review）
 
 ## 科技与人工智能动态
-- 汇总：本期共170条，重点围绕AI、Agent、Agents、LLMs。
-- 解读：科技与人工智能相关消息聚焦AI、Agent、Agents、LLMs，显示新技术落地与产业竞争仍在加速。
+- 汇总：本期共140条，重点围绕AI、LLMs、Agent、OpenAI。
+- 解读：科技与人工智能相关消息聚焦AI、LLMs、Agent、OpenAI，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
-- [datasette-llm-limits 0.1a0](https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything)（来源：Simon Willison）
+- [The last six months in LLMs in five minutes](https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything)（来源：Simon Willison）
 - [Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation](https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation)（来源：Hugging Face Blog）
 - [The Open Agent Leaderboard](https://huggingface.co/blog/ibm-research/open-agent-leaderboard)（来源：Hugging Face Blog）
 - [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks)（来源：Hugging Face Blog）
@@ -80,12 +81,12 @@
 - [Diffusion Models for Video Generation](https://lilianweng.github.io/posts/2024-04-12-diffusion-video/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
-- 汇总：本期共256条，重点围绕code、How、Building、Why。
-- 解读：多条报道涉及code、How、Building、Why，显示该领域仍有新的催化与风险点值得关注。
+- 汇总：本期共213条，重点围绕code、How、Building、May。
+- 解读：多条报道涉及code、How、Building、May，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
 - [Musk slams Altman trial verdict as a 'technicality,' vows to appeal](https://www.cnbc.com/2026/05/18/musk-altman-openai-trial-verdict.html)（来源：CNBC Markets）
-- [Trump says he's 'concerned' about Ebola after American tests positive in Africa](https://www.cnbc.com/2026/05/18/trump-ebola-virus-concerned-africa.html)（来源：CNBC Markets）
+- [Japan's economy grows at annualized 2.1% rate in first quarter, beating expectations](https://www.cnbc.com/2026/05/19/japan-first-quarter-gdp-economy-inflation-energy.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose](https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything)（来源：Simon Willison）
 - [GDS weighs in on the NHS's decision to retreat from Open Source](https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything)（来源：Simon Willison）
