@@ -1,22 +1,20 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-19 06:10:59
+- 更新时间（UTC）：2026-05-19 10:14:07
 - 数据源数量：69
-- 收录条目：380
+- 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总380条新闻，主要集中在其他重要财经动态(216条)、科技与人工智能动态(139条)、美国经济(10条)，高频关键词包括AI、How、May、code。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(259条)、科技与人工智能动态(172条)、美国经济(9条)，高频关键词包括AI、How、Agent、code。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共10条，重点围绕AI、Download、Homelab、Tech。
-- 解读：交易与公司消息集中在AI、Download、Homelab、Tech，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共8条，重点围绕Download、Homelab、according、AI。
+- 解读：交易与公司消息集中在Download、Homelab、according、AI，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
-- [Tech investors loved this earnings season — but the Iran war is piling pressure on the companies powering the AI boom](https://www.cnbc.com/2026/05/19/iran-war-ai-chip-supply-chain-costs.html)（来源：CNBC Markets）
 - [These chip stocks could extend historic gains by rallying over 110%, according to Nomura](https://www.cnbc.com/2026/05/19/chip-stocks-samsung-sk-hynix-ai-memory.html)（来源：CNBC Markets）
-- [European markets to open in mixed territory, Germany kicks off Uniper privatization](https://www.cnbc.com/2026/05/19/european-markets-stoxx-uniper-ftse-dax-cac-iran-latest-g7-meeting.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [The Download: Musk v. Altman week 3, and Trump’s tech trading](https://www.technologyreview.com/2026/05/18/1137407/the-download-musk-altman-trial-trump-tech-trading/)（来源：MIT Technology Review）
 - [The Download: China’s AI drama factory and the WHO’s missing health targets](https://www.technologyreview.com/2026/05/15/1137341/the-download-china-short-drama-ai-who-health-targets/)（来源：MIT Technology Review）
@@ -26,37 +24,39 @@
 - [My homelab will be down for at least 20 days](https://xeiaso.net/notes/2026/homelab-is-down/)（来源：Xe Iaso）
 
 ## 美国经济
-- 汇总：本期共10条，重点围绕Fed、inflation、jobs、AI。
-- 解读：宏观数据与政策相关报道聚焦Fed、inflation、jobs、AI，表明通胀与货币政策预期仍是核心定价因素。
+- 汇总：本期共9条，重点围绕Fed、jobs、AI、inflation。
+- 解读：宏观数据与政策相关报道聚焦Fed、jobs、AI、inflation，表明通胀与货币政策预期仍是核心定价因素。
 
 ### 相关报道
-- [After U.S. SEC, Treasury and Justice Department offer billionaire Gautam Adani legal relief](https://www.cnbc.com/2026/05/19/adani-treasury-justice-department-sec-settlement.html)（来源：CNBC Markets）
+- [Japan, China lead foreign government retreat from U.S. Treasurys as Gulf War fallout stokes currency fears](https://www.cnbc.com/2026/05/19/central-banks-offload-us-treasuries-china-holdings-at-18-year-low.html)（来源：CNBC Markets）
 - [Kevin Warsh to be sworn in as Federal Reserve chair on Friday](https://www.cnbc.com/2026/05/18/kevin-warsh-trump-federal-reserve-chair.html)（来源：CNBC Economy）
 - [The Fed will have to raise interest rates in July to appease 'bond vigilantes,' Yardeni says](https://www.cnbc.com/2026/05/18/the-fed-will-have-to-raise-interest-rates-in-july-to-appease-bond-vigilantes-yardeni-says.html)（来源：CNBC Economy）
 - [Traders now see next Fed interest rate move as a hike following inflation surge](https://www.cnbc.com/2026/05/15/traders-now-see-next-fed-interest-rate-move-as-a-hike-following-inflation-surge.html)（来源：CNBC Economy）
 - [Inflation rate projected to hit 6% in the second quarter, top economic forecasters say](https://www.cnbc.com/2026/05/15/inflation-rate-projected-to-hit-6percent-in-the-second-quarter-top-economic-forecasters-say.html)（来源：CNBC Economy）
 - [Bessent sees 'substantial disinflation' ahead as Warsh takes over the Fed](https://www.cnbc.com/2026/05/14/bessent-sees-substantial-disinflation-ahead-as-warsh-takes-over-the-fed.html)（来源：CNBC Economy）
-- [Wholesale inflation jumps 6% in April on annual basis, biggest increase since 2022](https://www.cnbc.com/2026/05/13/ppi-inflation-report-april-2026-.html)（来源：CNBC Economy）
 - [Reduce friction and latency for long-running jobs with Webhooks in Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/)（来源：Google AI Blog）
 - [AI will create jobs](https://geohot.github.io//blog/jekyll/update/2026/05/01/ai-will-create-jobs.html)（来源：Geohot）
 - [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
 
 ## 全球政治经济
-- 汇总：本期共5条，重点围绕Altman、Musk、Trump、act。
-- 解读：地缘与大宗商品事件围绕Altman、Musk、Trump、act，提示外部不确定性可能继续影响全球资产情绪。
+- 汇总：本期共4条，重点围绕Altman、Musk、accuses、action。
+- 解读：地缘与大宗商品事件围绕Altman、Musk、accuses、action，提示外部不确定性可能继续影响全球资产情绪。
 
 ### 相关报道
-- [Putin heads to Beijing days after Trump in test of China's balancing act](https://www.cnbc.com/2026/05/19/putin-russia-visit-china-beijing-trump-summit-ukraine-war-energy-shock-.html)（来源：CNBC Markets）
-- [Trump says he's postponing 'scheduled attack of Iran tomorrow' at Middle East leaders' request](https://www.cnbc.com/2026/05/18/trump-iran-attack-saudi-uae-qatar-deal.html)（来源：CNBC Markets）
+- [Cuba condemns U.S. sanctions, accuses Washington of building ‘fraudulent case’ for military action](https://www.cnbc.com/2026/05/19/cuba-us-sanctions-military-fraudulent-case.html)（来源：CNBC Markets）
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)（来源：Google AI Blog）
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
 - [Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other’s credibility. Now the jury will pick a side.](https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/)（来源：MIT Technology Review）
 
 ## 科技与人工智能动态
-- 汇总：本期共139条，重点围绕AI、LLMs、Agent、OpenAI。
-- 解读：科技与人工智能相关消息聚焦AI、LLMs、Agent、OpenAI，显示新技术落地与产业竞争仍在加速。
+- 汇总：本期共172条，重点围绕AI、Agent、Agents、LLMs。
+- 解读：科技与人工智能相关消息聚焦AI、Agent、Agents、LLMs，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
+- [Anthropic and U.S. government to face off in DC court over blacklisting of AI company](https://www.cnbc.com/2026/05/19/anthropic-dod-blacklist-court-opening-arguments.html)（来源：CNBC Markets）
+- [2026 CNBC Disruptor 50: See the full list of companies, rankings, and a new leader in the AI race](https://www.cnbc.com/2026/05/19/2026-cnbc-disruptor-50-rankings-full-list-companies.html)（来源：CNBC Markets）
+- [The AI economy is rewriting the American Dream — and blue-collar workers are poised to win](https://www.cnbc.com/2026/05/19/ai-hiring-slowdown-skilled-trade-workers.html)（来源：CNBC Markets）
+- [The AI economy is rewriting the American Dream — and blue-collar workers are poised to win](https://www.cnbc.com/2026/05/19/ai-hiring-slowdown-skilled-trade-workers.html)（来源：CNBC Economy）
 - [The last six months in LLMs in five minutes](https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything)（来源：Simon Willison）
 - [Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation](https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation)（来源：Hugging Face Blog）
 - [The Open Agent Leaderboard](https://huggingface.co/blog/ibm-research/open-agent-leaderboard)（来源：Hugging Face Blog）
@@ -73,18 +73,14 @@
 - [A Visual Guide to Attention Variants in Modern LLMs](https://magazine.sebastianraschka.com/p/visual-attention-variants)（来源：Sebastian Raschka）
 - [A Dream of Spring for Open-Weight LLMs: 10 Architectures from Jan-Feb 2026](https://magazine.sebastianraschka.com/p/a-dream-of-spring-for-open-weight)（来源：Sebastian Raschka）
 - [Categories of Inference-Time Scaling for Improved LLM Reasoning](https://magazine.sebastianraschka.com/p/categories-of-inference-time-scaling)（来源：Sebastian Raschka）
-- [The State Of LLMs 2025: Progress, Problems, and Predictions](https://magazine.sebastianraschka.com/p/state-of-llms-2025)（来源：Sebastian Raschka）
-- [LLM Research Papers: The 2025 List (July to December)](https://magazine.sebastianraschka.com/p/llm-research-papers-2025-part2)（来源：Sebastian Raschka）
-- [Extrinsic Hallucinations in LLMs](https://lilianweng.github.io/posts/2024-07-07-hallucination/)（来源：Lil'Log (Lilian Weng)）
-- [Diffusion Models for Video Generation](https://lilianweng.github.io/posts/2024-04-12-diffusion-video/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
-- 汇总：本期共216条，重点围绕code、How、May、what。
-- 解读：多条报道涉及code、How、May、what，显示该领域仍有新的催化与风险点值得关注。
+- 汇总：本期共259条，重点围绕How、code、May、Building。
+- 解读：多条报道涉及How、code、May、Building，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
-- [Musk slams Altman trial verdict as a 'technicality,' vows to appeal](https://www.cnbc.com/2026/05/18/musk-altman-openai-trial-verdict.html)（来源：CNBC Markets）
-- [Standard Chartered to cut over 15% of corporate functions roles as it targets higher returns](https://www.cnbc.com/2026/05/19/standard-chartered-job-cuts-corporate-roles-profit-targets.html)（来源：CNBC Markets）
+- [Home Depot says core shopper is resilient in the face of higher gas prices, sales rise 5%](https://www.cnbc.com/2026/05/19/home-depot-hd-q1-2026-earnings.html)（来源：CNBC Markets）
+- [Trump says he's 'concerned' about Ebola after American tests positive in Africa](https://www.cnbc.com/2026/05/18/trump-ebola-virus-concerned-africa.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose](https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything)（来源：Simon Willison）
 - [GDS weighs in on the NHS's decision to retreat from Open Source](https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything)（来源：Simon Willison）
@@ -96,9 +92,9 @@
 - [PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend](https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers)（来源：Hugging Face Blog）
 - [Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality](https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2)（来源：Hugging Face Blog）
 - [Unlocking asynchronicity in continuous batching](https://huggingface.co/blog/continuous_async)（来源：Hugging Face Blog）
-- [How business operations teams use Codex](https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex)（来源：OpenAI Blog）
-- [How sales teams use Codex](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex)（来源：OpenAI Blog）
 - [A new personal finance experience in ChatGPT](https://openai.com/index/personal-finance-chatgpt)（来源：OpenAI Blog）
+- [How sales teams use Codex](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex)（来源：OpenAI Blog）
+- [How business operations teams use Codex](https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex)（来源：OpenAI Blog）
 - [How data science teams use Codex](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex)（来源：OpenAI Blog）
 - [Why We Think](https://lilianweng.github.io/posts/2025-05-01-thinking/)（来源：Lil'Log (Lilian Weng)）
 - [Reward Hacking in Reinforcement Learning](https://lilianweng.github.io/posts/2024-11-28-reward-hacking/)（来源：Lil'Log (Lilian Weng)）
