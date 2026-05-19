@@ -1,20 +1,23 @@
 # 美股与全球财经半小时简报
 
-- 更新时间（UTC）：2026-05-19 22:57:38
+- 更新时间（UTC）：2026-05-19 23:55:09
 - 数据源数量：69
 - 收录条目：452
 - 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。
 
 ## 总览
-- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(259条)、科技与人工智能动态(174条)、美股市场(9条)，高频关键词包括AI、Google、How、Agent。
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(254条)、科技与人工智能动态(177条)、美股市场(12条)，高频关键词包括AI、Google、How、Agent。
 - 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
 
 ## 美股市场
-- 汇总：本期共9条，重点围绕Homelab、market、Altman、artificially。
-- 解读：交易与公司消息集中在Homelab、market、Altman、artificially，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+- 汇总：本期共12条，重点围绕market、Homelab、markets、AI。
+- 解读：交易与公司消息集中在market、Homelab、markets、AI，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
 
 ### 相关报道
 - [SpaceX picks Goldman Sachs for lead left position on record-breaking IPO, sources say](https://www.cnbc.com/2026/05/19/spacex-picks-goldman-sachs-to-lead-record-breaking-ipo-sources-say.html)（来源：CNBC Markets）
+- [‘Makes a lot of sense’: UBS is bullish on China tech stocks as AI ecosystem grows](https://www.cnbc.com/2026/05/20/china-tech-stocks-ai-ubs-.html)（来源：CNBC Markets）
+- [Wednesday's big stock stories: What’s likely to move the market in the next trading session](https://www.cnbc.com/2026/05/19/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html)（来源：CNBC Markets）
+- [Asia markets poised for mixed open amid spike in Treasury yields, Iran tensions](https://www.cnbc.com/2026/05/20/asia-pacific-markets-today-live-updates-treasury-yields-nikkei-225-kospi-hang-seng-nifty.html)（来源：CNBC Markets）
 - [Bond market believes Fed behind the curve on inflation as Warsh takes over](https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html)（来源：CNBC Economy）
 - [Minnesota becomes first state to ban prediction markets](https://www.npr.org/2026/05/19/nx-s1-5821265/minnesota-ban-prediction-markets)（来源：Hacker News Frontpage）
 - [The Download: Musk v. Altman, smart glasses for warfare, and Google I/O](https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o/)（来源：MIT Technology Review）
@@ -25,11 +28,10 @@
 - [My homelab will be down for at least 20 days](https://xeiaso.net/notes/2026/homelab-is-down/)（来源：Xe Iaso）
 
 ## 美国经济
-- 汇总：本期共8条，重点围绕Fed、AI、inflation、interest。
+- 汇总：本期共7条，重点围绕Fed、AI、inflation、interest。
 - 解读：宏观数据与政策相关报道聚焦Fed、AI、inflation、interest，表明通胀与货币政策预期仍是核心定价因素。
 
 ### 相关报道
-- [30-year Treasury yield tops 5.19%, highest since before the financial crisis](https://www.cnbc.com/2026/05/19/treasurys-yields-inflation-traders-fed-interest-rates.html)（来源：CNBC Markets）
 - [Kevin Warsh to be sworn in as Federal Reserve chair on Friday](https://www.cnbc.com/2026/05/18/kevin-warsh-trump-federal-reserve-chair.html)（来源：CNBC Economy）
 - [The Fed will have to raise interest rates in July to appease 'bond vigilantes,' Yardeni says](https://www.cnbc.com/2026/05/18/the-fed-will-have-to-raise-interest-rates-in-july-to-appease-bond-vigilantes-yardeni-says.html)（来源：CNBC Economy）
 - [Traders now see next Fed interest rate move as a hike following inflation surge](https://www.cnbc.com/2026/05/15/traders-now-see-next-fed-interest-rate-move-as-a-hike-following-inflation-surge.html)（来源：CNBC Economy）
@@ -47,12 +49,16 @@
 - [Russia Hacked Routers to Steal Microsoft Office Tokens](https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/)（来源：Krebs on Security）
 
 ## 科技与人工智能动态
-- 汇总：本期共174条，重点围绕AI、Agent、agents、Google。
+- 汇总：本期共177条，重点围绕AI、Agent、agents、Google。
 - 解读：科技与人工智能相关消息聚焦AI、Agent、agents、Google，显示新技术落地与产业竞争仍在加速。
 
 ### 相关报道
 - [Google debuts new AI models, personal AI agents in effort to keep pace with OpenAI and Anthropic](https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html)（来源：CNBC Markets）
 - [The AI economy is rewriting the American Dream — and blue-collar workers are poised to win](https://www.cnbc.com/2026/05/19/ai-hiring-slowdown-skilled-trade-workers.html)（来源：CNBC Economy）
+- [llm-gemini 0.32](https://simonwillison.net/2026/May/19/llm-gemini-2/#atom-everything)（来源：Simon Willison）
+- [datasette-llm-accountant 0.1a4](https://simonwillison.net/2026/May/19/datasette-llm-accountant/#atom-everything)（来源：Simon Willison）
+- [llm-gemini 0.32a0](https://simonwillison.net/2026/May/19/llm-gemini/#atom-everything)（来源：Simon Willison）
+- [datasette-llm 0.1a8](https://simonwillison.net/2026/May/19/datasette-llm/#atom-everything)（来源：Simon Willison）
 - [The last six months in LLMs in five minutes](https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything)（来源：Simon Willison）
 - [OlmoEarth v1.1: A more efficient family of models](https://huggingface.co/blog/allenai/olmoearth-v1-1)（来源：Hugging Face Blog）
 - [Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation](https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation)（来源：Hugging Face Blog）
@@ -67,29 +73,19 @@
 - [Components of A Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)（来源：Sebastian Raschka）
 - [A Visual Guide to Attention Variants in Modern LLMs](https://magazine.sebastianraschka.com/p/visual-attention-variants)（来源：Sebastian Raschka）
 - [A Dream of Spring for Open-Weight LLMs: 10 Architectures from Jan-Feb 2026](https://magazine.sebastianraschka.com/p/a-dream-of-spring-for-open-weight)（来源：Sebastian Raschka）
-- [Categories of Inference-Time Scaling for Improved LLM Reasoning](https://magazine.sebastianraschka.com/p/categories-of-inference-time-scaling)（来源：Sebastian Raschka）
-- [The State Of LLMs 2025: Progress, Problems, and Predictions](https://magazine.sebastianraschka.com/p/state-of-llms-2025)（来源：Sebastian Raschka）
-- [LLM Research Papers: The 2025 List (July to December)](https://magazine.sebastianraschka.com/p/llm-research-papers-2025-part2)（来源：Sebastian Raschka）
-- [Extrinsic Hallucinations in LLMs](https://lilianweng.github.io/posts/2024-07-07-hallucination/)（来源：Lil'Log (Lilian Weng)）
 
 ## 其他重要财经动态
-- 汇总：本期共259条，重点围绕How、Google、Why、Building。
+- 汇总：本期共254条，重点围绕How、Google、Why、Building。
 - 解读：多条报道涉及How、Google、Why、Building，显示该领域仍有新的催化与风险点值得关注。
 
 ### 相关报道
 - [Trump's past tax returns get protection from IRS enforcement under 'lawfare' fund settlement](https://www.cnbc.com/2026/05/19/trump-taxes-irs-doj-fund.html)（来源：CNBC Markets）
 - [Senate advances measure to end military action in Iran in rebuke to Trump](https://www.cnbc.com/2026/05/19/senate-advances-measure-to-end-military-action-in-iran-in-rebuke-to-trump.html)（来源：CNBC Markets）
 - [Vance defends stock-trading spree in Trump financial filings: 'Come on, man'](https://www.cnbc.com/2026/05/19/trump-vance-stock-trades.html)（来源：CNBC Markets）
-- [Citi says it's the best buying set-up in this metal in 50 years](https://www.cnbc.com/2026/05/19/citi-says-its-the-best-buying-set-up-in-this-metal-in-50-years.html)（来源：CNBC Markets）
-- [Mortgage rates surge to highest level since July](https://www.cnbc.com/2026/05/19/mortgage-rates-closing-in-on-7percent.html)（来源：CNBC Markets）
 - [Americans still feel pessimistic about the economy. When will it get better?](https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html)（来源：CNBC Economy）
 - [Gemini 3.5 Flash: more expensive, but Google plan to use it for everything](https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything)（来源：Simon Willison）
 - [Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose](https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything)（来源：Simon Willison）
 - [GDS weighs in on the NHS's decision to retreat from Open Source](https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything)（来源：Simon Willison）
-- [Warelay -> OpenClaw](https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything)（来源：Simon Willison）
-- [Quoting Julia Evans](https://simonwillison.net/2026/May/16/julia-evans/#atom-everything)（来源：Simon Willison）
-- [inaturalist-clumper 0.1](https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything)（来源：Simon Willison）
-- [Western Gull, Rock Pigeon](https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything)（来源：Simon Willison）
 - [Introducing the Ettin Reranker Family](https://huggingface.co/blog/ettin-reranker)（来源：Hugging Face Blog）
 - [PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend](https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers)（来源：Hugging Face Blog）
 - [Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality](https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2)（来源：Hugging Face Blog）
@@ -97,4 +93,10 @@
 - [How sales teams use Codex](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex)（来源：OpenAI Blog）
 - [How business operations teams use Codex](https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex)（来源：OpenAI Blog）
 - [A new personal finance experience in ChatGPT](https://openai.com/index/personal-finance-chatgpt)（来源：OpenAI Blog）
+- [How data science teams use Codex](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex)（来源：OpenAI Blog）
+- [Why We Think](https://lilianweng.github.io/posts/2025-05-01-thinking/)（来源：Lil'Log (Lilian Weng)）
+- [Reward Hacking in Reinforcement Learning](https://lilianweng.github.io/posts/2024-11-28-reward-hacking/)（来源：Lil'Log (Lilian Weng)）
+- [Thinking about High-Quality Human Data](https://lilianweng.github.io/posts/2024-02-05-human-data-quality/)（来源：Lil'Log (Lilian Weng)）
+- [Prompt Engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)（来源：Lil'Log (Lilian Weng)）
+- [The mistake of conflating intelligence and power](https://www.dwarkesh.com/p/the-mistake-of-conflating-intelligence)（来源：Dwarkesh Patel）
 
