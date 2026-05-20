@@ -27,7 +27,8 @@ ARTICLE_MIN_CHARS = 240
 ENTRY_SUMMARY_MAX_CHARS = 180
 ENTRY_ANALYSIS_MAX_CHARS = 200
 SUMMARY_SENTENCE_COUNT = 2
-MAX_FILENAME_SUFFIX_INDEX = 100
+MAX_FILENAME_SUFFIX_INDEX = 100  # avoid infinite loops if timestamps collide repeatedly
+KEYWORD_EXTRACTION_MAX_CHARS = 6000
 SHORT_CONTENT_SUMMARY_TEMPLATE = "正文抓取内容较少，暂以标题概述：{title}"
 SHORT_CONTENT_ANALYSIS = "正文信息受限，建议结合原文进一步判断影响。"
 FETCH_FAILURE_SUMMARY_TEMPLATE = "正文抓取失败，暂以标题概述：{title}"
@@ -344,7 +345,7 @@ def trim_text(text: str, max_chars: int) -> str:
 
 
 def extract_keywords_from_text(text: str, limit: int) -> list[str]:
-    snippet = text[:6000]
+    snippet = text[:KEYWORD_EXTRACTION_MAX_CHARS]
     return extract_keywords([snippet], limit=limit)
 
 
@@ -457,7 +458,7 @@ def enrich_entries(grouped: dict[str, list[Entry]], errors: list[dict[str, str]]
                 article_html = fetch_url(entry.link)
                 article_text = extract_article_text(article_html)
                 summary, analysis = summarize_entry_text(article_text, entry.title)
-            except (urllib.error.URLError, TimeoutError, OSError, ValueError) as exc:
+            except (urllib.error.URLError, TimeoutError, OSError) as exc:
                 safe_title = sanitize(entry.title)
                 summary = FETCH_FAILURE_SUMMARY_TEMPLATE.format(title=safe_title)
                 analysis = FETCH_FAILURE_ANALYSIS
