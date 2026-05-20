@@ -13,13 +13,30 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from collections import Counter
 from dataclasses import dataclass
+from html.parser import HTMLParser
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
-OUTPUT_PATH = REPO_ROOT / "reports" / "us-finance-digest.md"
+OUTPUT_DIR = REPO_ROOT / "reports"
+REPORT_PREFIX = "us-finance-digest"
 FOLLOW_NEWS_RSS_PATH = REPO_ROOT / "data" / "follow-news-rss.json"
 MAX_ITEMS_PER_SOURCE = 8
 MAX_ITEMS_PER_TOPIC = 20
 SUMMARY_KEYWORD_LIMIT = 4
+ARTICLE_KEYWORD_LIMIT = 5
+ARTICLE_MIN_CHARS = 240
+ENTRY_SUMMARY_MAX_CHARS = 180
+ENTRY_ANALYSIS_MAX_CHARS = 200
+SUMMARY_SENTENCE_COUNT = 2
+MAX_FILENAME_SUFFIX_INDEX = 100  # avoid infinite loops if timestamps collide repeatedly
+KEYWORD_EXTRACTION_MAX_CHARS = 6000
+SHORT_CONTENT_SUMMARY_TEMPLATE = "正文抓取内容较少，暂以标题概述：{title}"
+SHORT_CONTENT_ANALYSIS = "正文信息受限，建议结合原文进一步判断影响。"
+FETCH_FAILURE_SUMMARY_TEMPLATE = "正文抓取失败，暂以标题概述：{title}"
+FETCH_FAILURE_ANALYSIS = "正文抓取受限，建议后续阅读原文以获取更多细节。"
+ANALYSIS_KEYWORDS_TEMPLATE = "正文聚焦{keywords}等要素，显示该事件对市场情绪与产业链可能带来扰动。"
+LIMITED_INFO_ANALYSIS = "正文信息有限，需结合后续披露判断影响。"
+MISSING_SUMMARY_PLACEHOLDER = "正文尚未生成摘要。"
+MISSING_ANALYSIS_PLACEHOLDER = "正文尚未生成解读。"
 TIMEOUT_SECONDS = 20
 USER_AGENT = "Mozilla/5.0 (compatible; github-claw-finance-digest/1.0)"
 RETRY_ATTEMPTS = 3
@@ -157,6 +174,56 @@ STOPWORDS = {
     "years",
 }
 
+SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?。！？])\s+")
+ARTICLE_BLOCK_TAGS = {
+    "article",
+    "br",
+    "div",
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "li",
+    "p",
+    "section",
+}
+ARTICLE_SKIP_TAGS = {
+    "aside",
+    "footer",
+    "form",
+    "header",
+    "nav",
+    "noscript",
+    "script",
+    "style",
+}
+
+
+class ArticleTextExtractor(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.parts: list[str] = []
+        self.skip_depth = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        tag = tag.lower()
+        if tag in ARTICLE_SKIP_TAGS:
+            self.skip_depth += 1
+            return
+        if tag in ARTICLE_BLOCK_TAGS:
+            self.parts.append("\n")
+
+    def handle_endtag(self, tag: str) -> None:
+        tag = tag.lower()
+        if tag in ARTICLE_SKIP_TAGS and self.skip_depth > 0:
+            self.skip_depth -= 1
+        elif tag in ARTICLE_BLOCK_TAGS:
+            self.parts.append("\n")
+
+    def handle_data(self, data: str) -> None:
+        if self.skip_depth == 0 and data:
+            self.parts.append(data)
+
 
 @dataclass
 class Entry:
@@ -164,6 +231,8 @@ class Entry:
     title: str
     link: str
     published: str
+    summary: str = ""
+    analysis: str = ""
 
 
 def load_follow_news_sources() -> list[dict[str, str]]:
@@ -204,7 +273,7 @@ def load_sources() -> list[dict[str, str]]:
     return merge_sources(BASE_SOURCES, load_follow_news_sources())
 
 
-def fetch_feed(url: str) -> str:
+def fetch_url(url: str) -> str:
     last_exc: Exception | None = None
     for attempt in range(max(RETRY_ATTEMPTS, 1)):
         if attempt > 0:
@@ -212,7 +281,8 @@ def fetch_feed(url: str) -> str:
         try:
             request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
             with urllib.request.urlopen(request, timeout=TIMEOUT_SECONDS) as response:
-                return response.read().decode("utf-8", errors="replace")
+                charset = response.headers.get_content_charset() or "utf-8"
+                return response.read().decode(charset, errors="replace")
         except (urllib.error.URLError, TimeoutError, OSError) as exc:
             last_exc = exc
     raise last_exc  # type: ignore[misc]
@@ -250,6 +320,58 @@ def text_of(parent: ET.Element, tag: str) -> str:
     except SyntaxError:
         node = None
     return html.unescape(node.text.strip()) if node is not None and node.text else ""
+
+
+def extract_article_text(html_text: str) -> str:
+    parser = ArticleTextExtractor()
+    parser.feed(html_text)
+    parser.close()
+    text = html.unescape("".join(parser.parts))
+    return sanitize(text)
+
+
+def split_sentences(text: str) -> list[str]:
+    sentences = [sentence.strip() for sentence in SENTENCE_SPLIT_RE.split(text) if sentence.strip()]
+    if not sentences:
+        return []
+    return sentences
+
+
+def trim_text(text: str, max_chars: int) -> str:
+    cleaned = sanitize(text)
+    if len(cleaned) <= max_chars:
+        return cleaned
+    return cleaned[: max_chars - 1].rstrip() + "…"
+
+
+def extract_keywords_from_text(text: str, limit: int) -> list[str]:
+    snippet = text[:KEYWORD_EXTRACTION_MAX_CHARS]
+    return extract_keywords([snippet], limit=limit)
+
+
+def summarize_entry_text(text: str, title: str) -> tuple[str, str]:
+    cleaned = sanitize(text)
+    if len(cleaned) < ARTICLE_MIN_CHARS:
+        safe_title = sanitize(title)
+        summary = SHORT_CONTENT_SUMMARY_TEMPLATE.format(title=safe_title)
+        analysis = SHORT_CONTENT_ANALYSIS
+        return trim_text(summary, ENTRY_SUMMARY_MAX_CHARS), trim_text(analysis, ENTRY_ANALYSIS_MAX_CHARS)
+
+    sentences = split_sentences(cleaned)
+    if sentences:
+        summary = " ".join(sentences[:SUMMARY_SENTENCE_COUNT])
+    else:
+        summary = cleaned
+    summary = trim_text(summary, ENTRY_SUMMARY_MAX_CHARS)
+
+    keywords = extract_keywords_from_text(cleaned, limit=ARTICLE_KEYWORD_LIMIT)
+    if keywords:
+        keyword_text = "、".join(keywords)
+        analysis = ANALYSIS_KEYWORDS_TEMPLATE.format(keywords=keyword_text)
+    else:
+        analysis = LIMITED_INFO_ANALYSIS
+    analysis = trim_text(analysis, ENTRY_ANALYSIS_MAX_CHARS)
+    return summary, analysis
 
 
 def classify_topic(title: str) -> str:
@@ -312,17 +434,52 @@ def build_overview(grouped: dict[str, list[Entry]]) -> tuple[str, str]:
     return sanitize(summary), sanitize(interpretation)
 
 
-def to_markdown(grouped: dict[str, list[Entry]], source_count: int) -> str:
-    now_utc = dt.datetime.now(dt.timezone.utc)
+def build_output_path(generated_at: dt.datetime) -> pathlib.Path:
+    timestamp_str = generated_at.strftime("%Y%m%d-%H%M%S")
+    base_path = OUTPUT_DIR / f"{REPORT_PREFIX}-{timestamp_str}.md"
+    if not base_path.exists():
+        return base_path
+    for index in range(1, MAX_FILENAME_SUFFIX_INDEX + 1):
+        candidate = OUTPUT_DIR / f"{REPORT_PREFIX}-{timestamp_str}-{index}.md"
+        if not candidate.exists():
+            return candidate
+    raise RuntimeError("Failed to generate a unique report filename after collision retries.")
+
+
+def enrich_entries(grouped: dict[str, list[Entry]], errors: list[dict[str, str]]) -> None:
+    cache: dict[str, tuple[str, str]] = {}
+    for topic in TOPIC_ORDER:
+        items = grouped.get(topic, [])
+        for entry in items[:MAX_ITEMS_PER_TOPIC]:
+            if entry.link in cache:
+                entry.summary, entry.analysis = cache[entry.link]
+                continue
+            try:
+                article_html = fetch_url(entry.link)
+                article_text = extract_article_text(article_html)
+                summary, analysis = summarize_entry_text(article_text, entry.title)
+            except (urllib.error.URLError, TimeoutError, OSError) as exc:
+                safe_title = sanitize(entry.title)
+                summary = FETCH_FAILURE_SUMMARY_TEMPLATE.format(title=safe_title)
+                analysis = FETCH_FAILURE_ANALYSIS
+                error_detail = f"{type(exc).__name__}: {exc}"
+                errors.append({"source": entry.source, "error": f"article fetch failed: {entry.link} ({error_detail})"})
+            entry.summary = summary
+            entry.analysis = analysis
+            cache[entry.link] = (summary, analysis)
+
+
+def to_markdown(grouped: dict[str, list[Entry]], source_count: int, generated_at: dt.datetime) -> str:
     total_items = sum(len(items) for items in grouped.values())
     overview_summary, overview_interpretation = build_overview(grouped)
     lines = [
-        "# 美股与全球财经半小时简报",
+        "# 美股与全球财经每小时简报",
         "",
-        f"- 更新时间（UTC）：{now_utc.strftime('%Y-%m-%d %H:%M:%S')}",
+        f"- 更新时间（UTC）：{generated_at.strftime('%Y-%m-%d %H:%M:%S')}",
+        f"- 报告时间戳：{generated_at.strftime('%Y%m%d-%H%M%S')}",
         f"- 数据源数量：{source_count}",
         f"- 收录条目：{total_items}",
-        "- 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并按主题进行汇总与解读。",
+        "- 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并进一步抓取正文生成摘要与解读。",
         "",
         "## 总览",
         f"- 汇总：{overview_summary}",
@@ -344,7 +501,11 @@ def to_markdown(grouped: dict[str, list[Entry]], source_count: int) -> str:
         for item in items[:MAX_ITEMS_PER_TOPIC]:
             title = sanitize(item.title)
             source = sanitize(item.source)
+            summary = trim_text(item.summary or MISSING_SUMMARY_PLACEHOLDER, ENTRY_SUMMARY_MAX_CHARS)
+            analysis = trim_text(item.analysis or MISSING_ANALYSIS_PLACEHOLDER, ENTRY_ANALYSIS_MAX_CHARS)
             lines.append(f"- [{title}]({item.link})（来源：{source}）")
+            lines.append(f"  - 摘要：{summary}")
+            lines.append(f"  - 解读：{analysis}")
         lines.append("")
 
     return "\n".join(lines)
@@ -357,7 +518,7 @@ def sanitize(text: str) -> str:
 def log_errors(errors: list[dict[str, str]]) -> None:
     if not errors:
         return
-    print(f"{len(errors)} sources failed to fetch:", file=sys.stderr)
+    print(f"{len(errors)} sources or articles failed to fetch:", file=sys.stderr)
     for error in errors:
         source = sanitize(error.get("source", ""))
         message = sanitize(error.get("error", ""))
@@ -373,7 +534,7 @@ def main() -> None:
         name = source["name"]
         url = source["url"]
         try:
-            xml_text = fetch_feed(url)
+            xml_text = fetch_url(url)
             entries = parse_entries(name, xml_text)
             all_entries.extend(entries)
         except (urllib.error.URLError, TimeoutError, OSError, ET.ParseError, ValueError) as exc:
@@ -384,9 +545,12 @@ def main() -> None:
         topic = classify_topic(entry.title)
         grouped.setdefault(topic, []).append(entry)
 
-    markdown = to_markdown(grouped, source_count=len(sources))
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(markdown + "\n", encoding="utf-8")
+    enrich_entries(grouped, errors)
+    generated_at = dt.datetime.now(dt.timezone.utc)
+    markdown = to_markdown(grouped, source_count=len(sources), generated_at=generated_at)
+    output_path = build_output_path(generated_at)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(markdown + "\n", encoding="utf-8")
     log_errors(errors)
 
 
