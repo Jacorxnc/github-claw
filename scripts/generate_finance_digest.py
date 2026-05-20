@@ -342,7 +342,8 @@ def extract_keywords_from_text(text: str, limit: int) -> list[str]:
 def summarize_entry_text(text: str, title: str) -> tuple[str, str]:
     cleaned = sanitize(text)
     if len(cleaned) < ARTICLE_MIN_CHARS:
-        summary = f"正文抓取内容较少，暂以标题概述：{title}"
+        safe_title = sanitize(title)
+        summary = f"正文抓取内容较少，暂以标题概述：{safe_title}"
         analysis = "正文信息受限，建议结合原文进一步判断影响。"
         return trim_text(summary, ENTRY_SUMMARY_MAX_CHARS), trim_text(analysis, ENTRY_ANALYSIS_MAX_CHARS)
 
@@ -448,7 +449,8 @@ def enrich_entries(grouped: dict[str, list[Entry]], errors: list[dict[str, str]]
                 article_text = extract_article_text(article_html)
                 summary, analysis = summarize_entry_text(article_text, entry.title)
             except (urllib.error.URLError, TimeoutError, OSError, ValueError) as exc:
-                summary = f"正文抓取失败，暂以标题概述：{entry.title}"
+                safe_title = sanitize(entry.title)
+                summary = f"正文抓取失败，暂以标题概述：{safe_title}"
                 analysis = "正文抓取受限，建议后续阅读原文以获取更多细节。"
                 errors.append({"source": entry.source, "error": f"article fetch failed: {entry.link} ({exc})"})
             entry.summary = summary
@@ -505,7 +507,7 @@ def sanitize(text: str) -> str:
 def log_errors(errors: list[dict[str, str]]) -> None:
     if not errors:
         return
-    print(f"{len(errors)} sources failed to fetch:", file=sys.stderr)
+    print(f"{len(errors)} sources or articles failed to fetch:", file=sys.stderr)
     for error in errors:
         source = sanitize(error.get("source", ""))
         message = sanitize(error.get("error", ""))
