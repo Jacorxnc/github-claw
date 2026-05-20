@@ -27,5 +27,5 @@
 ## D. 最近更新
 - 财经简报改为每小时定时更新：`.github/workflows/finance-digest.yml`。
 - 摘要生成脚本增加正文抓取与单条摘要/解读：`scripts/generate_finance_digest.py`。
-- 输出文件改为带时间戳的 `reports/us-finance-digest-YYYYmmdd-HHMMSS.md`（每次生成新文件）。
+- 输出文件改为带时间戳的 `reports/us-finance-digest-YYYYMMDD-HHMMSS.md`（每次生成新文件）。
 - 接入 follow-news 数据源与技能目录：`.agents/ski11s/follow-news/`、`data/follow-news-rss.json`。
