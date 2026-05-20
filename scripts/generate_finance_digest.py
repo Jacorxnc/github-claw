@@ -27,11 +27,13 @@ ARTICLE_MIN_CHARS = 240
 ENTRY_SUMMARY_MAX_CHARS = 180
 ENTRY_ANALYSIS_MAX_CHARS = 200
 SUMMARY_SENTENCE_COUNT = 2
+MAX_FILENAME_COLLISION_ATTEMPTS = 100
 SHORT_CONTENT_SUMMARY_TEMPLATE = "正文抓取内容较少，暂以标题概述：{title}"
 SHORT_CONTENT_ANALYSIS = "正文信息受限，建议结合原文进一步判断影响。"
 FETCH_FAILURE_SUMMARY_TEMPLATE = "正文抓取失败，暂以标题概述：{title}"
 FETCH_FAILURE_ANALYSIS = "正文抓取受限，建议后续阅读原文以获取更多细节。"
 ANALYSIS_KEYWORDS_TEMPLATE = "正文聚焦{keywords}等要素，显示该事件对市场情绪与产业链可能带来扰动。"
+LIMITED_INFO_ANALYSIS = "正文信息有限，需结合后续披露判断影响。"
 MISSING_SUMMARY_PLACEHOLDER = "正文尚未生成摘要。"
 MISSING_ANALYSIS_PLACEHOLDER = "正文尚未生成解读。"
 TIMEOUT_SECONDS = 20
@@ -366,7 +368,7 @@ def summarize_entry_text(text: str, title: str) -> tuple[str, str]:
         keyword_text = "、".join(keywords)
         analysis = ANALYSIS_KEYWORDS_TEMPLATE.format(keywords=keyword_text)
     else:
-        analysis = "正文信息有限，需结合后续披露判断影响。"
+        analysis = LIMITED_INFO_ANALYSIS
     analysis = trim_text(analysis, ENTRY_ANALYSIS_MAX_CHARS)
     return summary, analysis
 
@@ -436,7 +438,7 @@ def build_output_path(generated_at: dt.datetime) -> pathlib.Path:
     base_path = OUTPUT_DIR / f"{REPORT_PREFIX}-{timestamp_str}.md"
     if not base_path.exists():
         return base_path
-    for index in range(1, 100):
+    for index in range(1, MAX_FILENAME_COLLISION_ATTEMPTS + 1):
         candidate = OUTPUT_DIR / f"{REPORT_PREFIX}-{timestamp_str}-{index}.md"
         if not candidate.exists():
             return candidate
