@@ -27,6 +27,13 @@ ARTICLE_MIN_CHARS = 240
 ENTRY_SUMMARY_MAX_CHARS = 180
 ENTRY_ANALYSIS_MAX_CHARS = 200
 SUMMARY_SENTENCE_COUNT = 2
+SHORT_CONTENT_SUMMARY_TEMPLATE = "正文抓取内容较少，暂以标题概述：{title}"
+SHORT_CONTENT_ANALYSIS = "正文信息受限，建议结合原文进一步判断影响。"
+FETCH_FAILURE_SUMMARY_TEMPLATE = "正文抓取失败，暂以标题概述：{title}"
+FETCH_FAILURE_ANALYSIS = "正文抓取受限，建议后续阅读原文以获取更多细节。"
+ANALYSIS_KEYWORDS_TEMPLATE = "正文聚焦{keywords}等要素，显示该事件对市场情绪与产业链可能带来扰动。"
+MISSING_SUMMARY_PLACEHOLDER = "正文尚未生成摘要。"
+MISSING_ANALYSIS_PLACEHOLDER = "正文尚未生成解读。"
 TIMEOUT_SECONDS = 20
 USER_AGENT = "Mozilla/5.0 (compatible; github-claw-finance-digest/1.0)"
 RETRY_ATTEMPTS = 3
@@ -343,8 +350,8 @@ def summarize_entry_text(text: str, title: str) -> tuple[str, str]:
     cleaned = sanitize(text)
     if len(cleaned) < ARTICLE_MIN_CHARS:
         safe_title = sanitize(title)
-        summary = f"正文抓取内容较少，暂以标题概述：{safe_title}"
-        analysis = "正文信息受限，建议结合原文进一步判断影响。"
+        summary = SHORT_CONTENT_SUMMARY_TEMPLATE.format(title=safe_title)
+        analysis = SHORT_CONTENT_ANALYSIS
         return trim_text(summary, ENTRY_SUMMARY_MAX_CHARS), trim_text(analysis, ENTRY_ANALYSIS_MAX_CHARS)
 
     sentences = split_sentences(cleaned)
@@ -357,7 +364,7 @@ def summarize_entry_text(text: str, title: str) -> tuple[str, str]:
     keywords = extract_keywords_from_text(cleaned, limit=ARTICLE_KEYWORD_LIMIT)
     if keywords:
         keyword_text = "、".join(keywords)
-        analysis = f"正文聚焦{keyword_text}等要素，显示该事件对市场情绪与产业链可能带来扰动。"
+        analysis = ANALYSIS_KEYWORDS_TEMPLATE.format(keywords=keyword_text)
     else:
         analysis = "正文信息有限，需结合后续披露判断影响。"
     analysis = trim_text(analysis, ENTRY_ANALYSIS_MAX_CHARS)
@@ -425,12 +432,12 @@ def build_overview(grouped: dict[str, list[Entry]]) -> tuple[str, str]:
 
 
 def build_output_path(generated_at: dt.datetime) -> pathlib.Path:
-    stamp = generated_at.strftime("%Y%m%d-%H%M%S")
-    base_path = OUTPUT_DIR / f"{REPORT_PREFIX}-{stamp}.md"
+    timestamp_str = generated_at.strftime("%Y%m%d-%H%M%S")
+    base_path = OUTPUT_DIR / f"{REPORT_PREFIX}-{timestamp_str}.md"
     if not base_path.exists():
         return base_path
     for index in range(1, 100):
-        candidate = OUTPUT_DIR / f"{REPORT_PREFIX}-{stamp}-{index}.md"
+        candidate = OUTPUT_DIR / f"{REPORT_PREFIX}-{timestamp_str}-{index}.md"
         if not candidate.exists():
             return candidate
     return base_path
@@ -450,8 +457,8 @@ def enrich_entries(grouped: dict[str, list[Entry]], errors: list[dict[str, str]]
                 summary, analysis = summarize_entry_text(article_text, entry.title)
             except (urllib.error.URLError, TimeoutError, OSError, ValueError) as exc:
                 safe_title = sanitize(entry.title)
-                summary = f"正文抓取失败，暂以标题概述：{safe_title}"
-                analysis = "正文抓取受限，建议后续阅读原文以获取更多细节。"
+                summary = FETCH_FAILURE_SUMMARY_TEMPLATE.format(title=safe_title)
+                analysis = FETCH_FAILURE_ANALYSIS
                 errors.append({"source": entry.source, "error": f"article fetch failed: {entry.link} ({exc})"})
             entry.summary = summary
             entry.analysis = analysis
@@ -490,8 +497,8 @@ def to_markdown(grouped: dict[str, list[Entry]], source_count: int, generated_at
         for item in items[:MAX_ITEMS_PER_TOPIC]:
             title = sanitize(item.title)
             source = sanitize(item.source)
-            summary = trim_text(item.summary or "正文尚未生成摘要。", ENTRY_SUMMARY_MAX_CHARS)
-            analysis = trim_text(item.analysis or "正文尚未生成解读。", ENTRY_ANALYSIS_MAX_CHARS)
+            summary = trim_text(item.summary or MISSING_SUMMARY_PLACEHOLDER, ENTRY_SUMMARY_MAX_CHARS)
+            analysis = trim_text(item.analysis or MISSING_ANALYSIS_PLACEHOLDER, ENTRY_ANALYSIS_MAX_CHARS)
             lines.append(f"- [{title}]({item.link})（来源：{source}）")
             lines.append(f"  - 摘要：{summary}")
             lines.append(f"  - 解读：{analysis}")
