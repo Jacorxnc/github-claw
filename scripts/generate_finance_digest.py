@@ -27,7 +27,7 @@ ARTICLE_MIN_CHARS = 240
 ENTRY_SUMMARY_MAX_CHARS = 180
 ENTRY_ANALYSIS_MAX_CHARS = 200
 SUMMARY_SENTENCE_COUNT = 2
-MAX_FILENAME_COLLISION_ATTEMPTS = 100
+MAX_FILENAME_SUFFIX_INDEX = 100
 SHORT_CONTENT_SUMMARY_TEMPLATE = "正文抓取内容较少，暂以标题概述：{title}"
 SHORT_CONTENT_ANALYSIS = "正文信息受限，建议结合原文进一步判断影响。"
 FETCH_FAILURE_SUMMARY_TEMPLATE = "正文抓取失败，暂以标题概述：{title}"
@@ -325,7 +325,7 @@ def extract_article_text(html_text: str) -> str:
     parser = ArticleTextExtractor()
     parser.feed(html_text)
     parser.close()
-    text = html.unescape(" ".join(parser.parts))
+    text = html.unescape("".join(parser.parts))
     return sanitize(text)
 
 
@@ -438,11 +438,11 @@ def build_output_path(generated_at: dt.datetime) -> pathlib.Path:
     base_path = OUTPUT_DIR / f"{REPORT_PREFIX}-{timestamp_str}.md"
     if not base_path.exists():
         return base_path
-    for index in range(1, MAX_FILENAME_COLLISION_ATTEMPTS + 1):
+    for index in range(1, MAX_FILENAME_SUFFIX_INDEX + 1):
         candidate = OUTPUT_DIR / f"{REPORT_PREFIX}-{timestamp_str}-{index}.md"
         if not candidate.exists():
             return candidate
-    return base_path
+    raise RuntimeError("Failed to generate a unique report filename after collision retries.")
 
 
 def enrich_entries(grouped: dict[str, list[Entry]], errors: list[dict[str, str]]) -> None:
@@ -461,7 +461,8 @@ def enrich_entries(grouped: dict[str, list[Entry]], errors: list[dict[str, str]]
                 safe_title = sanitize(entry.title)
                 summary = FETCH_FAILURE_SUMMARY_TEMPLATE.format(title=safe_title)
                 analysis = FETCH_FAILURE_ANALYSIS
-                errors.append({"source": entry.source, "error": f"article fetch failed: {entry.link} ({exc})"})
+                error_detail = f"{type(exc).__name__}: {exc}"
+                errors.append({"source": entry.source, "error": f"article fetch failed: {entry.link} ({error_detail})"})
             entry.summary = summary
             entry.analysis = analysis
             cache[entry.link] = (summary, analysis)
