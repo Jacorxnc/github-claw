@@ -1,0 +1,258 @@
+# 美股与全球财经每小时简报
+
+- 更新时间（UTC）：2026-08-03 09:25:13
+- 报告时间戳：20260803-092513
+- 数据源数量：69
+- 收录条目：452
+- 说明：自动抓取财经与科技网站公开 RSS/Atom 标题，并进一步抓取正文生成摘要与解读。
+
+## 总览
+- 汇总：共汇总452条新闻，主要集中在其他重要财经动态(264条)、科技与人工智能动态(156条)、美股市场(17条)，高频关键词包括AI、How、LLMs、Agent。
+- 解读：整体信息显示宏观与行业变量交织，短期情绪仍可能随关键事件快速波动。
+
+## 美股市场
+- 汇总：本期共17条，重点围绕agile、C++、delegate、Making。
+- 解读：交易与公司消息集中在agile、C++、delegate、Making，显示市场在风险偏好与板块轮动上仍受这些变量牵引。
+
+### 相关报道
+- [LLMs break down in funny ways when told the Jacobian Conjecture counterargument](https://minimaxir.com/2026/07/jacobian-conjecture/)（来源：minimaxir (Max Woolf)）
+  - 摘要：LLMs break down in funny ways when told the Jacobian Conjecture counterargument | Max Woolf's Blog On Sunday night, Anthropic researcher Levent Alpöge casually tweeted a surprisin…
+  - 解读：正文聚焦counterargument、Jacobian、xy、not、was等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Situational Awareness and the Impending Stock Market Volatility](https://www.emergingtrajectories.com/lh/situational-awareness-bigger-picture/)（来源：Hacker News Frontpage）
+  - 摘要：Situational Awareness and the Impending Market Volatility Request a Demo Research Situational Awareness and the Impending Market Volatility By Wojciech Gryc · August 2, 2026 · 6 m…
+  - 解读：正文聚焦SA、Citadel、Market、ETF、forces等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Malaysia is reportedly shutting down Balaji Srinivasan’s Network School](https://techcrunch.com/2026/08/02/malaysia-is-reportedly-shutting-down-balaji-srinivasans-network-school/)（来源：TechCrunch）
+  - 摘要：Malaysia is reportedly shutting down Balaji Srinivasan’s Network School | TechCrunch In Brief Posted: 10:05 AM PDT · August 2, 2026 Image Credits:TechCrunch Anthony Ha Malaysia is…
+  - 解读：正文聚焦Srinivasan、Network、ago、Anthony、Ha等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [You don’t understand, prices can’t go down](https://geohot.github.io//blog/jekyll/update/2026/06/18/prices-cant-go-down.html)（来源：Geohot）
+  - 摘要：You don’t understand, prices can’t go down | the singularity is nearer Since at least 2008, every time there’s an option to either make the money track real value or make sure thi…
+  - 解读：正文聚焦go、If、prices、economy、they等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [寒武纪给超8成员工发股票激励，人均160万；宇树员工掏2.7亿认购IPO，王兴兴自掏1500万；Altman自曝沉迷 TikTok：一刷就是 3 小时｜AI周报](https://www.infoq.cn/article/pR6wfSjXI1X0VwZmWAjg?utm_source=rss&utm_medium=article)（来源：InfoQ 中文）
+  - 摘要：寒武纪给超8成员工发股票激励，人均160万；宇树员工掏2.7亿认购IPO，王兴兴自掏1500万；Altman自曝沉迷 TikTok：一刷就是 3 小时｜AI周报 - InfoQ 首页 AI会议 hot AI课程 hot AI应用 hot 报告 HarmonyOS Snowflake new 更多    写点什么 创作场景  记录自己日常工作的实践…
+  - 解读：正文聚焦AI、OpenAI、亿美元、万元、亿元等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [The Download: Montana’s new experimental drug rules](https://www.technologyreview.com/2026/07/31/1140999/the-download-montanas-right-to-try-law-anthropic-hacks/)（来源：MIT Technology Review）
+  - 摘要：The Download: Montana’s new experimental drug rules | MIT Technology Review Skip to Content This is today's edition of The Download, our weekday newsletter that provides a daily d…
+  - 解读：正文聚焦can、AI、But、now、Technology等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [The Download: tricking LLMs, and reviving geothermal plants](https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/)（来源：MIT Technology Review）
+  - 摘要：The Download: tricking LLMs, and reviving geothermal plants | MIT Technology Review Skip to Content This is today's edition of The Download, our weekday newsletter that provides a…
+  - 解读：正文聚焦Technology、how、MIT、Review、our等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [The Download: a chip talent battle, and deflating AI hype](https://www.technologyreview.com/2026/07/29/1140884/the-download-chip-talent-battle-deflating-ai-hype/)（来源：MIT Technology Review）
+  - 摘要：The Download: a chip talent battle, and deflating AI hype | MIT Technology Review Skip to Content This is today's edition of The Download, our weekday newsletter that provides a d…
+  - 解读：正文聚焦AI、Technology、has、Download、MIT等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Making an agile version of a Windows Runtime delegate in C++/WinRT, part 10](https://devblogs.microsoft.com/oldnewthing/20260731-00/?p=112578)（来源：The Old New Thing (Raymond Chen)）
+  - 摘要：Making an agile version of a Windows Runtime delegate in C++/WinRT, part 10 - The Old New Thing Skip to main content Dev Blogs AI All .NET posts .NET MAUI ASP.NET Core Blazor Enti…
+  - 解读：正文聚焦Microsoft、We、Context、destination、Azure等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Making an agile version of a Windows Runtime delegate in C++/WinRT, part 9](https://devblogs.microsoft.com/oldnewthing/20260730-00/?p=112573)（来源：The Old New Thing (Raymond Chen)）
+  - 摘要：Making an agile version of a Windows Runtime delegate in C++/WinRT, part 9 - The Old New Thing Skip to main content Dev Blogs AI All .NET posts .NET MAUI ASP.NET Core Blazor Entit…
+  - 解读：正文聚焦Microsoft、C++、agile、delegate、Windows等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Making an agile version of a Windows Runtime delegate in C++/WinRT, part 8](https://devblogs.microsoft.com/oldnewthing/20260729-00/?p=112570)（来源：The Old New Thing (Raymond Chen)）
+  - 摘要：Making an agile version of a Windows Runtime delegate in C++/WinRT, part 8 - The Old New Thing Skip to main content Dev Blogs AI All .NET posts .NET MAUI ASP.NET Core Blazor Entit…
+  - 解读：正文聚焦std、token、context、WinRT、get等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Making an agile version of a Windows Runtime delegate in C++/WinRT, part 7](https://devblogs.microsoft.com/oldnewthing/20260728-00/?p=112568)（来源：The Old New Thing (Raymond Chen)）
+  - 摘要：Making an agile version of a Windows Runtime delegate in C++/WinRT, part 7 - The Old New Thing Skip to main content Dev Blogs AI All .NET posts .NET MAUI ASP.NET Core Blazor Entit…
+  - 解读：正文聚焦you、if、deleter、Microsoft、have等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Making an agile version of a Windows Runtime delegate in C++/WinRT, part 6](https://devblogs.microsoft.com/oldnewthing/20260727-00/?p=112566)（来源：The Old New Thing (Raymond Chen)）
+  - 摘要：Making an agile version of a Windows Runtime delegate in C++/WinRT, part 6 - The Old New Thing Skip to main content Dev Blogs AI All .NET posts .NET MAUI ASP.NET Core Blazor Entit…
+  - 解读：正文聚焦Microsoft、deleter、if、WinRT、delegate等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Making an agile version of a Windows Runtime delegate in C++/WinRT, part 5](https://devblogs.microsoft.com/oldnewthing/20260724-00/?p=112562)（来源：The Old New Thing (Raymond Chen)）
+  - 摘要：Making an agile version of a Windows Runtime delegate in C++/WinRT, part 5 - The Old New Thing Skip to main content Dev Blogs AI All .NET posts .NET MAUI ASP.NET Core Blazor Entit…
+  - 解读：正文聚焦Microsoft、delegate、WinRT、context、if等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Making an agile version of a Windows Runtime delegate in C++/WinRT, part 4](https://devblogs.microsoft.com/oldnewthing/20260723-00/?p=112560)（来源：The Old New Thing (Raymond Chen)）
+  - 摘要：Making an agile version of a Windows Runtime delegate in C++/WinRT, part 4 - The Old New Thing Skip to main content Dev Blogs AI All .NET posts .NET MAUI ASP.NET Core Blazor Entit…
+  - 解读：正文聚焦Microsoft、context、Token、WinRT、Azure等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Making an agile version of a Windows Runtime delegate in C++/WinRT, part 3](https://devblogs.microsoft.com/oldnewthing/20260722-00/?p=112552)（来源：The Old New Thing (Raymond Chen)）
+  - 摘要：Making an agile version of a Windows Runtime delegate in C++/WinRT, part 3 - The Old New Thing Skip to main content Dev Blogs AI All .NET posts .NET MAUI ASP.NET Core Blazor Entit…
+  - 解读：正文聚焦Microsoft、agile、delegate、if、args等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Malleable software: Restoring user agency in a world of locked-down apps](https://geoffreylitt.com/2025/06/15/malleable-software.html)（来源：Geoffrey Litt）
+  - 摘要：正文抓取内容较少，暂以标题概述：Malleable software: Restoring user agency in a world of locked-down apps
+  - 解读：正文信息受限，建议结合原文进一步判断影响。
+
+## 美国经济
+- 汇总：本期共7条，重点围绕Fed、inflation、Warsh、act。
+- 解读：宏观数据与政策相关报道聚焦Fed、inflation、Warsh、act，表明通胀与货币政策预期仍是核心定价因素。
+
+### 相关报道
+- [States expand student loan options as new federal borrowing caps take effect — but they come with trade-offs](https://www.cnbc.com/2026/08/02/state-student-loans.html)（来源：CNBC Markets）
+  - 摘要：State student loans expand as new federal borrowing limits take effect Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestr…
+  - 解读：正文聚焦loans、State、student、federal、can等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [As Warsh’s Fed faces pressure to act on inflation, these indicators show it’s at its lowest in years](https://www.cnbc.com/2026/07/31/these-fed-alternative-indicators-show-inflation-is-at-lowest-in-years.html)（来源：CNBC Economy）
+  - 摘要：These Fed alternative indicators show inflation is at lowest in years Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestre…
+  - 解读：正文聚焦inflation、Fed、trimmed、mean、price等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [U.S. economy slowed to 1.5% growth rate in Q2; June core inflation at 3.3%](https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html)（来源：CNBC Economy）
+  - 摘要：U.S. economy slowed to 1.5% growth rate in Q2; June core inflation at 3.3% Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Liv…
+  - 解读：正文聚焦inflation、rate、While、spending、were等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [What a divided Fed means for investors](https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html)（来源：CNBC Economy）
+  - 摘要：Fed meeting: What a divided committee means for investors Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu Key…
+  - 解读：正文聚焦Fed、said、Wednesday、inflation、meeting等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Singapore tightens monetary policy in surprise move as rising oil prices rekindle inflation risk](https://www.cnbc.com/2026/07/27/singapore-mas-july-monetary-policy-middle-east-oil-prices-inflation-.html)（来源：CNBC Economy）
+  - 摘要：Singapore tightens monetary policy in surprise move as rising oil prices rekindle inflation risk Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist…
+  - 解读：正文聚焦inflation、Singapore、policy、monetary、oil等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Kevin Warsh has homed in on three key phrases. How Fed watchers interpret them](https://www.cnbc.com/2026/07/22/kevin-warsh-has-homed-in-on-three-key-phrases-how-fed-watchers-interpret-them.html)（来源：CNBC Economy）
+  - 摘要：Kevin Warsh has homed in on three key phrases. How Fed watchers interpret them Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO…
+  - 解读：正文聚焦first、Warsh、Policy、his、principles等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs](https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html)（来源：Geoffrey Litt）
+  - 摘要：Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs April 2025 Stevens: a hackable AI assistant using a single SQLite table and a handful of cr…
+  - 解读：正文聚焦can、Stevens、you、just、log等要素，显示该事件对市场情绪与产业链可能带来扰动。
+
+## 全球政治经济
+- 汇总：本期共8条，重点围绕AI、Trump、About、across。
+- 解读：地缘与大宗商品事件围绕AI、Trump、About、across，提示外部不确定性可能继续影响全球资产情绪。
+
+### 相关报道
+- [Oil prices fall as Middle East tensions ebb on diplomatic efforts](https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html)（来源：CNBC Markets）
+  - 摘要：Oil prices: WTI, Brent: Trump says he called off planned strike on Iran Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livest…
+  - 解读：正文聚焦Iran、Trump、said、off、been等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- ['Winter is coming': Ukraine fears its toughest test since Russia's full-scale invasion](https://www.cnbc.com/2026/08/03/ukraine-russia-war-putin-zelenskyy-winter.html)（来源：CNBC Markets）
+  - 摘要：Winter: Ukraine fears toughest test since Russia's full-scale invasion Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestr…
+  - 解读：正文聚焦Winter、Ukraine、Ukrainian、said、Zelenskyy等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [China's factory activity unexpectedly contracts in July on demand slump, typhoons](https://www.cnbc.com/2026/07/31/china-pmi-factory-activity-economic-growth-exports-.html)（来源：CNBC Economy）
+  - 摘要：China's factory activity unexpectedly contracts in July Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu Key Po…
+  - 解读：正文聚焦China、July、fell、PMI、data等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Trump's new global tariff draws rebukes from trade partners over forced labor justification](https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html)（来源：CNBC Economy）
+  - 摘要：Trump's new global tariff draws rebukes from trade partners Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu Ke…
+  - 解读：正文聚焦labor、forced、tariffs、trade、tariff等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Trump plans generic drug tariffs from 2028 with two-year delay testing U.S. onshoring push](https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html)（来源：CNBC Economy）
+  - 摘要：Trump plans high generic-drug tariffs in 2028 to spur U.S. production Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestre…
+  - 解读：正文聚焦said、Trump、drugmakers、drugs、tariffs等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Advancing responsible AI across Europe](https://openai.com/index/advancing-responsible-ai-across-europe)（来源：OpenAI Blog）
+  - 摘要：正文抓取失败，暂以标题概述：Advancing responsible AI across Europe
+  - 解读：正文抓取受限，建议后续阅读原文以获取更多细节。
+- [‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm](https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/)（来源：Krebs on Security）
+  - 摘要：‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm – Krebs on Security Advertisement Advertisement For the past four years, a sprawling Android-based botnet called Popa has forc…
+  - 解读：正文聚焦Popa、NetNut、Botnet、company、said等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives](https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/)（来源：Wired）
+  - 摘要：Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives | WIRED Skip to main content Comment Loader Save StorySave this story Comment Loader Save StorySave this…
+  - 解读：正文聚焦AI、they、How、have、if等要素，显示该事件对市场情绪与产业链可能带来扰动。
+
+## 科技与人工智能动态
+- 汇总：本期共156条，重点围绕AI、Agent、Agents、LLMs。
+- 解读：科技与人工智能相关消息聚焦AI、Agent、Agents、LLMs，显示新技术落地与产业竞争仍在加速。
+
+### 相关报道
+- [Open letters about AI development](https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything)（来源：Simon Willison）
+  - 摘要：Open letters about AI development Simon Willison’s Weblog Subscribe Sponsored by: AWS — Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack. Explore…
+  - 解读：正文聚焦AI、models、Anthropic、Open、OpenAI等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [deepseek-ai/DeepSeek-V4-Flash-0731](https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything)（来源：Simon Willison）
+  - 摘要：deepseek-ai/DeepSeek-V4-Flash-0731 Simon Willison’s Weblog Subscribe Sponsored by: AWS — Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack. Explor…
+  - 解读：正文聚焦July、st、DeepSeek、DeepSeek-V4-Flash-0731、OpenRouter等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [GPU Management: Why Idle GPUs Are the New Grounded Aircraft](https://huggingface.co/blog/Dharma-AI/gpu-management)（来源：Hugging Face Blog）
+  - 摘要：GPU Management: Why Idle GPUs Are the New Grounded Aircraft Back to Articles GPU Management: Why Idle GPUs Are the New Grounded Aircraft Team Article Published July 30, 2026 Upvot…
+  - 解读：正文聚焦one、hardware、GPUs、what、AI等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics](https://huggingface.co/blog/nvidia/cosmos-h-dreams)（来源：Hugging Face Blog）
+  - 摘要：NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics Back to Articles NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical…
+  - 解读：正文聚焦Surgical、model、NVIDIA、Cosmos-H-Dreams、Teacher等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident](https://huggingface.co/blog/agent-intrusion-technical-timeline)（来源：Hugging Face Blog）
+  - 摘要：Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Back to Articles Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the J…
+  - 解读：正文聚焦Agent、our、were、we、Intrusion等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Grabette: an open system to record robot-manipulation data](https://huggingface.co/blog/grabette)（来源：Hugging Face Blog）
+  - 摘要：Grabette: an open system to record robot-manipulation data Back to Articles Grabette: an open system to record robot-manipulation data. And build a shared dataset, together.
+  - 解读：正文聚焦Grabette、data、gripper、robot、camera等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Newer Models, Same Advantage](https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages)（来源：Hugging Face Blog）
+  - 摘要：Newer Models, Same Advantage Back to Articles Newer Models, Same Advantage Team Article Published July 16, 2026 Upvote 52 +46 Erick Lachmann ErickvL Follow Dharma-AI Gabriel Pimen…
+  - 解读：正文聚焦model、Models、DharmaOCR、training、was等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Univé builds an AI-ready workforce](https://openai.com/index/unive)（来源：OpenAI Blog）
+  - 摘要：正文抓取失败，暂以标题概述：Univé builds an AI-ready workforce
+  - 解读：正文抓取受限，建议后续阅读原文以获取更多细节。
+- [How avatarin built a 24/7 retail agent with GPT-Realtime](https://openai.com/index/avatarin)（来源：OpenAI Blog）
+  - 摘要：正文抓取失败，暂以标题概述：How avatarin built a 24/7 retail agent with GPT-Realtime
+  - 解读：正文抓取受限，建议后续阅读原文以获取更多细节。
+- [Controlling Reasoning Effort in LLMs](https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms)（来源：Sebastian Raschka）
+  - 摘要：Controlling Reasoning Effort in LLMs SubscribeSign in Controlling Reasoning Effort in LLMs How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes Sebastian Raschka, PhD Jul…
+  - 解读：正文聚焦Reasoning、model、training、models、Figure等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Using Local Coding Agents](https://magazine.sebastianraschka.com/p/using-local-coding-agents)（来源：Sebastian Raschka）
+  - 摘要：Using Local Coding Agents - by Sebastian Raschka, PhD SubscribeSign in Using Local Coding Agents Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Cod…
+  - 解读：正文聚焦Coding、Local、harness、agent、Code等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [LLM Research Papers: The 2026 List (January to May)](https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1)（来源：Sebastian Raschka）
+  - 摘要：LLM Research Papers: The 2026 List (January to May) SubscribeSign in LLM Research Papers: The 2026 List (January to May) Sebastian Raschka, PhD Jun 06, 2026 ∙ Paid 86 3 11 Share L…
+  - 解读：正文聚焦List、Papers、layers、Model、one等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention](https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures)（来源：Sebastian Raschka）
+  - 摘要：Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention SubscribeSign in Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Atte…
+  - 解读：正文聚焦Attention、KV、architecture、Gemma、cache等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [My Workflow for Understanding LLM Architectures](https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms)（来源：Sebastian Raschka）
+  - 摘要：My Workflow for Understanding LLM Architectures SubscribeSign in My Workflow for Understanding LLM Architectures A learning-oriented workflow for understanding new open-weight mod…
+  - 解读：正文聚焦Workflow、My、these、architecture、Architectures等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Components of A Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)（来源：Sebastian Raschka）
+  - 摘要：Components of A Coding Agent - by Sebastian Raschka, PhD SubscribeSign in Components of A Coding Agent How coding agents use tools, memory, and repo context to make LLMs work bett…
+  - 解读：正文聚焦Coding、Model、Agent、harness、Reasoning等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [A Visual Guide to Attention Variants in Modern LLMs](https://magazine.sebastianraschka.com/p/visual-attention-variants)（来源：Sebastian Raschka）
+  - 摘要：A Visual Guide to Attention Variants in Modern LLMs SubscribeSign in A Visual Guide to Attention Variants in Modern LLMs From MHA and GQA to MLA, sparse attention, and hybrid arch…
+  - 解读：正文聚焦Attention、token、So、Figure、gallery等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [A Dream of Spring for Open-Weight LLMs: 10 Architectures from Jan-Feb 2026](https://magazine.sebastianraschka.com/p/a-dream-of-spring-for-open-weight)（来源：Sebastian Raschka）
+  - 摘要：A Dream of Spring for Open-Weight LLMs: 10 Architectures from Jan-Feb 2026 SubscribeSign in A Dream of Spring for Open-Weight LLMs: 10 Architectures from Jan-Feb 2026 A Round Up A…
+  - 解读：正文聚焦Trinity、Attention、model、Figure、Large等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Extrinsic Hallucinations in LLMs](https://lilianweng.github.io/posts/2024-07-07-hallucination/)（来源：Lil'Log (Lilian Weng)）
+  - 摘要：Extrinsic Hallucinations in LLMs | Lil'Log Table of Contents What Causes Hallucinations? Pre-training Data Issues Fine-tuning New Knowledge Hallucination Detection Retrieval-Augme…
+  - 解读：正文聚焦model、Knowledge、Fine-tuning、Hallucination、examples等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Diffusion Models for Video Generation](https://lilianweng.github.io/posts/2024-04-12-diffusion-video/)（来源：Lil'Log (Lilian Weng)）
+  - 摘要：Diffusion Models for Video Generation | Lil'Log Table of Contents Video Generation Modeling from Scratch Parameterization & Sampling Basics Model Architecture: 3D U-Net & DiT Adap…
+  - 解读：正文聚焦mathbf、phi、alpha、cos、sin等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Adversarial Attacks on LLMs](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/)（来源：Lil'Log (Lilian Weng)）
+  - 摘要：Adversarial Attacks on LLMs | Lil'Log Table of Contents Basics Threat Model Classification Text Generation White-box vs Black-box Types of Adversarial Attacks Token Manipulation G…
+  - 解读：正文聚焦Model、mathbf、Attacks、Adversarial、Text等要素，显示该事件对市场情绪与产业链可能带来扰动。
+
+## 其他重要财经动态
+- 汇总：本期共264条，重点围绕How、you、Google、Pluralistic。
+- 解读：多条报道涉及How、you、Google、Pluralistic，显示该领域仍有新的催化与风险点值得关注。
+
+### 相关报道
+- [AstraZeneca slides after report of Bristol Myers merger talks leaves analysts 'perplexed'](https://www.cnbc.com/2026/08/03/astrazeneca-bristol-myers-squibb-merger-talks.html)（来源：CNBC Markets）
+  - 摘要：AstraZeneca stock falls as investors balk at reported Bristol Myers tie-up Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Liv…
+  - 解读：正文聚焦AstraZeneca、Bristol、Myers、billion、market等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Why the U.S. stepped in after decades to prop up Japan's yen — and what's at stake](https://www.cnbc.com/2026/08/03/japan-yen-intervention-us-treasurys-euros-.html)（来源：CNBC Markets）
+  - 摘要：Japan yen intervention: why the U.S. stepped in Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu Key Points Ana…
+  - 解读：正文聚焦Japan、yen、intervention、Markets、coordinated等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [This Japanese memory maker fell 40% in July — analysts see a buying opportunity](https://www.cnbc.com/2026/08/03/japanese-semiconductors-ai-memory-stocjs.html)（来源：CNBC Markets）
+  - 摘要：Why analysts still see upside after this Japenese memory maker fell 40% in July Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PR…
+  - 解读：正文聚焦Kioxia、company、said、earnings、memory等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [GOP Sen. Moreno says ex-son-in-law Max Miller shouldn't serve in House, needs 'serious psychological help'](https://www.cnbc.com/2026/08/02/bernie-moreno-max-miller-house-psychological-help-emily-moreno.html)（来源：CNBC Markets）
+  - 摘要：Moreno says Max Miller should seek 'serious psychological help' Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Men…
+  - 解读：正文聚焦Miller、He、said、has、his等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [WestJet flight attendants go on strike after talks fall through, grounding flights](https://www.cnbc.com/2026/08/02/westjet-flight-attendants-go-on-strike-after-talks-fall-through.html)（来源：CNBC Markets）
+  - 摘要：WestJet flight attendants go on strike after talks fall through Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Men…
+  - 解读：正文聚焦WestJet、said、strike、Union、attendants等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [condense-json 1.0](https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything)（来源：Simon Willison）
+  - 摘要：Release: condense-json 1.0 Simon Willison’s Weblog Subscribe Sponsored by: AWS — Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack. Explore how AI…
+  - 解读：正文聚焦JSON、string、nd、replacements、August等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [July 2026 newsletter](https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything)（来源：Simon Willison）
+  - 摘要：July 2026 newsletter Simon Willison’s Weblog Subscribe Sponsored by: AWS — Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack. Explore how AI for I…
+  - 解读：正文聚焦month、you、July、my、nd等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Quoting Greg Brockman](https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything)（来源：Simon Willison）
+  - 摘要：A quote from Greg Brockman Simon Willison’s Weblog Subscribe Sponsored by: AWS — Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack. Explore how AI…
+  - 解读：正文聚焦st、openai、people、AI、August等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [datasette-apps 0.2a0](https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything)（来源：Simon Willison）
+  - 摘要：Release: datasette-apps 0.2a0 Simon Willison’s Weblog Subscribe Sponsored by: AWS — Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack. Explore how…
+  - 解读：正文聚焦app、st、Agent、Datasette、a0等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Ten advances in mathematics and theoretical computer science](https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything)（来源：Simon Willison）
+  - 摘要：Ten advances in mathematics and theoretical computer science Simon Willison’s Weblog Subscribe Sponsored by: AWS — Move from SaaS to Agentic SaaS with resources for ISVs at every…
+  - 解读：正文聚焦mathematics、OpenAI、st、AI、results等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)](https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything)（来源：Simon Willison）
+  - 摘要：Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp) Simon Willison’s Weblog Subscribe Sponsored by: AWS — Move from SaaS to Agentic SaaS with re…
+  - 解读：正文聚焦MCP、svg、render、string、Stateless等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [The OlmoEarth Platform: Geospatial inference at planetary scale](https://huggingface.co/blog/allenai/olmoearth-infrastructure)（来源：Hugging Face Blog）
+  - 摘要：The OlmoEarth Platform: Geospatial inference at planetary scale Back to Articles The OlmoEarth Platform: Geospatial inference at planetary scale Enterprise Article Published July…
+  - 解读：正文聚焦inference、OlmoEarth、data、models、can等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [LFM2.5-Encoders for Fast Long-Context Inference on CPU](https://huggingface.co/blog/LiquidAI/lfm2-5-encoders)（来源：Hugging Face Blog）
+  - 摘要：LFM2.5-Encoders for Fast Long-Context Inference on CPU Back to Articles LFM2.5-Encoders for Fast Long-Context Inference on CPU Team Article Published July 28, 2026 Upvote 62 +56 F…
+  - 解读：正文聚焦LFM2、Encoders、we、run、you等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Bringing Nunchaku 4-bit Diffusion Inference to Diffusers](https://huggingface.co/blog/nunchaku-diffusers)（来源：Hugging Face Blog）
+  - 摘要：Bringing Nunchaku 4-bit Diffusion Inference to Diffusers Back to Articles Bringing Nunchaku 4-bit Diffusion Inference to Diffusers Published July 23, 2026 Update on GitHub Upvote…
+  - 解读：正文聚焦Nunchaku、Diffusers、bit、kernels、Inference等要素，显示该事件对市场情绪与产业链可能带来扰动。
+- [Ten advances in mathematics and theoretical computer science](https://openai.com/index/ten-advances-in-mathematics)（来源：OpenAI Blog）
+  - 摘要：正文抓取失败，暂以标题概述：Ten advances in mathematics and theoretical computer science
+  - 解读：正文抓取受限，建议后续阅读原文以获取更多细节。
+- [Building abundant intelligence](https://openai.com/index/building-abundant-intelligence)（来源：OpenAI Blog）
+  - 摘要：正文抓取失败，暂以标题概述：Building abundant intelligence
+  - 解读：正文抓取受限，建议后续阅读原文以获取更多细节。
+- [Disrupting a Criminal Scam Operation](https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation)（来源：OpenAI Blog）
+  - 摘要：正文抓取失败，暂以标题概述：Disrupting a Criminal Scam Operation
+  - 解读：正文抓取受限，建议后续阅读原文以获取更多细节。
+- [Advancing the price-performance frontier with GPT-5.6](https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6)（来源：OpenAI Blog）
+  - 摘要：正文抓取失败，暂以标题概述：Advancing the price-performance frontier with GPT-5.6
+  - 解读：正文抓取受限，建议后续阅读原文以获取更多细节。
+- [How enabling two settings tripled our scores on the ARC-AGI-3 benchmark](https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores)（来源：OpenAI Blog）
+  - 摘要：正文抓取失败，暂以标题概述：How enabling two settings tripled our scores on the ARC-AGI-3 benchmark
+  - 解读：正文抓取受限，建议后续阅读原文以获取更多细节。
+- [Harness Engineering for Self-Improvement](https://lilianweng.github.io/posts/2026-07-04-harness/)（来源：Lil'Log (Lilian Weng)）
+  - 摘要：Harness Engineering for Self-Improvement | Lil'Log Table of Contents Harness Design Patterns Pattern 1: Workflow Automation Pattern 2: File System as Persistent Memory Pattern 3:…
+  - 解读：正文聚焦Model、Agent、Harness、Design、Workflow等要素，显示该事件对市场情绪与产业链可能带来扰动。
+
